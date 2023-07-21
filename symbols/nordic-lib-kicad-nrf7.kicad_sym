@@ -159,23 +159,23 @@
       )
     )
     (symbol "nRF7002-QFXX_1_0"
-      (pin no_connect line (at 10.16 -33.02 90) (length 2.54) hide
+      (pin no_connect line (at 10.16 -25.4 90) (length 2.54) hide
         (name "N.C." (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 10.16 -33.02 90) (length 2.54) hide
+      (pin no_connect line (at 5.08 -25.4 90) (length 2.54) hide
         (name "N.C." (effects (font (size 1.27 1.27))))
         (number "21" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 10.16 -33.02 90) (length 2.54) hide
+      (pin no_connect line (at 2.54 -25.4 90) (length 2.54) hide
         (name "N.C." (effects (font (size 1.27 1.27))))
         (number "22" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 10.16 -33.02 90) (length 2.54) hide
+      (pin no_connect line (at 0 -25.4 90) (length 2.54) hide
         (name "N.C." (effects (font (size 1.27 1.27))))
         (number "23" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 10.16 -33.02 90) (length 2.54) hide
+      (pin no_connect line (at -2.54 -25.4 90) (length 2.54) hide
         (name "N.C." (effects (font (size 1.27 1.27))))
         (number "24" (effects (font (size 1.27 1.27))))
       )
@@ -183,7 +183,7 @@
         (name "BUCKVSS" (effects (font (size 1.27 1.27))))
         (number "27" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 10.16 -33.02 90) (length 2.54) hide
+      (pin no_connect line (at -5.08 -25.4 90) (length 2.54) hide
         (name "N.C." (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
@@ -191,7 +191,7 @@
         (name "QSPI_CLK/SPI_CLK" (effects (font (size 1.27 1.27))))
         (number "35" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 10.16 -33.02 90) (length 2.54) hide
+      (pin no_connect line (at 7.62 -25.4 90) (length 2.54) hide
         (name "N.C." (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
@@ -203,11 +203,11 @@
         (name "EP" (effects (font (size 1.27 1.27))))
         (number "49" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 10.16 -33.02 90) (length 2.54) hide
+      (pin no_connect line (at -7.62 -25.4 90) (length 2.54) hide
         (name "N.C." (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 10.16 -33.02 90) (length 2.54) hide
+      (pin no_connect line (at -10.16 -25.4 90) (length 2.54) hide
         (name "N.C." (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
