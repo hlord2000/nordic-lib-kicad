@@ -3,7 +3,7 @@
     (property "Reference" "U" (at 0 0 0) (do_not_autoplace)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "nRF21540-QDXX" (at 0 -2.54 0)
+    (property "Value" "nRF21540-QDXX" (at 0 -2.54 0) (do_not_autoplace)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "nordic-lib-kicad-nrf21:QFN-24_EP_4x4_Pitch0.5mm" (at 0 0 0)
