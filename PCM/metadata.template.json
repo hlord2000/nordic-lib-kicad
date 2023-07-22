@@ -1,0 +1,33 @@
+{
+    "$schema": "https://go.kicad.org/pcm/schemas/v1",
+    "name": "hlord2000",
+    "description": "Nordic Semiconductor Symbol, Footprint, and 3D Library",
+    "description_full": "",
+    "identifier": "com.github.hlord2000.nordic-lib-kicad",
+    "type": "library",
+    "author": {
+        "name": "hlord2000",
+        "contact": {
+            "github": "hlord2000",
+        }
+    },
+    "maintainer": {
+        "name": "hlord2000",
+        "contact": {
+            "github": "hlord2000",
+        }
+    },
+    "license": "MIT",
+    "resources": {
+        "homepage": "https://github.com/hlord2000/nordic-lib-kicad"
+    },
+    "versions": [{
+        "version": "VERSION_HERE",
+        "status": "testing",
+        "kicad_version": "7.0",
+        "download_sha256": "SHA256_HERE",
+        "download_size": DOWNLOAD_SIZE_HERE,
+        "download_url": "DOWNLOAD_URL_HERE",
+        "install_size": INSTALL_SIZE_HERE
+    }]
+}
