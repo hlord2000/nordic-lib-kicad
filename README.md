@@ -13,18 +13,21 @@ Supported Families:
 | nRF9160 LGA | ✅     |  🚧       |
 
  * nRF7 series - Wi-Fi
+
 |             | Symbol | Footprint |
 |-------------|--------|-----------|
 | nRF7002 QFN | ✅     | ✅        |
 | nRF7001 QFN | 🚧     | 🚧        |
 
  * nRF53 series - Bluetooth Low Energy
+
 |               | Symbol | Footprint |
 |---------------|--------|-----------|
 | nRF5340 aQFN  | ✅     | ✅        |
 | nRF5340 WLCSP | ✅     | 🚧        |
 
  * nRF52 series - Bluetooth Low Energy
+
 |                | Symbol | Footprint |
 |----------------|--------|-----------|
 | nRF52840 aQFN  | ✅     | 🚧       |
@@ -64,11 +67,13 @@ Supported Families:
 | nRF52805 WLCSP | ✅     | 🚧        |
 
  * nRF21 series - PA + LNA ICs
+
 |              | Symbol | Footprint |
 |--------------|--------|-----------|
 | nRF21540 QFN | ✅     | ✅        |
 
  * nPM Power Management ICs
+
 |               | Symbol | Footprint |
 |---------------|--------|-----------|
 | nPM6001 WLCSP | ✅     | 🚧        |
