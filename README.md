@@ -6,27 +6,27 @@
 ---
 # A KiCAD 7 library for all modern Nordic Semiconductor parts.
 Supported Families:
- * nRF9 series - Cellular
+ # nRF9 series - Cellular
 
 |             | Symbol | Footprint |
 |-------------|--------|-----------|
 | nRF9160 LGA | ✅     |  🚧       |
 
- * nRF7 series - Wi-Fi
+ # nRF7 series - Wi-Fi
 
 |             | Symbol | Footprint |
 |-------------|--------|-----------|
 | nRF7002 QFN | ✅     | ✅        |
 | nRF7001 QFN | 🚧     | 🚧        |
 
- * nRF53 series - Bluetooth Low Energy
+ # nRF53 series - Bluetooth Low Energy
 
 |               | Symbol | Footprint |
 |---------------|--------|-----------|
 | nRF5340 aQFN  | ✅     | ✅        |
 | nRF5340 WLCSP | ✅     | 🚧        |
 
- * nRF52 series - Bluetooth Low Energy
+ # nRF52 series - Bluetooth Low Energy
 
 |                | Symbol | Footprint |
 |----------------|--------|-----------|
@@ -66,13 +66,13 @@ Supported Families:
 |----------------|--------|-----------|
 | nRF52805 WLCSP | ✅     | 🚧        |
 
- * nRF21 series - PA + LNA ICs
+ # nRF21 series - PA + LNA ICs
 
 |              | Symbol | Footprint |
 |--------------|--------|-----------|
 | nRF21540 QFN | ✅     | ✅        |
 
- * nPM Power Management ICs
+ # nPM Power Management ICs
 
 |               | Symbol | Footprint |
 |---------------|--------|-----------|
