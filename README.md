@@ -7,22 +7,72 @@
 # A KiCAD 7 library for all modern Nordic Semiconductor parts.
 Supported Families:
  * nRF9 series - Cellular
-  * nRF9160
+
+|             | Symbol | Footprint |
+|-------------|--------|-----------|
+| nRF9160 LGA | ✅     |  🚧       |
+
  * nRF7 series - Wi-Fi
-  * nRF7002
+|             | Symbol | Footprint |
+|-------------|--------|-----------|
+| nRF7002 QFN | ✅     | ✅        |
+| nRF7001 QFN | 🚧     | 🚧        |
+
  * nRF53 series - Bluetooth Low Energy
-  * nRF5340
+|               | Symbol | Footprint |
+|---------------|--------|-----------|
+| nRF5340 aQFN  | ✅     | ✅        |
+| nRF5340 WLCSP | ✅     | 🚧        |
+
  * nRF52 series - Bluetooth Low Energy
-  * nRF52840
-  * nRF52833
-  * nRF52832
-  * nRF52820
-  * nRF52811
-  * nRF52810
-  * nRF52805
+|                | Symbol | Footprint |
+|----------------|--------|-----------|
+| nRF52840 aQFN  | ✅     | 🚧       |
+| nRF52840 WLCSP | ✅     | 🚧       |
+| nRF52840 QFN   | ✅     | ✅       |
+
+|                | Symbol | Footprint |
+|----------------|--------|-----------|
+| nRF52833 aQFN  | ✅     | 🚧        |
+| nRF52833 WLCSP | ✅     | 🚧        |
+| nRF52833 QFN   | ✅     | ✅        |
+
+|                | Symbol | Footprint |
+|----------------|--------|-----------|
+| nRF52832 WLCSP | ✅     | 🚧        |
+| nRF52832 QFN   | ✅     | ✅        |
+
+|                | Symbol | Footprint |
+|----------------|--------|-----------|
+| nRF52820 WLCSP | ✅     | 🚧        |
+| nRF52820 QFN   | ✅     | ✅        |
+
+|                 | Symbol | Footprint |
+|-----------------|--------|-----------|
+| nRF52811 WLCSP  | ✅     | 🚧        |
+| nRF52811 QFN-32 | ✅     | ✅        |
+| nRF52811 QFN-48 | ✅     | ✅        |
+
+|                 | Symbol | Footprint |
+|-----------------|--------|-----------|
+| nRF52810 WLCSP  | ✅     | 🚧        |
+| nRF52810 QFN-32 | ✅     | ✅        |
+| nRF52810 QFN-48 | ✅     | ✅        |
+
+|                | Symbol | Footprint |
+|----------------|--------|-----------|
+| nRF52805 WLCSP | ✅     | 🚧        |
+
  * nRF21 series - PA + LNA ICs
-  * nRF21540
+|              | Symbol | Footprint |
+|--------------|--------|-----------|
+| nRF21540 QFN | ✅     | ✅        |
+
  * nPM Power Management ICs
-  * nPM6001
-  * nPM1300
-  * nPM1100
+|               | Symbol | Footprint |
+|---------------|--------|-----------|
+| nPM6001 WLCSP | ✅     | 🚧        |
+| nPM1300 WLCSP | ✅     | 🚧        |
+| nPM1300 QFN   | ✅     | ✅        |
+| nPM1100 WLCSP | ✅     | 🚧        |
+| nPM1100 QFN   | ✅     | ✅        |
