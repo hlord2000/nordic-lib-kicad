@@ -6,12 +6,15 @@
 ---
 # A KiCAD 7 library for all modern Nordic Semiconductor parts.
 ---
+
 ## Installation instructions
+
 Open the KiCAD Plugin and Content Manager (PCM), click "Manage..." in the top right, and add the following URL to your list of repositories:
 ```
 https://raw.githubusercontent.com/hlord2000/hlord2000-kicad-repository/main/repository.json
 ```
 Then, using the dropdown in the PCM, switch to "hlord2000's KiCAD Repository" and click on the "Libraries" tab.
+
 ---
 Supported Families:
  # nRF9 series - Cellular
