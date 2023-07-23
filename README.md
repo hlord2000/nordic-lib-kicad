@@ -18,7 +18,7 @@ Then, using the dropdown in the PCM, switch to "hlord2000's KiCAD Repository" an
 
 |             | Symbol | Footprint |
 |-------------|--------|-----------|
-| [nRF9160 LGA](https://www.nordicsemi.com/products/nrf9160) | ✅     |  🚧       |
+| [nRF9160](https://www.nordicsemi.com/products/nrf9160) LGA | ✅     |  🚧       |
 
  # nRF7 series - Wi-Fi
 
