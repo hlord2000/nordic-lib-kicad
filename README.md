@@ -16,7 +16,7 @@ https://raw.githubusercontent.com/hlord2000/hlord2000-kicad-repository/main/repo
 Then, using the dropdown in the PCM, switch to "hlord2000's KiCAD Repository" and click on the "Libraries" tab.
 
 ---
-Supported Families:
+
  # nRF9 series - Cellular
 
 |             | Symbol | Footprint |
