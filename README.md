@@ -50,13 +50,13 @@ Then, using the dropdown in the PCM, switch to "hlord2000's KiCAD Repository" an
 | [nRF52832](https://www.nordicsemi.com/products/nrf52832)  QFN   | ✅     | ✅        |    ✅     | 
 | [nRF52820](https://www.nordicsemi.com/products/nrf52820)  WLCSP | ✅     | 🚧        |   🚧      | 
 | [nRF52820](https://www.nordicsemi.com/products/nrf52820)  QFN   | ✅     | ✅        |   ✅      | 
-| [nRF52811](https://www.nordicsemi.com/products/nrf52811)  WLCSP  | ✅     | 🚧        |   🚧      | 
+| [nRF52811](https://www.nordicsemi.com/products/nrf52811)  WLCSP  | ✅     | ✅        |   🚧      | 
 | [nRF52811](https://www.nordicsemi.com/products/nrf52811)  QFN-32 | ✅     | ✅        |    ✅     | 
 | [nRF52811](https://www.nordicsemi.com/products/nrf52811)  QFN-48 | ✅     | ✅        |    ✅     | 
 | [nRF52810](https://www.nordicsemi.com/products/nrf52810)  WLCSP  | ✅     | 🚧        |   🚧      | 
 | [nRF52810](https://www.nordicsemi.com/products/nrf52810)  QFN-32 | ✅     | ✅        |    ✅     | 
 | [nRF52810](https://www.nordicsemi.com/products/nrf52810)  QFN-48 | ✅     | ✅        |     ✅    | 
-| [nRF52805](https://www.nordicsemi.com/products/nrf52805)  WLCSP | ✅     | 🚧        |   🚧      | 
+| [nRF52805](https://www.nordicsemi.com/products/nrf52805)  WLCSP | ✅     | ✅        |   🚧      | 
 
  # nRF21 series - PA + LNA ICs
 
