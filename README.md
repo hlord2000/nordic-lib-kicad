@@ -46,7 +46,7 @@ Then, using the dropdown in the PCM, switch to "hlord2000's KiCAD Repository" an
 | [nRF52833](https://www.nordicsemi.com/products/nrf52833)  aQFN  | ✅     | 🚧        |   🚧      | 
 | [nRF52833](https://www.nordicsemi.com/products/nrf52833)  WLCSP | ✅     | 🚧        |   🚧      | 
 | [nRF52833](https://www.nordicsemi.com/products/nrf52833)  QFN   | ✅     | ✅        |   ✅      | 
-| [nRF52832](https://www.nordicsemi.com/products/nrf52832)  WLCSP | ✅     | 🚧        |   🚧      | 
+| [nRF52832](https://www.nordicsemi.com/products/nrf52832)  WLCSP | ✅     | ✅        |   🚧      | 
 | [nRF52832](https://www.nordicsemi.com/products/nrf52832)  QFN   | ✅     | ✅        |    ✅     | 
 | [nRF52820](https://www.nordicsemi.com/products/nrf52820)  WLCSP | ✅     | 🚧        |   🚧      | 
 | [nRF52820](https://www.nordicsemi.com/products/nrf52820)  QFN   | ✅     | ✅        |   ✅      | 
