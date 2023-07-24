@@ -254,7 +254,7 @@
     (property "Value" "nPM1300-CAXX" (at 0 -2.54 0) (do_not_autoplace)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 0 0 0)
+    (property "Footprint" "nordic-lib-kicad-npm:BGA-35_7x5_3.077x2.3775mm" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 0 0 0)
