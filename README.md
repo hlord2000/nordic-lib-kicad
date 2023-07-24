@@ -40,8 +40,8 @@ Then, using the dropdown in the PCM, switch to "hlord2000's KiCAD Repository" an
 
 |             | Symbol | Footprint | 3D Model |
 |-------------|--------|-----------|----------|
-| [nRF52840](https://www.nordicsemi.com/products/nrf52840)  aQFN  | ✅     | ✅      |   🚧      | 
-| [nRF52840](https://www.nordicsemi.com/products/nrf52840)  WLCSP | ✅     | 🚧       |   🚧      | 
+| [nRF52840](https://www.nordicsemi.com/products/nrf52840)  aQFN  | ✅     | ✅      |   ✅      | 
+| [nRF52840](https://www.nordicsemi.com/products/nrf52840)  WLCSP | ✅     | ✅      |   🚧      | 
 | [nRF52840](https://www.nordicsemi.com/products/nrf52840)  QFN   | ✅     | ✅       |   ✅      | 
 | [nRF52833](https://www.nordicsemi.com/products/nrf52833)  aQFN  | ✅     | 🚧        |   🚧      | 
 | [nRF52833](https://www.nordicsemi.com/products/nrf52833)  WLCSP | ✅     | 🚧        |   🚧      | 
@@ -71,5 +71,5 @@ Then, using the dropdown in the PCM, switch to "hlord2000's KiCAD Repository" an
 | [nPM6001](https://www.nordicsemi.com/products/nPM6001)  WLCSP | ✅     | 🚧        |   🚧      | 
 | [nPM1300](https://www.nordicsemi.com/products/nPM1300)  WLCSP | ✅     | 🚧        |   🚧      | 
 | [nPM1300](https://www.nordicsemi.com/products/nPM1300)  QFN   | ✅     | ✅        |     ✅    | 
-| [nPM1100](https://www.nordicsemi.com/products/nPM1100)  WLCSP | ✅     | 🚧        |   🚧      | 
+| [nPM1100](https://www.nordicsemi.com/products/nPM1100)  WLCSP | ✅     | ✅        |   🚧      | 
 | [nPM1100](https://www.nordicsemi.com/products/nPM1100)  QFN   | ✅     | ✅        |    ✅     | 

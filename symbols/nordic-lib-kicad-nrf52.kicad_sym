@@ -2868,7 +2868,7 @@
     (property "Value" "nRF52840-CKXX" (at 0 -2.54 0) (do_not_autoplace)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 0 0 0)
+    (property "Footprint" "nordic-lib-kicad-nrf52:BGA-94_10x10_3.544x3.607mm" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 0 0 0)
