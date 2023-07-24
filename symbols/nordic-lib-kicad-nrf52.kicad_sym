@@ -2036,7 +2036,7 @@
     (property "Value" "nRF52833-CJXX" (at 0 7.62 0) (do_not_autoplace)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 0 10.16 0)
+    (property "Footprint" "nordic-lib-kicad-nrf52:BGA-76_9x9_3.175x3.175mm" (at 0 10.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 0 10.16 0)
