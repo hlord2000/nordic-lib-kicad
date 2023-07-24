@@ -6,4 +6,5 @@
   (lib (name "nordic-lib-kicad-nrf52")(type "KiCad")(uri "${KIPRJMOD}/../footprints/nordic-lib-kicad-nrf52.pretty")(options "")(descr ""))
   (lib (name "nordic-lib-kicad-nrf53")(type "KiCad")(uri "${KIPRJMOD}/../footprints/nordic-lib-kicad-nrf53.pretty")(options "")(descr ""))
   (lib (name "nordic-lib-kicad-nrf53-modules")(type "KiCad")(uri "${KIPRJMOD}/../footprints/nordic-lib-kicad-nrf53-modules.pretty")(options "")(descr ""))
+  (lib (name "nordic-lib-kicad-nrf9")(type "KiCad")(uri "/home/h/nordic-lib-kicad/footprints/nordic-lib-kicad-nrf9.pretty")(options "")(descr ""))
 )

@@ -6,7 +6,7 @@
     (property "Value" "nRF9160-SIXX" (at 0 -2.54 0) (do_not_autoplace)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 0 45.72 0)
+    (property "Footprint" "nordic-lib-kicad-nrf9:LGA_16.0x10.5mm" (at 0 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 0 45.72 0)
