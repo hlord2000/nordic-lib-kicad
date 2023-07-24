@@ -14,11 +14,13 @@ https://raw.githubusercontent.com/hlord2000/hlord2000-kicad-repository/main/repo
 ```
 Then, using the dropdown in the PCM, switch to "hlord2000's KiCAD Repository" and click on the "Libraries" tab.
 
+## Seeking pull-requests for any footprint/symbol marked 🚧
+
  # nRF9 series - Cellular
 
 |             | Symbol | Footprint |
 |-------------|--------|-----------|
-| [nRF9160](https://www.nordicsemi.com/products/nrf9160) LGA | ✅     |  🚧       |
+| [nRF9160](https://www.nordicsemi.com/products/nrf9160) LGA | ✅     |   🚧      |
 
  # nRF7 series - Wi-Fi
 
@@ -31,8 +33,8 @@ Then, using the dropdown in the PCM, switch to "hlord2000's KiCAD Repository" an
 
 |               | Symbol | Footprint |
 |---------------|--------|-----------|
-| [nRF5340](https://www.nordicsemi.com/products/nrf5340)  aQFN  | ✅     | ✅        |
-| [nRF5340](https://www.nordicsemi.com/products/nrf5340)  WLCSP | ✅     | 🚧        |
+| [nRF5340](https://www.nordicsemi.com/products/nrf5340)  aQFN  | 🚧     | 🚧       |
+| [nRF5340](https://www.nordicsemi.com/products/nrf5340)  WLCSP | ✅     | ✅       |
 
  # nRF52 series - Bluetooth Low Energy
 
