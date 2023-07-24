@@ -574,7 +574,7 @@
     (property "Value" "nPM6001-CAXX" (at 0 -2.54 0) (do_not_autoplace)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 66.04 22.86 0)
+    (property "Footprint" "nordic-lib-kicad-npm:BGA-45_5x9_2.175x3.635mm" (at 66.04 22.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 66.04 22.86 0)
