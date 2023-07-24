@@ -3488,7 +3488,7 @@
     (property "Value" "nRF52840-QIXX" (at 0 -2.54 0) (do_not_autoplace)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at -30.48 -58.42 0)
+    (property "Footprint" "Package_DFN_QFN:Nordic_AQFN-73-1EP_7x7mm_P0.5mm" (at 0 -5.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at -30.48 -58.42 0)

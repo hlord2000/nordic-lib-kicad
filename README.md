@@ -27,20 +27,20 @@ Then, using the dropdown in the PCM, switch to "hlord2000's KiCAD Repository" an
 |             | Symbol | Footprint |
 |-------------|--------|-----------|
 | [nRF7002](https://www.nordicsemi.com/products/nrf7002)  QFN | ✅     | ✅        |
-| [nRF7001](https://www.nordicsemi.com/products/nrf7001)  QFN | 🚧     | 🚧        |
+| [nRF7001](https://www.nordicsemi.com/products/nrf7001)  QFN | ✅     | ✅        |
 
  # nRF53 series - Bluetooth Low Energy
 
 |               | Symbol | Footprint |
 |---------------|--------|-----------|
-| [nRF5340](https://www.nordicsemi.com/products/nrf5340)  aQFN  | 🚧     | 🚧       |
+| [nRF5340](https://www.nordicsemi.com/products/nrf5340)  aQFN  | ✅     | ✅       |
 | [nRF5340](https://www.nordicsemi.com/products/nrf5340)  WLCSP | ✅     | ✅       |
 
  # nRF52 series - Bluetooth Low Energy
 
 |                | Symbol | Footprint |
 |----------------|--------|-----------|
-| [nRF52840](https://www.nordicsemi.com/products/nrf52840)  aQFN  | ✅     | 🚧       |
+| [nRF52840](https://www.nordicsemi.com/products/nrf52840)  aQFN  | ✅     | ✅      |
 | [nRF52840](https://www.nordicsemi.com/products/nrf52840)  WLCSP | ✅     | 🚧       |
 | [nRF52840](https://www.nordicsemi.com/products/nrf52840)  QFN   | ✅     | ✅       |
 | [nRF52833](https://www.nordicsemi.com/products/nrf52833)  aQFN  | ✅     | 🚧        |
