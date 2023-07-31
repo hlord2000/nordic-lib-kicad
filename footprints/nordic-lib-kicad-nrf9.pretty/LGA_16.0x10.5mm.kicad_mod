@@ -369,4 +369,9 @@
     (thermal_bridge_angle 45) (tstamp c71c4c19-1ea2-4271-b3c3-1f37a18c3fd7))
   (pad "127" smd roundrect (at -4.75 -4.35) (size 0.3 0.3) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
     (thermal_bridge_angle 45) (tstamp eb22c2e4-116d-4705-999d-0dd34a6c406d))
+  (model "${KICAD7_3RD_PARTY}/3dmodels/com_github_hlord2000_nordic-lib-kicad/nordic-lib-kicad-nrf9.3dshapes/LGA_16.0x10.5mm.STEP"
+    (offset (xyz -8 5.25 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

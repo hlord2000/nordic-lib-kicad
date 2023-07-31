@@ -672,7 +672,7 @@
     (property "Value" "nRF52811-CAXX" (at 0 -2.54 0) (do_not_autoplace)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "nordic-lib-kicad-nrf52:BGA-33_6x6_2.482x2.464mm" (at -22.86 30.48 0)
+    (property "Footprint" "nordic-lib-kicad-nrf52:BGA-33_6x6_2.482x2.464mm" (at 0 -5.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at -22.86 30.48 0)
