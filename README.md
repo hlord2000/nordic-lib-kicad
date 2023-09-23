@@ -14,63 +14,66 @@ https://raw.githubusercontent.com/hlord2000/hlord2000-kicad-repository/main/repo
 ```
 Then, using the dropdown in the PCM, switch to "hlord2000's KiCAD Repository" and click on the "Libraries" tab.
 
+## KLC compliance is established using KiCAD's official scripts within the "kicad-library-utils" folder and the "lib_check.sh" script
+### Compliance for the purposes of this library is defined as zero errors for footprints and symbols. Reasonable warnings about pin position or names may be accepted.
+
 ## Seeking pull-requests for any footprint/symbol/3D model marked 🚧
 
  # nRF9 series - Cellular
 
-|             | Symbol | Footprint | 3D Model |
-|-------------|--------|-----------|----------|
-| [nRF9160](https://www.nordicsemi.com/products/nrf9160) LGA | ✅     |   ✅      |    ✅      | 
+|             | Symbol | Footprint | 3D Model | KLC Compliant |
+|-------------|--------|-----------|----------|---------------|
+| [nRF9160](https://www.nordicsemi.com/products/nrf9160) LGA |✅|✅|✅|🚧|
 
  # nRF7 series - Wi-Fi
 
-|             | Symbol | Footprint | 3D Model |
-|-------------|--------|-----------|----------|
-| [nRF7002](https://www.nordicsemi.com/products/nrf7002)  QFN | ✅     | ✅        |   ✅      | 
-| [nRF7001](https://www.nordicsemi.com/products/nrf7001)  QFN | ✅     | ✅        |   ✅      | 
-| [nRF7000](https://www.nordicsemi.com/products/nrf7000)  QFN | 🚧     | 🚧        |   🚧      | 
+|             | Symbol | Footprint | 3D Model | KLC Compliant |
+|-------------|--------|-----------|----------|---------------|
+| [nRF7002](https://www.nordicsemi.com/products/nrf7002) QFN |✅|✅|✅|🚧| 
+| [nRF7001](https://www.nordicsemi.com/products/nrf7001) QFN |✅|✅|✅|🚧| 
+| [nRF7000](https://www.nordicsemi.com/products/nrf7000) QFN |🚧|🚧|🚧|🚧| 
 
  # nRF53 series - Bluetooth Low Energy
 
-|             | Symbol | Footprint | 3D Model |
-|-------------|--------|-----------|----------|
-| [nRF5340](https://www.nordicsemi.com/products/nrf5340)  aQFN  | ✅     | ✅       |   🚧      | 
-| [nRF5340](https://www.nordicsemi.com/products/nrf5340)  WLCSP | ✅     | ✅       |   🚧      | 
+|             | Symbol | Footprint | 3D Model | KLC Compliant |
+|-------------|--------|-----------|----------|---------------|
+| [nRF5340](https://www.nordicsemi.com/products/nrf5340) aQFN |✅|✅|🚧|🚧| 
+| [nRF5340](https://www.nordicsemi.com/products/nrf5340) WLCSP |✅|✅|🚧|🚧| 
 
  # nRF52 series - Bluetooth Low Energy
 
-|             | Symbol | Footprint | 3D Model |
-|-------------|--------|-----------|----------|
-| [nRF52840](https://www.nordicsemi.com/products/nrf52840)  aQFN  | ✅     | ✅      |   ✅      | 
-| [nRF52840](https://www.nordicsemi.com/products/nrf52840)  WLCSP | ✅     | ✅      |   🚧      | 
-| [nRF52840](https://www.nordicsemi.com/products/nrf52840)  QFN   | ✅     | ✅       |   ✅      | 
-| [nRF52833](https://www.nordicsemi.com/products/nrf52833)  aQFN  | ✅     | ✅        |   🚧      | 
-| [nRF52833](https://www.nordicsemi.com/products/nrf52833)  WLCSP | ✅     | ✅        |   🚧      | 
-| [nRF52833](https://www.nordicsemi.com/products/nrf52833)  QFN   | ✅     | ✅        |   ✅      | 
-| [nRF52832](https://www.nordicsemi.com/products/nrf52832)  WLCSP | ✅     | ✅        |   🚧      | 
-| [nRF52832](https://www.nordicsemi.com/products/nrf52832)  QFN   | ✅     | ✅        |    ✅     | 
-| [nRF52820](https://www.nordicsemi.com/products/nrf52820)  WLCSP | ✅     | ✅        |   🚧      | 
-| [nRF52820](https://www.nordicsemi.com/products/nrf52820)  QFN   | ✅     | ✅        |   ✅      | 
-| [nRF52811](https://www.nordicsemi.com/products/nrf52811)  WLCSP  | ✅     | ✅        |   ✅      | 
-| [nRF52811](https://www.nordicsemi.com/products/nrf52811)  QFN-32 | ✅     | ✅        |    ✅     | 
-| [nRF52811](https://www.nordicsemi.com/products/nrf52811)  QFN-48 | ✅     | ✅        |    ✅     | 
-| [nRF52810](https://www.nordicsemi.com/products/nrf52810)  WLCSP  | ✅     | ✅        |   ✅      | 
-| [nRF52810](https://www.nordicsemi.com/products/nrf52810)  QFN-32 | ✅     | ✅        |    ✅     | 
-| [nRF52810](https://www.nordicsemi.com/products/nrf52810)  QFN-48 | ✅     | ✅        |     ✅    | 
-| [nRF52805](https://www.nordicsemi.com/products/nrf52805)  WLCSP | ✅     | ✅        |   ✅      | 
+|             | Symbol | Footprint | 3D Model | KLC Compliant |
+|-------------|--------|-----------|----------|---------------|
+| [nRF52840](https://www.nordicsemi.com/products/nrf52840) aQFN |✅|✅|✅|🚧| 
+| [nRF52840](https://www.nordicsemi.com/products/nrf52840) WLCSP |✅|✅|🚧|🚧| 
+| [nRF52840](https://www.nordicsemi.com/products/nrf52840) QFN |✅|✅|✅|🚧| 
+| [nRF52833](https://www.nordicsemi.com/products/nrf52833) aQFN |✅|✅|🚧|🚧| 
+| [nRF52833](https://www.nordicsemi.com/products/nrf52833) WLCSP |✅|✅|🚧|🚧| 
+| [nRF52833](https://www.nordicsemi.com/products/nrf52833) QFN |✅|✅|✅|🚧| 
+| [nRF52832](https://www.nordicsemi.com/products/nrf52832) WLCSP |✅|✅|🚧|🚧| 
+| [nRF52832](https://www.nordicsemi.com/products/nrf52832) QFN |✅|✅|✅|🚧| 
+| [nRF52820](https://www.nordicsemi.com/products/nrf52820) WLCSP |✅|✅|🚧|🚧| 
+| [nRF52820](https://www.nordicsemi.com/products/nrf52820) QFN |✅|✅|✅|🚧| 
+| [nRF52811](https://www.nordicsemi.com/products/nrf52811) WLCSP |✅|✅|✅|🚧| 
+| [nRF52811](https://www.nordicsemi.com/products/nrf52811) QFN-32 |✅|✅|✅|🚧| 
+| [nRF52811](https://www.nordicsemi.com/products/nrf52811) QFN-48 |✅|✅|✅|🚧| 
+| [nRF52810](https://www.nordicsemi.com/products/nrf52810) WLCSP |✅|✅|✅|🚧| 
+| [nRF52810](https://www.nordicsemi.com/products/nrf52810) QFN-32 |✅|✅|✅|🚧| 
+| [nRF52810](https://www.nordicsemi.com/products/nrf52810) QFN-48 |✅|✅|✅|🚧| 
+| [nRF52805](https://www.nordicsemi.com/products/nrf52805) WLCSP |✅|✅|✅|🚧| 
 
  # nRF21 series - PA + LNA ICs
 
-|             | Symbol | Footprint | 3D Model |
-|-------------|--------|-----------|----------|
-| [nRF21540](https://www.nordicsemi.com/products/nrf21540)  QFN | ✅     | ✅        |    ✅     | 
+|             | Symbol | Footprint | 3D Model | KLC Compliant |
+|-------------|--------|-----------|----------|---------------|
+| [nRF21540](https://www.nordicsemi.com/products/nrf21540) QFN |✅|✅|✅|🚧| 
 
  # nPM Power Management ICs
 
-|             | Symbol | Footprint | 3D Model |
-|-------------|--------|-----------|----------|
-| [nPM6001](https://www.nordicsemi.com/products/nPM6001)  WLCSP | ✅     | ✅        |   🚧      | 
-| [nPM1300](https://www.nordicsemi.com/products/nPM1300)  WLCSP | ✅     | ✅        |   🚧      | 
-| [nPM1300](https://www.nordicsemi.com/products/nPM1300)  QFN   | ✅     | ✅        |     ✅    | 
-| [nPM1100](https://www.nordicsemi.com/products/nPM1100)  WLCSP | ✅     | ✅        |   🚧      | 
-| [nPM1100](https://www.nordicsemi.com/products/nPM1100)  QFN   | ✅     | ✅        |    ✅     | 
+|             | Symbol | Footprint | 3D Model | KLC Compliant |
+|-------------|--------|-----------|----------|---------------|
+| [nPM6001](https://www.nordicsemi.com/products/nPM6001) WLCSP |✅|✅|🚧|🚧| 
+| [nPM1300](https://www.nordicsemi.com/products/nPM1300) WLCSP |✅|✅|🚧|🚧| 
+| [nPM1300](https://www.nordicsemi.com/products/nPM1300) QFN |✅|✅|✅|🚧| 
+| [nPM1100](https://www.nordicsemi.com/products/nPM1100) WLCSP |✅|✅|🚧|🚧| 
+| [nPM1100](https://www.nordicsemi.com/products/nPM1100) QFN |✅|✅|✅|🚧| 
