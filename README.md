@@ -6,6 +6,7 @@
 ---
 # A KiCAD 7 library for all modern Nordic Semiconductor parts.
 KLC compliance is established using KiCAD's official scripts within the "kicad-library-utils" folder and the "lib_check.sh" script
+
 Compliance for the purposes of this library is defined as zero errors for footprints and symbols. Reasonable warnings about pin position or names may be accepted.
 
 ## Installation instructions
