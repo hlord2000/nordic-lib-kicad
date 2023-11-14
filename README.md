@@ -5,6 +5,10 @@
 [![GitHub issues](https://img.shields.io/github/issues/hlord2000/nordic-lib-kicad)](https://github.com/hlord2000/nordic-lib-kicad/issues)
 ---
 # A KiCAD 7 library for all modern Nordic Semiconductor parts.
+<p align="center">
+  <img src="img/img.png" alt="centered image" />
+</p>
+
 KLC compliance is established using KiCAD's official scripts within the "kicad-library-utils" folder and the "lib_check.sh" script
 
 Compliance for the purposes of this library is defined as zero errors for footprints and symbols. Reasonable warnings about pin position or names may be accepted.
