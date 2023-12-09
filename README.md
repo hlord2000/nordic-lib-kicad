@@ -70,7 +70,7 @@ Then, using the dropdown in the PCM, switch to "hlord2000's KiCAD Repository" an
 
 |             | Symbol | Footprint | 3D Model | KLC Compliant |
 |-------------|--------|-----------|----------|---------------|
-| [nRF21540](https://www.nordicsemi.com/products/nrf21540) QFN |✅|✅|✅|🚧| 
+| [nRF21540](https://www.nordicsemi.com/products/nrf21540) QFN |✅|✅|✅|✅| 
 
  # nPM Power Management ICs
 
