@@ -1,0 +1,27 @@
+name: PR Check
+
+on: pull_request
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v2
+      with:
+        submodules: 'recursive'
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.x' # Adjust the Python version as required
+
+    - name: Run lib_check.sh and Check for Violations
+      run: |
+        chmod +x lib_check.sh
+        ./lib_check.sh | tee output.txt
+        if grep -q "Violating" output.txt; then
+          echo "Violation found in script output"
+          exit 1
+        fi
