@@ -25,3 +25,42 @@ jobs:
           echo "Violation found in script output"
           exit 1
         fi
+jobs:
+  kicad-check:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        fetch-depth: 0  # Ensures history is available for diff
+        submodules: 'recursive'
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'  # Specify Python version
+
+    - name: Run KiCad Library Checks
+      run: |
+        git fetch origin main:main
+        violations_found=false
+        for file in $(git diff --name-only main...HEAD -- ./symbols ./footprints); do
+          if [[ "$file" == *.kicad_sym ]]; then
+            output=$(./kicad-library-utils/klc-check/check_symbol.py "$file" -vv)
+          elif [[ "$file" == *"/footprints/"* ]]; then
+            output=$(./kicad-library-utils/klc-check/check_footprint.py "$file" -vv)
+          fi
+          echo "$output"
+
+          if [[ "$output" == *"Violating"* ]]; then
+            if [[ "$output" != *"Violating S4.3"* ]] || [[ "$output" =~ "Violating"(.*)"Violating S4.3" ]]; then
+              violations_found=true
+            fi
+          fi
+        done
+
+        if [ "$violations_found" = true ] ; then
+          echo "Error: Violation detected other than 'Violating S4.3'"
+          exit 1
+        fi
+
