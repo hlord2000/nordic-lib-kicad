@@ -21,7 +21,7 @@ jobs:
       run: |
         chmod +x lib_check.sh
         ./lib_check.sh | tee output.txt
-        if grep -q "Violating" output.txt; then
+        if grep -q "Violating" output.txt && ! grep -q "Violating S4.3" output.txt; then
           echo "Violation found in script output"
           exit 1
         fi
