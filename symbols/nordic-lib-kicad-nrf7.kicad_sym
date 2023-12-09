@@ -1,5 +1,5 @@
-(kicad_symbol_lib (version 20230620) (generator kicad_symbol_editor)
-  (symbol "nRF7000-QFXX" (exclude_from_sim no) (in_bom yes) (on_board yes)
+(kicad_symbol_lib (version 20220914) (generator kicad_symbol_editor)
+  (symbol "nRF7000-QFXX" (in_bom yes) (on_board yes)
     (property "Reference" "U" (at 0 0 0) (do_not_autoplace)
       (effects (font (size 1.27 1.27)))
     )
@@ -222,7 +222,7 @@
       )
     )
   )
-  (symbol "nRF7001-QFXX" (exclude_from_sim no) (in_bom yes) (on_board yes)
+  (symbol "nRF7001-QFXX" (in_bom yes) (on_board yes)
     (property "Reference" "U" (at 0 0 0) (do_not_autoplace)
       (effects (font (size 1.27 1.27)))
     )
@@ -233,9 +233,6 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 0 20.32 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "nRF7001-QFXX_0_0"
@@ -377,23 +374,23 @@
       )
     )
     (symbol "nRF7001-QFXX_1_0"
-      (pin no_connect line (at 10.16 35.56 270) (length 2.54) hide
+      (pin no_connect line (at 10.16 -25.4 90) (length 2.54) hide
         (name "N.C." (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 15.24 35.56 270) (length 2.54) hide
+      (pin no_connect line (at 5.08 -25.4 90) (length 2.54) hide
         (name "N.C." (effects (font (size 1.27 1.27))))
         (number "21" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 17.78 35.56 270) (length 2.54) hide
+      (pin no_connect line (at 2.54 -25.4 90) (length 2.54) hide
         (name "N.C." (effects (font (size 1.27 1.27))))
         (number "22" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 20.32 35.56 270) (length 2.54) hide
+      (pin no_connect line (at 0 -25.4 90) (length 2.54) hide
         (name "N.C." (effects (font (size 1.27 1.27))))
         (number "23" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 22.86 35.56 270) (length 2.54) hide
+      (pin no_connect line (at -2.54 -25.4 90) (length 2.54) hide
         (name "N.C." (effects (font (size 1.27 1.27))))
         (number "24" (effects (font (size 1.27 1.27))))
       )
@@ -401,7 +398,7 @@
         (name "BUCKVSS" (effects (font (size 1.27 1.27))))
         (number "27" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 25.4 35.56 270) (length 2.54) hide
+      (pin no_connect line (at -5.08 -25.4 90) (length 2.54) hide
         (name "N.C." (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
@@ -409,7 +406,7 @@
         (name "QSPI_CLK/SPI_CLK" (effects (font (size 1.27 1.27))))
         (number "35" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 12.7 35.56 270) (length 2.54) hide
+      (pin no_connect line (at 7.62 -25.4 90) (length 2.54) hide
         (name "N.C." (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
@@ -421,15 +418,15 @@
         (name "EP" (effects (font (size 1.27 1.27))))
         (number "49" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 27.94 35.56 270) (length 2.54) hide
+      (pin no_connect line (at -7.62 -25.4 90) (length 2.54) hide
         (name "N.C." (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 30.48 35.56 270) (length 2.54) hide
+      (pin no_connect line (at -10.16 -25.4 90) (length 2.54) hide
         (name "N.C." (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 7.62 35.56 270) (length 2.54) hide
+      (pin no_connect line (at 12.7 -25.4 90) (length 2.54) hide
         (name "N.C." (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
@@ -445,7 +442,7 @@
       )
     )
   )
-  (symbol "nRF7002-QFXX" (exclude_from_sim no) (in_bom yes) (on_board yes)
+  (symbol "nRF7002-QFXX" (in_bom yes) (on_board yes)
     (property "Reference" "U" (at 0 0 0) (do_not_autoplace)
       (effects (font (size 1.27 1.27)))
     )
@@ -456,9 +453,6 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 0 20.32 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "nRF7002-QFXX_0_0"
@@ -608,23 +602,23 @@
       )
     )
     (symbol "nRF7002-QFXX_1_0"
-      (pin no_connect line (at 10.16 35.56 270) (length 2.54) hide
+      (pin no_connect line (at 10.16 -25.4 90) (length 2.54) hide
         (name "N.C." (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 15.24 35.56 270) (length 2.54) hide
+      (pin no_connect line (at 5.08 -25.4 90) (length 2.54) hide
         (name "N.C." (effects (font (size 1.27 1.27))))
         (number "21" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 17.78 35.56 270) (length 2.54) hide
+      (pin no_connect line (at 2.54 -25.4 90) (length 2.54) hide
         (name "N.C." (effects (font (size 1.27 1.27))))
         (number "22" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 20.32 35.56 270) (length 2.54) hide
+      (pin no_connect line (at 0 -25.4 90) (length 2.54) hide
         (name "N.C." (effects (font (size 1.27 1.27))))
         (number "23" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 22.86 35.56 270) (length 2.54) hide
+      (pin no_connect line (at -2.54 -25.4 90) (length 2.54) hide
         (name "N.C." (effects (font (size 1.27 1.27))))
         (number "24" (effects (font (size 1.27 1.27))))
       )
@@ -632,7 +626,7 @@
         (name "BUCKVSS" (effects (font (size 1.27 1.27))))
         (number "27" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 25.4 35.56 270) (length 2.54) hide
+      (pin no_connect line (at -5.08 -25.4 90) (length 2.54) hide
         (name "N.C." (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
@@ -640,7 +634,7 @@
         (name "QSPI_CLK/SPI_CLK" (effects (font (size 1.27 1.27))))
         (number "35" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 12.7 35.56 270) (length 2.54) hide
+      (pin no_connect line (at 7.62 -25.4 90) (length 2.54) hide
         (name "N.C." (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
@@ -652,11 +646,11 @@
         (name "EP" (effects (font (size 1.27 1.27))))
         (number "49" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 27.94 35.56 270) (length 2.54) hide
+      (pin no_connect line (at -7.62 -25.4 90) (length 2.54) hide
         (name "N.C." (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 30.48 35.56 270) (length 2.54) hide
+      (pin no_connect line (at -10.16 -25.4 90) (length 2.54) hide
         (name "N.C." (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
