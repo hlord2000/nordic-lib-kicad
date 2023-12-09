@@ -6,7 +6,7 @@
     (property "Value" "ISP2053-AX" (at 0 -2.54 0) (do_not_autoplace)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "nordic-lib-kicad-nrf53-modules:ISP2053_8x8mm_LGA" (at 0 -5.08 0)
+    (property "Footprint" "PCM_nordic-lib-kicad-nrf53-modules:ISP2053_8x8mm_LGA" (at 0 -5.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 0 0 0)

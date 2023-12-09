@@ -6,10 +6,10 @@
     (property "Value" "nRF9160-SIXX" (at 0 -2.54 0) (do_not_autoplace)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "nordic-lib-kicad-nrf9:LGA_16.0x10.5mm" (at 0 45.72 0)
+    (property "Footprint" "PCM_nordic-lib-kicad-nrf9:LGA_16.0x10.5mm" (at 0 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 0 45.72 0)
+    (property "Datasheet" "https://docs.nordicsemi.com/bundle/ps_nrf9160/page/nRF9160_html5_keyfeatures.html" (at 0 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "nRF9160-SIXX_0_0"
@@ -243,31 +243,31 @@
         (name "GND_Shield" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at -2.54 25.4 0) (length 2.54) hide
+      (pin no_connect line (at 20.32 -68.58 90) (length 2.54) hide
         (name "Reserved" (effects (font (size 1.27 1.27))))
         (number "10" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at -5.08 20.32 0) (length 2.54) hide
+      (pin no_connect line (at 2.54 -68.58 90) (length 2.54) hide
         (name "Reserved" (effects (font (size 1.27 1.27))))
         (number "104" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 0 35.56 0) (length 2.54) hide
+      (pin no_connect line (at 27.94 -53.34 180) (length 2.54) hide
         (name "Reserved" (effects (font (size 1.27 1.27))))
         (number "105" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 0 33.02 0) (length 2.54) hide
+      (pin no_connect line (at -20.32 -68.58 90) (length 2.54) hide
         (name "Reserved" (effects (font (size 1.27 1.27))))
         (number "106" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 0 30.48 0) (length 2.54) hide
+      (pin no_connect line (at -15.24 -68.58 90) (length 2.54) hide
         (name "Reserved" (effects (font (size 1.27 1.27))))
         (number "107" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 0 27.94 0) (length 2.54) hide
+      (pin no_connect line (at -12.7 -68.58 90) (length 2.54) hide
         (name "Reserved" (effects (font (size 1.27 1.27))))
         (number "108" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 0 25.4 0) (length 2.54) hide
+      (pin no_connect line (at 22.86 -68.58 90) (length 2.54) hide
         (name "Reserved" (effects (font (size 1.27 1.27))))
         (number "109" (effects (font (size 1.27 1.27))))
       )
@@ -275,75 +275,75 @@
         (name "GND_Shield" (effects (font (size 1.27 1.27))))
         (number "11" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 0 22.86 0) (length 2.54) hide
+      (pin no_connect line (at 15.24 -68.58 90) (length 2.54) hide
         (name "Reserved" (effects (font (size 1.27 1.27))))
         (number "110" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 0 20.32 0) (length 2.54) hide
+      (pin no_connect line (at 7.62 -68.58 90) (length 2.54) hide
         (name "Reserved" (effects (font (size 1.27 1.27))))
         (number "111" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at -5.08 38.1 0) (length 2.54) hide
+      (pin no_connect line (at 27.94 -22.86 180) (length 2.54) hide
         (name "Reserved" (effects (font (size 1.27 1.27))))
         (number "112" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at -5.08 35.56 0) (length 2.54) hide
+      (pin no_connect line (at 27.94 -50.8 180) (length 2.54) hide
         (name "Reserved" (effects (font (size 1.27 1.27))))
         (number "113" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at -5.08 33.02 0) (length 2.54) hide
+      (pin no_connect line (at -22.86 -68.58 90) (length 2.54) hide
         (name "Reserved" (effects (font (size 1.27 1.27))))
         (number "114" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at -5.08 30.48 0) (length 2.54) hide
+      (pin no_connect line (at -27.94 -50.8 0) (length 2.54) hide
         (name "Reserved" (effects (font (size 1.27 1.27))))
         (number "115" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 2.54 35.56 0) (length 2.54) hide
+      (pin no_connect line (at 27.94 -40.64 180) (length 2.54) hide
         (name "Reserved" (effects (font (size 1.27 1.27))))
         (number "116" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 2.54 33.02 0) (length 2.54) hide
+      (pin no_connect line (at -27.94 -48.26 0) (length 2.54) hide
         (name "Reserved" (effects (font (size 1.27 1.27))))
         (number "117" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 2.54 30.48 0) (length 2.54) hide
+      (pin no_connect line (at -17.78 -68.58 90) (length 2.54) hide
         (name "Reserved" (effects (font (size 1.27 1.27))))
         (number "118" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 2.54 27.94 0) (length 2.54) hide
+      (pin no_connect line (at -5.08 -68.58 90) (length 2.54) hide
         (name "Reserved" (effects (font (size 1.27 1.27))))
         (number "119" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 2.54 25.4 0) (length 2.54) hide
+      (pin no_connect line (at 25.4 -68.58 90) (length 2.54) hide
         (name "Reserved" (effects (font (size 1.27 1.27))))
         (number "120" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 2.54 22.86 0) (length 2.54) hide
+      (pin no_connect line (at 17.78 -68.58 90) (length 2.54) hide
         (name "Reserved" (effects (font (size 1.27 1.27))))
         (number "121" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at 2.54 20.32 0) (length 2.54) hide
+      (pin no_connect line (at 5.08 -68.58 90) (length 2.54) hide
         (name "Reserved" (effects (font (size 1.27 1.27))))
         (number "122" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at -2.54 38.1 0) (length 2.54) hide
+      (pin no_connect line (at 27.94 -35.56 180) (length 2.54) hide
         (name "Reserved" (effects (font (size 1.27 1.27))))
         (number "123" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at -2.54 35.56 0) (length 2.54) hide
+      (pin no_connect line (at 27.94 -38.1 180) (length 2.54) hide
         (name "Reserved" (effects (font (size 1.27 1.27))))
         (number "124" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at -2.54 33.02 0) (length 2.54) hide
+      (pin no_connect line (at -27.94 -53.34 0) (length 2.54) hide
         (name "Reserved" (effects (font (size 1.27 1.27))))
         (number "125" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at -2.54 30.48 0) (length 2.54) hide
+      (pin no_connect line (at 27.94 -55.88 180) (length 2.54) hide
         (name "Reserved" (effects (font (size 1.27 1.27))))
         (number "126" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at -2.54 27.94 0) (length 2.54) hide
+      (pin no_connect line (at -10.16 -68.58 90) (length 2.54) hide
         (name "Reserved" (effects (font (size 1.27 1.27))))
         (number "127" (effects (font (size 1.27 1.27))))
       )
@@ -399,7 +399,7 @@
         (name "GND_Shield" (effects (font (size 1.27 1.27))))
         (number "50" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at -2.54 22.86 0) (length 2.54) hide
+      (pin no_connect line (at 10.16 -68.58 90) (length 2.54) hide
         (name "Reserved" (effects (font (size 1.27 1.27))))
         (number "51" (effects (font (size 1.27 1.27))))
       )
@@ -447,11 +447,11 @@
         (name "GND_Shield" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at -5.08 27.94 0) (length 2.54) hide
+      (pin no_connect line (at -7.62 -68.58 90) (length 2.54) hide
         (name "Reserved" (effects (font (size 1.27 1.27))))
         (number "70" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at -5.08 25.4 0) (length 2.54) hide
+      (pin no_connect line (at -2.54 -68.58 90) (length 2.54) hide
         (name "Reserved" (effects (font (size 1.27 1.27))))
         (number "71" (effects (font (size 1.27 1.27))))
       )
@@ -459,7 +459,7 @@
         (name "GND_Shield" (effects (font (size 1.27 1.27))))
         (number "72" (effects (font (size 1.27 1.27))))
       )
-      (pin no_connect line (at -5.08 22.86 0) (length 2.54) hide
+      (pin no_connect line (at 12.7 -68.58 90) (length 2.54) hide
         (name "Reserved" (effects (font (size 1.27 1.27))))
         (number "73" (effects (font (size 1.27 1.27))))
       )
