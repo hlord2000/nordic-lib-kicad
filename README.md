@@ -4,7 +4,7 @@
 [![GitHub forks](https://img.shields.io/github/forks/hlord2000/nordic-lib-kicad)](https://github.com/hlord2000/nordic-lib-kicad/network)
 [![GitHub issues](https://img.shields.io/github/issues/hlord2000/nordic-lib-kicad)](https://github.com/hlord2000/nordic-lib-kicad/issues)
 ---
-# A KiCAD 7 library for all modern Nordic Semiconductor parts.
+# A KiCAD 8 library for all modern Nordic Semiconductor parts.
 <p align="center">
   <img src="img/img.png" alt="centered image" />
 </p>

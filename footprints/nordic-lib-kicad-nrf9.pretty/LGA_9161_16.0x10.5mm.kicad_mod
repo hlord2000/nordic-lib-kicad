@@ -1515,7 +1515,7 @@
 		(thermal_bridge_angle 45)
 		(uuid "eb22c2e4-116d-4705-999d-0dd34a6c406d")
 	)
-	(model "${KICAD7_3RD_PARTY}/3dmodels/com_github_hlord2000_nordic-lib-kicad/nordic-lib-kicad-nrf9.3dshapes/LGA_9161_16.0x10.5mm.STEP"
+	(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_hlord2000_nordic-lib-kicad/nordic-lib-kicad-nrf9.3dshapes/LGA_9161_16.0x10.5mm.STEP"
 		(offset
 			(xyz -8 5.25 0)
 		)
