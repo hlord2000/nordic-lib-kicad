@@ -4,7 +4,7 @@
 [![GitHub forks](https://img.shields.io/github/forks/hlord2000/nordic-lib-kicad)](https://github.com/hlord2000/nordic-lib-kicad/network)
 [![GitHub issues](https://img.shields.io/github/issues/hlord2000/nordic-lib-kicad)](https://github.com/hlord2000/nordic-lib-kicad/issues)
 ---
-# A KiCAD 7 library for all modern Nordic Semiconductor parts.
+# A KiCAD 8 library for all modern Nordic Semiconductor parts.
 <p align="center">
   <img src="img/img.png" alt="centered image" />
 </p>
@@ -27,8 +27,8 @@ Then, using the dropdown in the PCM, switch to "hlord2000's KiCAD Repository" an
 
 |             | Symbol | Footprint | 3D Model | KLC Compliant |
 |-------------|--------|-----------|----------|---------------|
-| [nRF9160](https://www.nordicsemi.com/products/nrf9160) LGA |✅|✅|🚧|🚧|
-| [nRF9161](https://www.nordicsemi.com/products/nrf9161) LGA |✅|✅|🚧|🚧|
+| [nRF9160](https://www.nordicsemi.com/products/nrf9160) LGA |✅|✅|✅|🚧|
+| [nRF9161](https://www.nordicsemi.com/products/nrf9161) LGA |✅|✅|✅|🚧|
 
  # nRF7 series - Wi-Fi
 

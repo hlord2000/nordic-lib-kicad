@@ -26,7 +26,7 @@ echo $VERSION > PCM/archive/VERSION
 
 echo "Modify archive metadata.json"
 sed -i "s/VERSION_HERE/$VERSION/g" PCM/archive/metadata.json
-sed -i "s/\"kicad_version\": \"7.0\",/\"kicad_version\": \"7.0\"/g" PCM/archive/metadata.json
+sed -i "s/\"kicad_version\": \"8.0\",/\"kicad_version\": \"8.0\"/g" PCM/archive/metadata.json
 sed -i "/SHA256_HERE/d" PCM/archive/metadata.json
 sed -i "/DOWNLOAD_SIZE_HERE/d" PCM/archive/metadata.json
 sed -i "/DOWNLOAD_URL_HERE/d" PCM/archive/metadata.json

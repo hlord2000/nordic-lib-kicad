@@ -73,7 +73,7 @@
   (pad "G4" smd circle (at 0.2 1) (size 0.227 0.227) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp dd9fb2ac-b22e-4f6b-a36f-4370a9972839))
   (pad "G5" smd circle (at 0.6 1) (size 0.227 0.227) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp da353afe-c6dc-4813-ba28-04389351a0b8))
   (pad "G6" smd circle (at 1 1) (size 0.227 0.227) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 190e707d-465d-4fdb-ab19-7b372694e5b9))
-  (model "${KICAD7_3RD_PARTY}/3dmodels/com_github_hlord2000_nordic-lib-kicad/nordic-lib-kicad-nrf52.3dshapes/BGA-28_6x6_2.482x2.464mm.STEP"
+  (model "${KICAD8_3RD_PARTY}/3dmodels/com_github_hlord2000_nordic-lib-kicad/nordic-lib-kicad-nrf52.3dshapes/BGA-28_6x6_2.482x2.464mm.STEP"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
