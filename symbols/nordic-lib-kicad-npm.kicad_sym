@@ -1,819 +1,3364 @@
-(kicad_symbol_lib (version 20220914) (generator kicad_symbol_editor)
-  (symbol "nPM1100-CAXX" (in_bom yes) (on_board yes)
-    (property "Reference" "U" (at 0 0 0) (do_not_autoplace)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "nPM1100-CAXX" (at 0 -2.54 0) (do_not_autoplace)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "PCM_nordic-lib-kicad-npm:BGA-25_5x5_2.075x2.075mm" (at -30.48 -27.94 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://docs.nordicsemi.com/bundle/ps_npm1100" (at -53.34 20.32 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_keywords" "PMIC Charger Regulator" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "PMIC and Battery Charger, BGA-25" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_fp_filters" "BGA?*?*?2.075x2.075mm*" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "nPM1100-CAXX_0_0"
-      (pin bidirectional line (at -22.86 10.16 0) (length 2.54)
-        (name "D-" (effects (font (size 1.27 1.27))))
-        (number "A1" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at -22.86 12.7 0) (length 2.54)
-        (name "D+" (effects (font (size 1.27 1.27))))
-        (number "A2" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 22.86 12.7 180) (length 2.54)
-        (name "DEC" (effects (font (size 1.27 1.27))))
-        (number "A3" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 22.86 0 180) (length 2.54)
-        (name "SW" (effects (font (size 1.27 1.27))))
-        (number "A4" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at 0 27.94 270) (length 2.54)
-        (name "VBUS" (effects (font (size 1.27 1.27))))
-        (number "B1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 22.86 7.62 180) (length 2.54)
-        (name "VOUTBSET1" (effects (font (size 1.27 1.27))))
-        (number "B3" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 22.86 10.16 180) (length 2.54)
-        (name "VOUTBSET0" (effects (font (size 1.27 1.27))))
-        (number "B4" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_out line (at 22.86 5.08 180) (length 2.54)
-        (name "VOUTB" (effects (font (size 1.27 1.27))))
-        (number "B5" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_out line (at 7.62 27.94 270) (length 2.54)
-        (name "VSYS" (effects (font (size 1.27 1.27))))
-        (number "C1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -22.86 -5.08 0) (length 2.54)
-        (name "VTERMSET" (effects (font (size 1.27 1.27))))
-        (number "C3" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at -7.62 27.94 270) (length 2.54)
-        (name "VBAT" (effects (font (size 1.27 1.27))))
-        (number "D1" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line (at 22.86 -15.24 180) (length 2.54)
-        (name "SHPHLD" (effects (font (size 1.27 1.27))))
-        (number "D3" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line (at 22.86 -12.7 180) (length 2.54)
-        (name "SHPACT" (effects (font (size 1.27 1.27))))
-        (number "D4" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 22.86 -7.62 180) (length 2.54)
-        (name "ISET" (effects (font (size 1.27 1.27))))
-        (number "D5" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -22.86 2.54 0) (length 2.54)
-        (name "NTC" (effects (font (size 1.27 1.27))))
-        (number "E1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -22.86 -7.62 0) (length 2.54)
-        (name "ICHG" (effects (font (size 1.27 1.27))))
-        (number "E2" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -22.86 -12.7 0) (length 2.54)
-        (name "ERR" (effects (font (size 1.27 1.27))))
-        (number "E3" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -22.86 -15.24 0) (length 2.54)
-        (name "CHG" (effects (font (size 1.27 1.27))))
-        (number "E4" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 22.86 -5.08 180) (length 2.54)
-        (name "MODE" (effects (font (size 1.27 1.27))))
-        (number "E5" (effects (font (size 1.27 1.27))))
-      )
-    )
-    (symbol "nPM1100-CAXX_1_0"
-      (pin power_in line (at 2.54 -27.94 90) (length 2.54)
-        (name "PVSS" (effects (font (size 1.27 1.27))))
-        (number "A5" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 27.94 270) (length 2.54) hide
-        (name "VBUS" (effects (font (size 1.27 1.27))))
-        (number "B2" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 7.62 27.94 270) (length 2.54) hide
-        (name "VSYS" (effects (font (size 1.27 1.27))))
-        (number "C2" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at 0 -27.94 90) (length 2.54)
-        (name "AVSS" (effects (font (size 1.27 1.27))))
-        (number "C4" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -27.94 90) (length 2.54) hide
-        (name "AVSS" (effects (font (size 1.27 1.27))))
-        (number "C5" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -7.62 27.94 270) (length 2.54) hide
-        (name "VBAT" (effects (font (size 1.27 1.27))))
-        (number "D2" (effects (font (size 1.27 1.27))))
-      )
-    )
-    (symbol "nPM1100-CAXX_1_1"
-      (rectangle (start -20.32 25.4) (end 20.32 -25.4)
-        (stroke (width 0) (type default))
-        (fill (type background))
-      )
-    )
-  )
-  (symbol "nPM1100-QDXX" (in_bom yes) (on_board yes)
-    (property "Reference" "U" (at 0 0 0) (do_not_autoplace)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "nPM1100-QDXX" (at 0 -2.54 0) (do_not_autoplace)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm_ThermalVias" (at 0 -5.08 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://docs.nordicsemi.com/bundle/ps_npm1100" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_keywords" "PMIC Charger Regulator" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "PMIC and Battery Charger, QFN-24" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_fp_filters" "QFN*1EP*4x4mm*P0.5mm*EP2.6x2.6mm*" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "nPM1100-QDXX_0_0"
-      (pin power_out line (at 22.86 5.08 180) (length 2.54)
-        (name "VOUTB" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -22.86 -12.7 0) (length 2.54)
-        (name "ERR" (effects (font (size 1.27 1.27))))
-        (number "10" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 22.86 -15.24 180) (length 2.54)
-        (name "SHPHLD" (effects (font (size 1.27 1.27))))
-        (number "11" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -22.86 -7.62 0) (length 2.54)
-        (name "ICHG" (effects (font (size 1.27 1.27))))
-        (number "12" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -22.86 2.54 0) (length 2.54)
-        (name "NTC" (effects (font (size 1.27 1.27))))
-        (number "14" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at -7.62 27.94 270) (length 2.54)
-        (name "VBAT" (effects (font (size 1.27 1.27))))
-        (number "15" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_out line (at 7.62 27.94 270) (length 2.54)
-        (name "VSYS" (effects (font (size 1.27 1.27))))
-        (number "16" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at 0 27.94 270) (length 2.54)
-        (name "VBUS" (effects (font (size 1.27 1.27))))
-        (number "17" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at -22.86 10.16 0) (length 2.54)
-        (name "D-" (effects (font (size 1.27 1.27))))
-        (number "19" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 22.86 10.16 180) (length 2.54)
-        (name "VOUTBSET1" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at -22.86 12.7 0) (length 2.54)
-        (name "D+" (effects (font (size 1.27 1.27))))
-        (number "20" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 22.86 12.7 180) (length 2.54)
-        (name "DEC" (effects (font (size 1.27 1.27))))
-        (number "21" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 22.86 0 180) (length 2.54)
-        (name "SW" (effects (font (size 1.27 1.27))))
-        (number "22" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at 0 -27.94 90) (length 2.54)
-        (name "PVSS" (effects (font (size 1.27 1.27))))
-        (number "23" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 22.86 -7.62 180) (length 2.54)
-        (name "ISET" (effects (font (size 1.27 1.27))))
-        (number "5" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 22.86 -12.7 180) (length 2.54)
-        (name "SHPACT" (effects (font (size 1.27 1.27))))
-        (number "6" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 22.86 -5.08 180) (length 2.54)
-        (name "MODE" (effects (font (size 1.27 1.27))))
-        (number "7" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -22.86 -15.24 0) (length 2.54)
-        (name "CHG" (effects (font (size 1.27 1.27))))
-        (number "8" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -22.86 -5.08 0) (length 2.54)
-        (name "VTERMSET" (effects (font (size 1.27 1.27))))
-        (number "9" (effects (font (size 1.27 1.27))))
-      )
-    )
-    (symbol "nPM1100-QDXX_1_0"
-      (pin no_connect line (at 10.16 -25.4 90) (length 2.54) hide
-        (name "NC" (effects (font (size 1.27 1.27))))
-        (number "13" (effects (font (size 1.27 1.27))))
-      )
-      (pin no_connect line (at 12.7 -25.4 90) (length 2.54) hide
-        (name "NC" (effects (font (size 1.27 1.27))))
-        (number "18" (effects (font (size 1.27 1.27))))
-      )
-      (pin no_connect line (at 7.62 -25.4 90) (length 2.54) hide
-        (name "NC" (effects (font (size 1.27 1.27))))
-        (number "24" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 2.54 -27.94 90) (length 2.54) hide
-        (name "PVSS" (effects (font (size 1.27 1.27))))
-        (number "25" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 22.86 7.62 180) (length 2.54)
-        (name "VOUTBSET0" (effects (font (size 1.27 1.27))))
-        (number "3" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at -2.54 -27.94 90) (length 2.54)
-        (name "AVSS" (effects (font (size 1.27 1.27))))
-        (number "4" (effects (font (size 1.27 1.27))))
-      )
-    )
-    (symbol "nPM1100-QDXX_1_1"
-      (rectangle (start -20.32 25.4) (end 20.32 -25.4)
-        (stroke (width 0) (type default))
-        (fill (type background))
-      )
-    )
-  )
-  (symbol "nPM1300-CAXX" (in_bom yes) (on_board yes)
-    (property "Reference" "U" (at 0 0 0) (do_not_autoplace)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "nPM1300-CAXX" (at 0 -2.54 0) (do_not_autoplace)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "PCM_nordic-lib-kicad-npm:BGA-35_7x5_3.077x2.3775mm" (at 0 53.34 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://docs.nordicsemi.com/bundle/ps_npm1300" (at 0 55.88 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_keywords" "PMIC Regulator LED Driver Battery Charger" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "PMIC, LED Driver, Battery Charger, BGA-35" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_fp_filters" "BGA*35*7x5*3.077x2.3775mm*" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "nPM1300-CAXX_0_0"
-      (pin bidirectional line (at -33.02 -5.08 0) (length 2.54)
-        (name "GPIO3" (effects (font (size 1.27 1.27))))
-        (number "C4" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at -33.02 -2.54 0) (length 2.54)
-        (name "GPIO2" (effects (font (size 1.27 1.27))))
-        (number "C5" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at -33.02 0 0) (length 2.54)
-        (name "GPIO1" (effects (font (size 1.27 1.27))))
-        (number "E6" (effects (font (size 1.27 1.27))))
-      )
-    )
-    (symbol "nPM1300-CAXX_1_0"
-      (pin open_collector line (at -33.02 12.7 0) (length 2.54)
-        (name "LED0" (effects (font (size 1.27 1.27))))
-        (number "A1" (effects (font (size 1.27 1.27))))
-      )
-      (pin open_collector line (at -33.02 10.16 0) (length 2.54)
-        (name "LED1" (effects (font (size 1.27 1.27))))
-        (number "A2" (effects (font (size 1.27 1.27))))
-      )
-      (pin open_collector line (at -33.02 7.62 0) (length 2.54)
-        (name "LED2" (effects (font (size 1.27 1.27))))
-        (number "A3" (effects (font (size 1.27 1.27))))
-      )
-      (pin output line (at 33.02 -10.16 180) (length 2.54)
-        (name "LSOUT1/VOUTLDO1" (effects (font (size 1.27 1.27))))
-        (number "A4" (effects (font (size 1.27 1.27))))
-      )
-      (pin output line (at 33.02 -17.78 180) (length 2.54)
-        (name "LSOUT2/VOUTLDO2" (effects (font (size 1.27 1.27))))
-        (number "A5" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at 0 -38.1 90) (length 2.54)
-        (name "AVSS" (effects (font (size 1.27 1.27))))
-        (number "A6" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at 33.02 10.16 180) (length 2.54)
-        (name "PVSS1" (effects (font (size 1.27 1.27))))
-        (number "A7" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at -15.24 38.1 270) (length 2.54)
-        (name "VBUS" (effects (font (size 1.27 1.27))))
-        (number "B1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -15.24 38.1 270) (length 2.54) hide
-        (name "VBUS" (effects (font (size 1.27 1.27))))
-        (number "B2" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at -33.02 17.78 0) (length 2.54)
-        (name "CC2" (effects (font (size 1.27 1.27))))
-        (number "B3" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line (at 33.02 -7.62 180) (length 2.54)
-        (name "LSIN1/VINLDO1" (effects (font (size 1.27 1.27))))
-        (number "B4" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line (at 33.02 -15.24 180) (length 2.54)
-        (name "LSIN2/VINLDO2" (effects (font (size 1.27 1.27))))
-        (number "B5" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_out line (at 33.02 17.78 180) (length 2.54)
-        (name "VOUT1" (effects (font (size 1.27 1.27))))
-        (number "B6" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 33.02 12.7 180) (length 2.54)
-        (name "SW1" (effects (font (size 1.27 1.27))))
-        (number "B7" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_out line (at 12.7 38.1 270) (length 2.54)
-        (name "VSYS" (effects (font (size 1.27 1.27))))
-        (number "C1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 12.7 38.1 270) (length 2.54) hide
-        (name "VSYS" (effects (font (size 1.27 1.27))))
-        (number "C2" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_out line (at 20.32 38.1 270) (length 2.54)
-        (name "VBUSOUT" (effects (font (size 1.27 1.27))))
-        (number "C3" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_out line (at 33.02 5.08 180) (length 2.54)
-        (name "VOUT2" (effects (font (size 1.27 1.27))))
-        (number "C6" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at 10.16 38.1 270) (length 2.54)
-        (name "PVDD" (effects (font (size 1.27 1.27))))
-        (number "C7" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at -7.62 38.1 270) (length 2.54)
-        (name "VBAT" (effects (font (size 1.27 1.27))))
-        (number "D1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -7.62 38.1 270) (length 2.54) hide
-        (name "VBAT" (effects (font (size 1.27 1.27))))
-        (number "D2" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 33.02 -27.94 180) (length 2.54)
-        (name "NTC" (effects (font (size 1.27 1.27))))
-        (number "D3" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -33.02 -27.94 0) (length 2.54)
-        (name "SHPHLD" (effects (font (size 1.27 1.27))))
-        (number "D4" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at -33.02 20.32 0) (length 2.54)
-        (name "CC1" (effects (font (size 1.27 1.27))))
-        (number "D5" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at -33.02 2.54 0) (length 2.54)
-        (name "GPIO0" (effects (font (size 1.27 1.27))))
-        (number "D6" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 33.02 0 180) (length 2.54)
-        (name "SW2" (effects (font (size 1.27 1.27))))
-        (number "D7" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -33.02 -22.86 0) (length 2.54)
-        (name "VSET2" (effects (font (size 1.27 1.27))))
-        (number "E1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -33.02 -20.32 0) (length 2.54)
-        (name "VSET1" (effects (font (size 1.27 1.27))))
-        (number "E2" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at -33.02 -15.24 0) (length 2.54)
-        (name "SCL" (effects (font (size 1.27 1.27))))
-        (number "E3" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at 7.62 38.1 270) (length 2.54)
-        (name "VDDIO" (effects (font (size 1.27 1.27))))
-        (number "E4" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at -33.02 -12.7 0) (length 2.54)
-        (name "SDA" (effects (font (size 1.27 1.27))))
-        (number "E5" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at 33.02 -2.54 180) (length 2.54)
-        (name "PVSS2" (effects (font (size 1.27 1.27))))
-        (number "E7" (effects (font (size 1.27 1.27))))
-      )
-    )
-    (symbol "nPM1300-CAXX_1_1"
-      (rectangle (start -30.48 35.56) (end 30.48 -35.56)
-        (stroke (width 0) (type default))
-        (fill (type background))
-      )
-    )
-  )
-  (symbol "nPM1300-QEXX" (in_bom yes) (on_board yes)
-    (property "Reference" "U" (at 0 0 0) (do_not_autoplace)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "nPM1300-QEXX" (at 0 -2.54 0) (do_not_autoplace)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.6x3.6mm_ThermalVias" (at 0 53.34 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://docs.nordicsemi.com/bundle/ps_npm1300" (at 0 55.88 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_keywords" "PMIC Regulator LED Driver Battery Charger" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "PMIC, LED Driver, Battery Charger, QFN-32" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_fp_filters" "QFN*32*1EP*5x5mm*P0.5mm*EP3.6x3.6mm*" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "nPM1300-QEXX_0_0"
-      (pin power_out line (at 33.02 17.78 180) (length 2.54)
-        (name "VOUT1" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at -33.02 -5.08 0) (length 2.54)
-        (name "GPIO3" (effects (font (size 1.27 1.27))))
-        (number "10" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at -33.02 -7.62 0) (length 2.54)
-        (name "GPIO4" (effects (font (size 1.27 1.27))))
-        (number "11" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at 7.62 38.1 270) (length 2.54)
-        (name "VDDIO" (effects (font (size 1.27 1.27))))
-        (number "12" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at -33.02 -12.7 0) (length 2.54)
-        (name "SDA" (effects (font (size 1.27 1.27))))
-        (number "13" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at -33.02 -15.24 0) (length 2.54)
-        (name "SCL" (effects (font (size 1.27 1.27))))
-        (number "14" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line (at -33.02 -27.94 0) (length 2.54)
-        (name "SHPHLD" (effects (font (size 1.27 1.27))))
-        (number "15" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -33.02 -22.86 0) (length 2.54)
-        (name "VSET2" (effects (font (size 1.27 1.27))))
-        (number "16" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -33.02 -20.32 0) (length 2.54)
-        (name "VSET1" (effects (font (size 1.27 1.27))))
-        (number "17" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 33.02 -27.94 180) (length 2.54)
-        (name "NTC" (effects (font (size 1.27 1.27))))
-        (number "18" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at -7.62 38.1 270) (length 2.54)
-        (name "VBAT" (effects (font (size 1.27 1.27))))
-        (number "19" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_out line (at 12.7 38.1 270) (length 2.54)
-        (name "VSYS" (effects (font (size 1.27 1.27))))
-        (number "20" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at -15.24 38.1 270) (length 2.54)
-        (name "VBUS" (effects (font (size 1.27 1.27))))
-        (number "21" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_out line (at 20.32 38.1 270) (length 2.54)
-        (name "VBUSOUT" (effects (font (size 1.27 1.27))))
-        (number "22" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at -33.02 20.32 0) (length 2.54)
-        (name "CC1" (effects (font (size 1.27 1.27))))
-        (number "23" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at -33.02 17.78 0) (length 2.54)
-        (name "CC2" (effects (font (size 1.27 1.27))))
-        (number "24" (effects (font (size 1.27 1.27))))
-      )
-      (pin open_collector line (at -33.02 12.7 0) (length 2.54)
-        (name "LED0" (effects (font (size 1.27 1.27))))
-        (number "25" (effects (font (size 1.27 1.27))))
-      )
-      (pin open_collector line (at -33.02 10.16 0) (length 2.54)
-        (name "LED1" (effects (font (size 1.27 1.27))))
-        (number "26" (effects (font (size 1.27 1.27))))
-      )
-      (pin open_collector line (at -33.02 7.62 0) (length 2.54)
-        (name "LED2" (effects (font (size 1.27 1.27))))
-        (number "27" (effects (font (size 1.27 1.27))))
-      )
-      (pin output line (at 33.02 -10.16 180) (length 2.54)
-        (name "LSOUT1/VOUTLDO1" (effects (font (size 1.27 1.27))))
-        (number "29" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 33.02 12.7 180) (length 2.54)
-        (name "SW1" (effects (font (size 1.27 1.27))))
-        (number "3" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line (at 33.02 -15.24 180) (length 2.54)
-        (name "LSIN2/VINLDO2" (effects (font (size 1.27 1.27))))
-        (number "30" (effects (font (size 1.27 1.27))))
-      )
-      (pin output line (at 33.02 -17.78 180) (length 2.54)
-        (name "LSOUT2/VOUTLDO2" (effects (font (size 1.27 1.27))))
-        (number "31" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_out line (at 33.02 5.08 180) (length 2.54)
-        (name "VOUT2" (effects (font (size 1.27 1.27))))
-        (number "32" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at 0 -38.1 90) (length 2.54)
-        (name "AVSS" (effects (font (size 1.27 1.27))))
-        (number "33" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at 10.16 38.1 270) (length 2.54)
-        (name "PVDD" (effects (font (size 1.27 1.27))))
-        (number "4" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 33.02 0 180) (length 2.54)
-        (name "SW2" (effects (font (size 1.27 1.27))))
-        (number "5" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at -33.02 2.54 0) (length 2.54)
-        (name "GPIO0" (effects (font (size 1.27 1.27))))
-        (number "7" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at -33.02 0 0) (length 2.54)
-        (name "GPIO1" (effects (font (size 1.27 1.27))))
-        (number "8" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at -33.02 -2.54 0) (length 2.54)
-        (name "GPIO2" (effects (font (size 1.27 1.27))))
-        (number "9" (effects (font (size 1.27 1.27))))
-      )
-    )
-    (symbol "nPM1300-QEXX_1_0"
-      (pin power_in line (at 33.02 10.16 180) (length 2.54)
-        (name "PVSS1" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line (at 33.02 -7.62 180) (length 2.54)
-        (name "LSIN1/VINLDO1" (effects (font (size 1.27 1.27))))
-        (number "28" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at 33.02 -2.54 180) (length 2.54)
-        (name "PVSS2" (effects (font (size 1.27 1.27))))
-        (number "6" (effects (font (size 1.27 1.27))))
-      )
-    )
-    (symbol "nPM1300-QEXX_1_1"
-      (rectangle (start -30.48 35.56) (end 30.48 -35.56)
-        (stroke (width 0) (type default))
-        (fill (type background))
-      )
-    )
-  )
-  (symbol "nPM6001-CAXX" (in_bom yes) (on_board yes)
-    (property "Reference" "U" (at 0 0 0) (do_not_autoplace)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "nPM6001-CAXX" (at 0 -2.54 0) (do_not_autoplace)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "PCM_nordic-lib-kicad-npm:BGA-45_5x9_2.175x3.635mm" (at 66.04 22.86 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://docs.nordicsemi.com/bundle/ps_npm6001" (at 66.04 20.32 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_keywords" "PMIC Buck Regulator LDO" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "PMIC with Buck/LDO" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_fp_filters" "BGA*45*5x9*2.175x3.635mm*" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "nPM6001-CAXX_0_0"
-      (pin power_in line (at 10.16 48.26 270) (length 2.54)
-        (name "VIN_BUCK2" (effects (font (size 1.27 1.27))))
-        (number "A1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 30.48 2.54 180) (length 2.54)
-        (name "SW2" (effects (font (size 1.27 1.27))))
-        (number "A2" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 30.48 17.78 180) (length 2.54)
-        (name "SW1" (effects (font (size 1.27 1.27))))
-        (number "A4" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at 7.62 48.26 270) (length 2.54)
-        (name "VIN_BUCK1" (effects (font (size 1.27 1.27))))
-        (number "A5" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_out line (at 30.48 -2.54 180) (length 2.54)
-        (name "VO2" (effects (font (size 1.27 1.27))))
-        (number "B1" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at -30.48 33.02 0) (length 2.54)
-        (name "ENABLE" (effects (font (size 1.27 1.27))))
-        (number "B2" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_out line (at 30.48 12.7 180) (length 2.54)
-        (name "VO1" (effects (font (size 1.27 1.27))))
-        (number "B5" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at 30.48 -27.94 180) (length 2.54)
-        (name "VIN_LDO0" (effects (font (size 1.27 1.27))))
-        (number "C1" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at -30.48 10.16 0) (length 2.54)
-        (name "GPIO0" (effects (font (size 1.27 1.27))))
-        (number "C2" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at -30.48 0 0) (length 2.54)
-        (name "VDD_TWI" (effects (font (size 1.27 1.27))))
-        (number "C4" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_out line (at 30.48 -35.56 180) (length 2.54)
-        (name "VLDO1" (effects (font (size 1.27 1.27))))
-        (number "C5" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_out line (at 30.48 -30.48 180) (length 2.54)
-        (name "VLDO0" (effects (font (size 1.27 1.27))))
-        (number "D1" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at -30.48 5.08 0) (length 2.54)
-        (name "GPIO2" (effects (font (size 1.27 1.27))))
-        (number "D2" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at -30.48 7.62 0) (length 2.54)
-        (name "GPIO1" (effects (font (size 1.27 1.27))))
-        (number "D3" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at 30.48 -33.02 180) (length 2.54)
-        (name "VIN_LDO1" (effects (font (size 1.27 1.27))))
-        (number "D5" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at -30.48 12.7 0) (length 2.54)
-        (name "VIN_GPIO" (effects (font (size 1.27 1.27))))
-        (number "E1" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at -30.48 -2.54 0) (length 2.54)
-        (name "SDA" (effects (font (size 1.27 1.27))))
-        (number "E2" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at -30.48 -5.08 0) (length 2.54)
-        (name "SCL" (effects (font (size 1.27 1.27))))
-        (number "E3" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at 0 -48.26 90) (length 2.54)
-        (name "AVSS" (effects (font (size 1.27 1.27))))
-        (number "F1" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at -30.48 20.32 0) (length 2.54)
-        (name "BUCK_MODE1" (effects (font (size 1.27 1.27))))
-        (number "F5" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at 0 48.26 270) (length 2.54)
-        (name "VIN" (effects (font (size 1.27 1.27))))
-        (number "G1" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at -30.48 22.86 0) (length 2.54)
-        (name "BUCK_MODE0" (effects (font (size 1.27 1.27))))
-        (number "G2" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at -30.48 17.78 0) (length 2.54)
-        (name "BUCK_MODE2" (effects (font (size 1.27 1.27))))
-        (number "G4" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 30.48 -17.78 180) (length 2.54)
-        (name "VO3" (effects (font (size 1.27 1.27))))
-        (number "H1" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at -30.48 27.94 0) (length 2.54)
-        (name "READY" (effects (font (size 1.27 1.27))))
-        (number "H4" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at 12.7 48.26 270) (length 2.54)
-        (name "VIN_BUCK3" (effects (font (size 1.27 1.27))))
-        (number "J1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 30.48 -12.7 180) (length 2.54)
-        (name "SW3" (effects (font (size 1.27 1.27))))
-        (number "J2" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 30.48 33.02 180) (length 2.54)
-        (name "SW0" (effects (font (size 1.27 1.27))))
-        (number "J4" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at 5.08 48.26 270) (length 2.54)
-        (name "VIN_BUCK0" (effects (font (size 1.27 1.27))))
-        (number "J5" (effects (font (size 1.27 1.27))))
-      )
-    )
-    (symbol "nPM6001-CAXX_1_0"
-      (pin passive line (at 0 -48.26 90) (length 2.54) hide
-        (name "AVSS1_2" (effects (font (size 1.27 1.27))))
-        (number "A3" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -48.26 90) (length 2.54) hide
-        (name "RESERVED" (effects (font (size 1.27 1.27))))
-        (number "B3" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 30.48 27.94 180) (length 2.54) hide
-        (name "RESERVED" (effects (font (size 1.27 1.27))))
-        (number "B4" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 30.48 27.94 180) (length 2.54) hide
-        (name "RESERVED" (effects (font (size 1.27 1.27))))
-        (number "C3" (effects (font (size 1.27 1.27))))
-      )
-      (pin output line (at -30.48 30.48 0) (length 2.54)
-        (name "~{INT}" (effects (font (size 1.27 1.27))))
-        (number "D4" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 30.48 27.94 180) (length 2.54) hide
-        (name "RESERVED" (effects (font (size 1.27 1.27))))
-        (number "E4" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -48.26 90) (length 2.54) hide
-        (name "RESERVED" (effects (font (size 1.27 1.27))))
-        (number "E5" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -48.26 90) (length 2.54) hide
-        (name "AVSS_ANA" (effects (font (size 1.27 1.27))))
-        (number "F2" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 48.26 270) (length 2.54) hide
-        (name "VIN_ANA" (effects (font (size 1.27 1.27))))
-        (number "F3" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -48.26 90) (length 2.54) hide
-        (name "RESERVED" (effects (font (size 1.27 1.27))))
-        (number "F4" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -48.26 90) (length 2.54) hide
-        (name "RESERVED" (effects (font (size 1.27 1.27))))
-        (number "G3" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 30.48 27.94 180) (length 2.54) hide
-        (name "VO0_IN" (effects (font (size 1.27 1.27))))
-        (number "G5" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -48.26 90) (length 2.54) hide
-        (name "RESERVED" (effects (font (size 1.27 1.27))))
-        (number "H2" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -48.26 90) (length 2.54) hide
-        (name "AVSS0" (effects (font (size 1.27 1.27))))
-        (number "H3" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_out line (at 30.48 27.94 180) (length 2.54)
-        (name "VO0" (effects (font (size 1.27 1.27))))
-        (number "H5" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -48.26 90) (length 2.54) hide
-        (name "AVSS3" (effects (font (size 1.27 1.27))))
-        (number "J3" (effects (font (size 1.27 1.27))))
-      )
-    )
-    (symbol "nPM6001-CAXX_1_1"
-      (rectangle (start -27.94 45.72) (end 27.94 -45.72)
-        (stroke (width 0) (type default))
-        (fill (type background))
-      )
-    )
-  )
+(kicad_symbol_lib
+	(version 20231120)
+	(generator "kicad_symbol_editor")
+	(generator_version "8.0")
+	(symbol "nPM1100-CAXX"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 0 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "nPM1100-CAXX"
+			(at 0 -2.54 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_nordic-lib-kicad-npm:BGA-25_5x5_2.075x2.075mm"
+			(at -30.48 -27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://docs.nordicsemi.com/bundle/ps_npm1100"
+			(at -53.34 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "PMIC and Battery Charger, BGA-25"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "PMIC Charger Regulator"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "BGA?*?*?2.075x2.075mm*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "nPM1100-CAXX_0_0"
+			(pin bidirectional line
+				(at -22.86 10.16 0)
+				(length 2.54)
+				(name "D-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -22.86 12.7 0)
+				(length 2.54)
+				(name "D+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 22.86 12.7 180)
+				(length 2.54)
+				(name "DEC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 22.86 0 180)
+				(length 2.54)
+				(name "SW"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 27.94 270)
+				(length 2.54)
+				(name "VBUS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 22.86 7.62 180)
+				(length 2.54)
+				(name "VOUTBSET1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 22.86 10.16 180)
+				(length 2.54)
+				(name "VOUTBSET0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 22.86 5.08 180)
+				(length 2.54)
+				(name "VOUTB"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 7.62 27.94 270)
+				(length 2.54)
+				(name "VSYS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -22.86 -5.08 0)
+				(length 2.54)
+				(name "VTERMSET"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -7.62 27.94 270)
+				(length 2.54)
+				(name "VBAT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "D1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 22.86 -15.24 180)
+				(length 2.54)
+				(name "SHPHLD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "D3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 22.86 -12.7 180)
+				(length 2.54)
+				(name "SHPACT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "D4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 22.86 -7.62 180)
+				(length 2.54)
+				(name "ISET"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "D5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -22.86 2.54 0)
+				(length 2.54)
+				(name "NTC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "E1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -22.86 -7.62 0)
+				(length 2.54)
+				(name "ICHG"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "E2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -22.86 -12.7 0)
+				(length 2.54)
+				(name "ERR"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "E3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -22.86 -15.24 0)
+				(length 2.54)
+				(name "CHG"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "E4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 22.86 -5.08 180)
+				(length 2.54)
+				(name "MODE"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "E5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "nPM1100-CAXX_1_0"
+			(pin power_in line
+				(at 2.54 -27.94 90)
+				(length 2.54)
+				(name "PVSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 27.94 270)
+				(length 2.54) hide
+				(name "VBUS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 27.94 270)
+				(length 2.54) hide
+				(name "VSYS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -27.94 90)
+				(length 2.54)
+				(name "AVSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -27.94 90)
+				(length 2.54) hide
+				(name "AVSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -7.62 27.94 270)
+				(length 2.54) hide
+				(name "VBAT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "D2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "nPM1100-CAXX_1_1"
+			(rectangle
+				(start -20.32 25.4)
+				(end 20.32 -25.4)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+	)
+	(symbol "nPM1100-QDXX"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 0 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "nPM1100-QDXX"
+			(at 0 -2.54 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm_ThermalVias"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://docs.nordicsemi.com/bundle/ps_npm1100"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "PMIC and Battery Charger, QFN-24"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "PMIC Charger Regulator"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "QFN*1EP*4x4mm*P0.5mm*EP2.6x2.6mm*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "nPM1100-QDXX_0_0"
+			(pin power_out line
+				(at 22.86 5.08 180)
+				(length 2.54)
+				(name "VOUTB"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -22.86 -12.7 0)
+				(length 2.54)
+				(name "ERR"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 22.86 -15.24 180)
+				(length 2.54)
+				(name "SHPHLD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -22.86 -7.62 0)
+				(length 2.54)
+				(name "ICHG"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -22.86 2.54 0)
+				(length 2.54)
+				(name "NTC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -7.62 27.94 270)
+				(length 2.54)
+				(name "VBAT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 7.62 27.94 270)
+				(length 2.54)
+				(name "VSYS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 27.94 270)
+				(length 2.54)
+				(name "VBUS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -22.86 10.16 0)
+				(length 2.54)
+				(name "D-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "19"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 22.86 10.16 180)
+				(length 2.54)
+				(name "VOUTBSET1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -22.86 12.7 0)
+				(length 2.54)
+				(name "D+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "20"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 22.86 12.7 180)
+				(length 2.54)
+				(name "DEC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "21"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 22.86 0 180)
+				(length 2.54)
+				(name "SW"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "22"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 2.54 -27.94 90)
+				(length 2.54)
+				(name "PVSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "23"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 22.86 -7.62 180)
+				(length 2.54)
+				(name "ISET"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 22.86 -12.7 180)
+				(length 2.54)
+				(name "SHPACT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 22.86 -5.08 180)
+				(length 2.54)
+				(name "MODE"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -22.86 -15.24 0)
+				(length 2.54)
+				(name "CHG"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -22.86 -5.08 0)
+				(length 2.54)
+				(name "VTERMSET"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "nPM1100-QDXX_1_0"
+			(pin no_connect line
+				(at 10.16 -25.4 90)
+				(length 2.54) hide
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 12.7 -25.4 90)
+				(length 2.54) hide
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "18"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 7.62 -25.4 90)
+				(length 2.54) hide
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "24"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -27.94 90)
+				(length 2.54)
+				(name "AVSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "25"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 22.86 7.62 180)
+				(length 2.54)
+				(name "VOUTBSET0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -5.08 -27.94 90)
+				(length 2.54)
+				(name "AVSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "nPM1100-QDXX_1_1"
+			(rectangle
+				(start -20.32 25.4)
+				(end 20.32 -25.4)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+	)
+	(symbol "nPM1300-CAXX"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 0 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "nPM1300-CAXX"
+			(at 0 -2.54 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_nordic-lib-kicad-npm:BGA-35_7x5_3.077x2.3775mm"
+			(at 0 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://docs.nordicsemi.com/bundle/ps_npm1300"
+			(at 0 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "PMIC, LED Driver, Battery Charger, BGA-35"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "PMIC Regulator LED Driver Battery Charger"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "BGA*35*7x5*3.077x2.3775mm*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "nPM1300-CAXX_0_0"
+			(pin bidirectional line
+				(at -33.02 -5.08 0)
+				(length 2.54)
+				(name "GPIO3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -33.02 -2.54 0)
+				(length 2.54)
+				(name "GPIO2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -33.02 0 0)
+				(length 2.54)
+				(name "GPIO1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "E6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "nPM1300-CAXX_1_0"
+			(pin open_collector line
+				(at -33.02 12.7 0)
+				(length 2.54)
+				(name "LED0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin open_collector line
+				(at -33.02 10.16 0)
+				(length 2.54)
+				(name "LED1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin open_collector line
+				(at -33.02 7.62 0)
+				(length 2.54)
+				(name "LED2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 33.02 -10.16 180)
+				(length 2.54)
+				(name "LSOUT1/VOUTLDO1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 33.02 -17.78 180)
+				(length 2.54)
+				(name "LSOUT2/VOUTLDO2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -38.1 90)
+				(length 2.54)
+				(name "AVSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 33.02 10.16 180)
+				(length 2.54)
+				(name "PVSS1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -15.24 38.1 270)
+				(length 2.54)
+				(name "VBUS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -15.24 38.1 270)
+				(length 2.54) hide
+				(name "VBUS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -33.02 17.78 0)
+				(length 2.54)
+				(name "CC2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 33.02 -7.62 180)
+				(length 2.54)
+				(name "LSIN1/VINLDO1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 33.02 -15.24 180)
+				(length 2.54)
+				(name "LSIN2/VINLDO2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 33.02 17.78 180)
+				(length 2.54)
+				(name "VOUT1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 33.02 12.7 180)
+				(length 2.54)
+				(name "SW1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 12.7 38.1 270)
+				(length 2.54)
+				(name "VSYS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 12.7 38.1 270)
+				(length 2.54) hide
+				(name "VSYS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 20.32 38.1 270)
+				(length 2.54)
+				(name "VBUSOUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 33.02 5.08 180)
+				(length 2.54)
+				(name "VOUT2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 10.16 38.1 270)
+				(length 2.54)
+				(name "PVDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -7.62 38.1 270)
+				(length 2.54)
+				(name "VBAT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "D1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -7.62 38.1 270)
+				(length 2.54) hide
+				(name "VBAT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "D2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 33.02 -27.94 180)
+				(length 2.54)
+				(name "NTC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "D3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -33.02 -27.94 0)
+				(length 2.54)
+				(name "SHPHLD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "D4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -33.02 20.32 0)
+				(length 2.54)
+				(name "CC1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "D5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -33.02 2.54 0)
+				(length 2.54)
+				(name "GPIO0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "D6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 33.02 0 180)
+				(length 2.54)
+				(name "SW2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "D7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -33.02 -22.86 0)
+				(length 2.54)
+				(name "VSET2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "E1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -33.02 -20.32 0)
+				(length 2.54)
+				(name "VSET1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "E2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -33.02 -15.24 0)
+				(length 2.54)
+				(name "SCL"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "E3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 7.62 38.1 270)
+				(length 2.54)
+				(name "VDDIO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "E4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -33.02 -12.7 0)
+				(length 2.54)
+				(name "SDA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "E5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 33.02 -2.54 180)
+				(length 2.54)
+				(name "PVSS2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "E7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "nPM1300-CAXX_1_1"
+			(rectangle
+				(start -30.48 35.56)
+				(end 30.48 -35.56)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+	)
+	(symbol "nPM1300-QEXX"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 0 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "nPM1300-QEXX"
+			(at 0 -2.54 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.6x3.6mm_ThermalVias"
+			(at 0 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://docs.nordicsemi.com/bundle/ps_npm1300"
+			(at 0 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "PMIC, LED Driver, Battery Charger, QFN-32"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "PMIC Regulator LED Driver Battery Charger"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "QFN*32*1EP*5x5mm*P0.5mm*EP3.6x3.6mm*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "nPM1300-QEXX_0_0"
+			(pin power_out line
+				(at 33.02 17.78 180)
+				(length 2.54)
+				(name "VOUT1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -33.02 -5.08 0)
+				(length 2.54)
+				(name "GPIO3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -33.02 -7.62 0)
+				(length 2.54)
+				(name "GPIO4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 7.62 38.1 270)
+				(length 2.54)
+				(name "VDDIO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -33.02 -12.7 0)
+				(length 2.54)
+				(name "SDA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -33.02 -15.24 0)
+				(length 2.54)
+				(name "SCL"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -33.02 -27.94 0)
+				(length 2.54)
+				(name "SHPHLD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -33.02 -22.86 0)
+				(length 2.54)
+				(name "VSET2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -33.02 -20.32 0)
+				(length 2.54)
+				(name "VSET1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 33.02 -27.94 180)
+				(length 2.54)
+				(name "NTC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "18"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -7.62 38.1 270)
+				(length 2.54)
+				(name "VBAT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "19"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 12.7 38.1 270)
+				(length 2.54)
+				(name "VSYS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "20"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -15.24 38.1 270)
+				(length 2.54)
+				(name "VBUS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "21"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 20.32 38.1 270)
+				(length 2.54)
+				(name "VBUSOUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "22"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -33.02 20.32 0)
+				(length 2.54)
+				(name "CC1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "23"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -33.02 17.78 0)
+				(length 2.54)
+				(name "CC2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "24"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin open_collector line
+				(at -33.02 12.7 0)
+				(length 2.54)
+				(name "LED0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "25"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin open_collector line
+				(at -33.02 10.16 0)
+				(length 2.54)
+				(name "LED1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "26"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin open_collector line
+				(at -33.02 7.62 0)
+				(length 2.54)
+				(name "LED2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "27"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 33.02 -10.16 180)
+				(length 2.54)
+				(name "LSOUT1/VOUTLDO1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "29"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 33.02 12.7 180)
+				(length 2.54)
+				(name "SW1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 33.02 -15.24 180)
+				(length 2.54)
+				(name "LSIN2/VINLDO2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "30"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 33.02 -17.78 180)
+				(length 2.54)
+				(name "LSOUT2/VOUTLDO2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "31"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 33.02 5.08 180)
+				(length 2.54)
+				(name "VOUT2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "32"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -38.1 90)
+				(length 2.54)
+				(name "AVSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "33"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 10.16 38.1 270)
+				(length 2.54)
+				(name "PVDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 33.02 0 180)
+				(length 2.54)
+				(name "SW2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -33.02 2.54 0)
+				(length 2.54)
+				(name "GPIO0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -33.02 0 0)
+				(length 2.54)
+				(name "GPIO1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -33.02 -2.54 0)
+				(length 2.54)
+				(name "GPIO2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "nPM1300-QEXX_1_0"
+			(pin power_in line
+				(at 33.02 10.16 180)
+				(length 2.54)
+				(name "PVSS1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 33.02 -7.62 180)
+				(length 2.54)
+				(name "LSIN1/VINLDO1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "28"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 33.02 -2.54 180)
+				(length 2.54)
+				(name "PVSS2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "nPM1300-QEXX_1_1"
+			(rectangle
+				(start -30.48 35.56)
+				(end 30.48 -35.56)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+	)
+	(symbol "nPM6001-CAXX"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 0 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "nPM6001-CAXX"
+			(at 0 -2.54 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_nordic-lib-kicad-npm:BGA-45_5x9_2.175x3.635mm"
+			(at 66.04 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://docs.nordicsemi.com/bundle/ps_npm6001"
+			(at 66.04 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "PMIC with Buck/LDO"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "PMIC Buck Regulator LDO"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "BGA*45*5x9*2.175x3.635mm*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "nPM6001-CAXX_0_0"
+			(pin power_in line
+				(at 10.16 48.26 270)
+				(length 2.54)
+				(name "VIN_BUCK2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 30.48 2.54 180)
+				(length 2.54)
+				(name "SW2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 30.48 17.78 180)
+				(length 2.54)
+				(name "SW1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 7.62 48.26 270)
+				(length 2.54)
+				(name "VIN_BUCK1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 30.48 -2.54 180)
+				(length 2.54)
+				(name "VO2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -30.48 33.02 0)
+				(length 2.54)
+				(name "ENABLE"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 30.48 12.7 180)
+				(length 2.54)
+				(name "VO1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 30.48 -27.94 180)
+				(length 2.54)
+				(name "VIN_LDO0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -30.48 10.16 0)
+				(length 2.54)
+				(name "GPIO0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -30.48 0 0)
+				(length 2.54)
+				(name "VDD_TWI"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 30.48 -35.56 180)
+				(length 2.54)
+				(name "VLDO1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 30.48 -30.48 180)
+				(length 2.54)
+				(name "VLDO0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "D1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -30.48 5.08 0)
+				(length 2.54)
+				(name "GPIO2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "D2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -30.48 7.62 0)
+				(length 2.54)
+				(name "GPIO1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "D3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 30.48 -33.02 180)
+				(length 2.54)
+				(name "VIN_LDO1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "D5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -30.48 12.7 0)
+				(length 2.54)
+				(name "VIN_GPIO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "E1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -30.48 -2.54 0)
+				(length 2.54)
+				(name "SDA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "E2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -30.48 -5.08 0)
+				(length 2.54)
+				(name "SCL"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "E3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -48.26 90)
+				(length 2.54)
+				(name "AVSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "F1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -30.48 20.32 0)
+				(length 2.54)
+				(name "BUCK_MODE1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "F5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 48.26 270)
+				(length 2.54)
+				(name "VIN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "G1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -30.48 22.86 0)
+				(length 2.54)
+				(name "BUCK_MODE0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "G2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -30.48 17.78 0)
+				(length 2.54)
+				(name "BUCK_MODE2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "G4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 30.48 -17.78 180)
+				(length 2.54)
+				(name "VO3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "H1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -30.48 27.94 0)
+				(length 2.54)
+				(name "READY"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "H4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 12.7 48.26 270)
+				(length 2.54)
+				(name "VIN_BUCK3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "J1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 30.48 -12.7 180)
+				(length 2.54)
+				(name "SW3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "J2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 30.48 33.02 180)
+				(length 2.54)
+				(name "SW0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "J4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 5.08 48.26 270)
+				(length 2.54)
+				(name "VIN_BUCK0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "J5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "nPM6001-CAXX_1_0"
+			(pin passive line
+				(at 0 -48.26 90)
+				(length 2.54) hide
+				(name "AVSS1_2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -48.26 90)
+				(length 2.54) hide
+				(name "RESERVED"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 30.48 27.94 180)
+				(length 2.54) hide
+				(name "RESERVED"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 30.48 27.94 180)
+				(length 2.54) hide
+				(name "RESERVED"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -30.48 30.48 0)
+				(length 2.54)
+				(name "~{INT}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "D4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 30.48 27.94 180)
+				(length 2.54) hide
+				(name "RESERVED"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "E4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -48.26 90)
+				(length 2.54) hide
+				(name "RESERVED"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "E5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -48.26 90)
+				(length 2.54) hide
+				(name "AVSS_ANA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "F2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 48.26 270)
+				(length 2.54) hide
+				(name "VIN_ANA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "F3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -48.26 90)
+				(length 2.54) hide
+				(name "RESERVED"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "F4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -48.26 90)
+				(length 2.54) hide
+				(name "RESERVED"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "G3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 30.48 27.94 180)
+				(length 2.54) hide
+				(name "VO0_IN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "G5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -48.26 90)
+				(length 2.54) hide
+				(name "RESERVED"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "H2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -48.26 90)
+				(length 2.54) hide
+				(name "AVSS0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "H3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 30.48 27.94 180)
+				(length 2.54)
+				(name "VO0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "H5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -48.26 90)
+				(length 2.54) hide
+				(name "AVSS3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "J3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "nPM6001-CAXX_1_1"
+			(rectangle
+				(start -27.94 45.72)
+				(end 27.94 -45.72)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+	)
 )
