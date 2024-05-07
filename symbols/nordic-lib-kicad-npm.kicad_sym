@@ -840,7 +840,7 @@
 				)
 			)
 			(pin power_in line
-				(at 2.54 -27.94 90)
+				(at 0 -27.94 90)
 				(length 2.54)
 				(name "PVSS"
 					(effects
@@ -1005,7 +1005,7 @@
 			)
 			(pin passive line
 				(at -2.54 -27.94 90)
-				(length 2.54)
+				(length 2.54) hide
 				(name "AVSS"
 					(effects
 						(font
@@ -1040,7 +1040,7 @@
 				)
 			)
 			(pin power_in line
-				(at -5.08 -27.94 90)
+				(at -2.54 -27.94 90)
 				(length 2.54)
 				(name "AVSS"
 					(effects
