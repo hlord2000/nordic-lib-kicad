@@ -11,7 +11,7 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.1)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -64,9 +64,49 @@
 		)
 	)
 	(attr smd)
-	(fp_rect
-		(start -4.05 -4.05)
+	(fp_line
+		(start -4.05 4.05)
+		(end -4.05 -3.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "03e7662e-cdef-471b-91b0-7bb68f64445f")
+	)
+	(fp_line
+		(start -3.1 -4.05)
+		(end 4.05 -4.05)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "efe3fe5b-b866-4237-9023-62f95308860b")
+	)
+	(fp_line
+		(start 4.05 -4.05)
 		(end 4.05 4.05)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b6d986cc-5fe6-42f2-ac9c-8740c119ca22")
+	)
+	(fp_line
+		(start 4.05 4.05)
+		(end -4.05 4.05)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "cdb43a10-926d-495f-a4b0-f145753acc68")
+	)
+	(fp_rect
+		(start -4 -4)
+		(end 4 4)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -97,39 +137,6 @@
 				(thickness 0.15)
 			)
 		)
-	)
-	(dimension
-		(type aligned)
-		(layer "F.SilkS")
-		(uuid "f87b8be2-87cc-4220-8c65-dc462cb9abcb")
-		(pts
-			(xy 0 -3.6) (xy -4 -3.6)
-		)
-		(height 3.1)
-		(gr_text "4.0000 mm"
-			(at -2 -7.8 0)
-			(layer "F.SilkS")
-			(uuid "f87b8be2-87cc-4220-8c65-dc462cb9abcb")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.1)
-				)
-			)
-		)
-		(format
-			(prefix "")
-			(suffix "")
-			(units 3)
-			(units_format 1)
-			(precision 4)
-		)
-		(style
-			(thickness 0.1)
-			(arrow_length 1.27)
-			(text_position_mode 0)
-			(extension_height 0.58642)
-			(extension_offset 0.5) keep_text_aligned)
 	)
 	(pad "1" smd roundrect
 		(at -3.5 -3.5)
@@ -653,17 +660,6 @@
 			(pts
 				(xy -4.5 0.1) (xy 4.5 0.1) (xy 4.5 4.5) (xy -4.5 4.5)
 			)
-		)
-	)
-	(model "C:/Users/helmut/Documents/nordic-lib-kicad/3d/nordic-lib-kicad-nrf53-modules.3dshapes/ISP2053_8x8mm_LGA.stp"
-		(offset
-			(xyz 4 -4 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 180 0 180)
 		)
 	)
 )
