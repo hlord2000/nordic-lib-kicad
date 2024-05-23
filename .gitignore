@@ -32,6 +32,7 @@ fp-info-cache
 libmanagement/*.kicad_prl
 libmanagement/*.kicad_pro
 libmanagement/sym-lib-table
+libmanagement/*
 
 # Backup files
 symbols/*.bak
