@@ -25,7 +25,7 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "LGA_9160_16.0x10.5mm"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
