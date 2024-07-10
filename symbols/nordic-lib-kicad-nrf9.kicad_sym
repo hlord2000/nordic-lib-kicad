@@ -592,7 +592,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at 33.02 -33.02 180)
 				(length 5.08)
 				(name "SDATA"
@@ -610,7 +610,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at 33.02 -30.48 180)
 				(length 5.08)
 				(name "SCLK"
@@ -4524,24 +4524,6 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at -33.02 58.42 0)
-				(length 5.08)
-				(name "ENABLE"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "101"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin power_in line
 				(at 0 -73.66 90)
 				(length 5.08)
@@ -5498,6 +5480,24 @@
 					)
 				)
 			)
+			(pin input line
+				(at -33.02 58.42 0)
+				(length 5.08)
+				(name "ENABLE"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "101"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin power_in line
 				(at -5.08 73.66 270)
 				(length 5.08)
@@ -5769,7 +5769,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -27.94 -48.26 0)
+				(at -25.4 -68.58 90)
 				(length 5.08) hide
 				(name "NC"
 					(effects
@@ -6074,7 +6074,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin input line
 				(at 33.02 -43.18 180)
 				(length 5.08)
 				(name "~{RESET}"
