@@ -1323,7 +1323,7 @@
 				)
 			)
 			(pin power_in line
-				(at -15.24 40.64 270)
+				(at -35.56 33.02 0)
 				(length 5.08)
 				(name "VBUS"
 					(effects
@@ -1341,7 +1341,7 @@
 				)
 			)
 			(pin passive line
-				(at -15.24 40.64 270)
+				(at -35.56 33.02 0)
 				(length 5.08) hide
 				(name "VBUS"
 					(effects
@@ -1449,7 +1449,7 @@
 				)
 			)
 			(pin power_out line
-				(at 12.7 40.64 270)
+				(at 2.54 40.64 270)
 				(length 5.08)
 				(name "VSYS"
 					(effects
@@ -1467,7 +1467,7 @@
 				)
 			)
 			(pin passive line
-				(at 12.7 40.64 270)
+				(at 2.54 40.64 270)
 				(length 5.08) hide
 				(name "VSYS"
 					(effects
@@ -1485,7 +1485,7 @@
 				)
 			)
 			(pin power_out line
-				(at 20.32 40.64 270)
+				(at 35.56 33.02 180)
 				(length 5.08)
 				(name "VBUSOUT"
 					(effects
@@ -1521,7 +1521,7 @@
 				)
 			)
 			(pin power_in line
-				(at 10.16 40.64 270)
+				(at 0 40.64 270)
 				(length 5.08)
 				(name "PVDD"
 					(effects
@@ -1539,7 +1539,7 @@
 				)
 			)
 			(pin power_in line
-				(at -7.62 40.64 270)
+				(at 35.56 -30.48 180)
 				(length 5.08)
 				(name "VBAT"
 					(effects
@@ -1557,7 +1557,7 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 40.64 270)
+				(at 35.56 -30.48 180)
 				(length 5.08) hide
 				(name "VBAT"
 					(effects
@@ -1575,7 +1575,7 @@
 				)
 			)
 			(pin passive line
-				(at 35.56 -27.94 180)
+				(at 35.56 -33.02 180)
 				(length 5.08)
 				(name "NTC"
 					(effects
@@ -1719,7 +1719,7 @@
 				)
 			)
 			(pin power_in line
-				(at 7.62 40.64 270)
+				(at -2.54 40.64 270)
 				(length 5.08)
 				(name "VDDIO"
 					(effects
@@ -1910,7 +1910,7 @@
 				)
 			)
 			(pin power_in line
-				(at 7.62 40.64 270)
+				(at -2.54 40.64 270)
 				(length 5.08)
 				(name "VDDIO"
 					(effects
@@ -2018,7 +2018,7 @@
 				)
 			)
 			(pin passive line
-				(at 35.56 -27.94 180)
+				(at 35.56 -33.02 180)
 				(length 5.08)
 				(name "NTC"
 					(effects
@@ -2036,7 +2036,7 @@
 				)
 			)
 			(pin power_in line
-				(at -7.62 40.64 270)
+				(at 35.56 -30.48 180)
 				(length 5.08)
 				(name "VBAT"
 					(effects
@@ -2054,7 +2054,7 @@
 				)
 			)
 			(pin power_out line
-				(at 12.7 40.64 270)
+				(at 2.54 40.64 270)
 				(length 5.08)
 				(name "VSYS"
 					(effects
@@ -2072,7 +2072,7 @@
 				)
 			)
 			(pin power_in line
-				(at -15.24 40.64 270)
+				(at -35.56 33.02 0)
 				(length 5.08)
 				(name "VBUS"
 					(effects
@@ -2090,7 +2090,7 @@
 				)
 			)
 			(pin power_out line
-				(at 20.32 40.64 270)
+				(at 35.56 33.02 180)
 				(length 5.08)
 				(name "VBUSOUT"
 					(effects
@@ -2306,7 +2306,7 @@
 				)
 			)
 			(pin power_in line
-				(at 10.16 40.64 270)
+				(at 0 40.64 270)
 				(length 5.08)
 				(name "PVDD"
 					(effects
