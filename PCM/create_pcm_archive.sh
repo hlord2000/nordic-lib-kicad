@@ -1,17 +1,26 @@
 #!/bin/sh
-
 # adapted verson taken from https://github.com/Bouni/kicad-jlcpcb-tools/blob/main/PCM/create_pcm_archive.sh
 # heavily inspired by https://github.com/4ms/4ms-kicad-lib/blob/master/PCM/make_archive.sh
-
 VERSION=$1
 
 echo "Clean up old files"
 rm -f PCM/*.zip
 rm -rf PCM/archive
 
-
 echo "Create folder structure for ZIP"
 mkdir -p PCM/archive/resources
+
+echo "Process symbol files to update footprint references"
+find symbols -type f -name "*.kicad_sym" | while read file; do
+    # Create a temporary file
+    temp_file="${file}.tmp"
+    
+    # Process the file and write to temporary file
+    sed 's/(property "Footprint" "nordic-lib-kicad-\([^"]*\)")/(property "Footprint" "PCM_nordic-lib-kicad-\1")/g' "$file" > "$temp_file"
+    
+    # Replace original with temporary file
+    mv "$temp_file" "$file"
+done
 
 echo "Copy files to destination"
 cp VERSION PCM/archive

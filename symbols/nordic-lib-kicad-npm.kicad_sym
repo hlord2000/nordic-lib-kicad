@@ -24,7 +24,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_nordic-lib-kicad-npm:BGA-25_5x5_2.075x2.075mm"
+		(property "Footprint" "nordic-lib-kicad-npm:BGA-25_5x5_2.075x2.075mm"
 			(at -30.48 -27.94 0)
 			(effects
 				(font
@@ -1094,7 +1094,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_nordic-lib-kicad-npm:BGA-35_7x5_3.077x2.3775mm"
+		(property "Footprint" "nordic-lib-kicad-npm:BGA-35_7x5_3.077x2.3775mm"
 			(at 0 53.34 0)
 			(effects
 				(font
@@ -2488,7 +2488,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_nordic-lib-kicad-npm:BGA-45_5x9_2.175x3.635mm"
+		(property "Footprint" "nordic-lib-kicad-npm:BGA-45_5x9_2.175x3.635mm"
 			(at 66.04 22.86 0)
 			(effects
 				(font

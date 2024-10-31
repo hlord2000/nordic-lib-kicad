@@ -24,7 +24,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_nordic-lib-kicad-nrf9:LGA_9151_12.1x11.1mm"
+		(property "Footprint" "nordic-lib-kicad-nrf9:LGA_9151_12.1x11.1mm"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2125,7 +2125,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_nordic-lib-kicad-nrf9:LGA_9160_16.0x10.5mm"
+		(property "Footprint" "nordic-lib-kicad-nrf9:LGA_9160_16.0x10.5mm"
 			(at 0 45.72 0)
 			(effects
 				(font
@@ -4478,7 +4478,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_nordic-lib-kicad-nrf9:LGA_9161_16.0x10.5mm"
+		(property "Footprint" "nordic-lib-kicad-nrf9:LGA_9161_16.0x10.5mm"
 			(at 0 45.72 0)
 			(effects
 				(font

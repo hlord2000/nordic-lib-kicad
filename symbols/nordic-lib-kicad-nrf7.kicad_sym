@@ -973,7 +973,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_nordic-lib-kicad-nrf7:BGA-90_10x9_3.7495x3.385mm"
+		(property "Footprint" "nordic-lib-kicad-nrf7:BGA-90_10x9_3.7495x3.385mm"
 			(at 0 22.86 0)
 			(effects
 				(font

@@ -1276,7 +1276,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_nordic-lib-kicad-nrf53-modules:ISP2053_8x8mm_LGA"
+		(property "Footprint" "nordic-lib-kicad-nrf53-modules:ISP2053_8x8mm_LGA"
 			(at 0 -5.08 0)
 			(effects
 				(font

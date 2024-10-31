@@ -24,7 +24,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_nordic-lib-kicad-nrf54-modules:BM15x-LGA-45_15.8x10mm"
+		(property "Footprint" "nordic-lib-kicad-nrf54-modules:BM15x-LGA-45_15.8x10mm"
 			(at 0 0 0)
 			(effects
 				(font
@@ -910,7 +910,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_nordic-lib-kicad-nrf54-modules:BM20x-LGA-90_15.8x10mm_1"
+		(property "Footprint" "nordic-lib-kicad-nrf54-modules:BM20x-LGA-90_15.8x10mm_1"
 			(at 0 5.08 0)
 			(effects
 				(font

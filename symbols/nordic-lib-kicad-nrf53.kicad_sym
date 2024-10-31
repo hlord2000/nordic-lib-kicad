@@ -24,7 +24,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_nordic-lib-kicad-nrf53:BGA-132_12x11_4.39x3.994mm"
+		(property "Footprint" "nordic-lib-kicad-nrf53:BGA-132_12x11_4.39x3.994mm"
 			(at 2.54 -20.32 0)
 			(effects
 				(font
