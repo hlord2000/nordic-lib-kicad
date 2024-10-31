@@ -1278,4 +1278,15 @@
 		(thermal_bridge_angle 45)
 		(uuid "cce166b5-8c4f-48d2-bc71-edd201281ee0")
 	)
+	(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_hlord2000_nordic-lib-kicad/nordic-lib-kicad-nrf9.3dshapes/LGA_9151_12.1x11.1mm.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
