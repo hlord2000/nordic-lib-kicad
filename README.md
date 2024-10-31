@@ -27,7 +27,7 @@ Then, using the dropdown in the PCM, switch to "hlord2000's KiCAD Repository" an
 
 |             | Symbol | Footprint | 3D Model | KLC Compliant |
 |-------------|--------|-----------|----------|---------------|
-| [nRF9151](https://www.nordicsemi.com/products/nrf9151) LGA |✅|✅|🚧|🚧|
+| [nRF9151](https://www.nordicsemi.com/products/nrf9151) LGA |✅|✅|✅|🚧|
 | [nRF9161](https://www.nordicsemi.com/products/nrf9161) LGA |✅|✅|✅|🚧|
 | [nRF9160](https://www.nordicsemi.com/products/nrf9160) LGA |✅|✅|✅|🚧|
 
