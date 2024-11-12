@@ -521,4 +521,15 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "8ab917cf-3312-4b17-aba9-feecd693389e")
 	)
+	(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_hlord2000_nordic-lib-kicad/nordic-lib-kicad-nrf54l.3dshapes/BGA-47_7x7_2.451x2.245mm.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

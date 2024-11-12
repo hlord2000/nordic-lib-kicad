@@ -45,7 +45,7 @@ Then, using the dropdown in the PCM, switch to "hlord2000's KiCAD Repository" an
 |             | Symbol | Footprint | 3D Model | KLC Compliant |
 |-------------|--------|-----------|----------|---------------|
 | [nRF54L15](https://www.nordicsemi.com/products/nrf54l15) QFN |✅|✅|✅|🚧| 
-| [nRF54L15](https://www.nordicsemi.com/products/nrf54l15) WLCSP |✅|✅|🚧|🚧| 
+| [nRF54L15](https://www.nordicsemi.com/products/nrf54l15) WLCSP |✅|✅|✅|🚧| 
 | [nRF54L10](https://www.nordicsemi.com/products/nrf54l10) QFN |✅|✅|✅|🚧| 
 | [nRF54L05](https://www.nordicsemi.com/products/nrf54l05) QFN |✅|✅|✅|🚧| 
 
