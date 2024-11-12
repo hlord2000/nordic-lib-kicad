@@ -1,4 +1,4 @@
-(footprint "BM20x-LGA-90_15.8x10mm_1"
+(footprint "BM20x-LGA-90_15.8x10mm"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "BM20x-LGA-90_15.8x10mm_1"
+	(property "Value" "BM20x-LGA-90_15.8x10mm"
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")

@@ -8,4 +8,6 @@
   (lib (name "nordic-lib-kicad-nrf53-modules")(type "KiCad")(uri "${KIPRJMOD}/../footprints/nordic-lib-kicad-nrf53-modules.pretty")(options "")(descr ""))
   (lib (name "nordic-lib-kicad-nrf9")(type "KiCad")(uri "${KIPRJMOD}/../footprints/nordic-lib-kicad-nrf9.pretty")(options "")(descr ""))
   (lib (name "nordic-lib-kicad-nrf52-modules")(type "KiCad")(uri "${KIPRJMOD}/../footprints/nordic-lib-kicad-nrf52-modules.pretty")(options "")(descr ""))
+  (lib (name "nordic-lib-kicad-nrf54l")(type "KiCad")(uri "${KIPRJMOD}/../footprints/nordic-lib-kicad-nrf54l.pretty")(options "")(descr ""))
+  (lib (name "nordic-lib-kicad-nrf54-modules")(type "KiCad")(uri "${KIPRJMOD}/../footprints/nordic-lib-kicad-nrf54-modules.pretty")(options "")(descr ""))
 )

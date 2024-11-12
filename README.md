@@ -40,6 +40,15 @@ Then, using the dropdown in the PCM, switch to "hlord2000's KiCAD Repository" an
 | [nRF7001](https://www.nordicsemi.com/products/nrf7001) QFN |✅|✅|✅|🚧| 
 | [nRF7000](https://www.nordicsemi.com/products/nrf7000) QFN |✅|✅|✅|🚧| 
 
+# nRF54L series - Bluetooth Low Energy
+
+|             | Symbol | Footprint | 3D Model | KLC Compliant |
+|-------------|--------|-----------|----------|---------------|
+| [nRF54L15](https://www.nordicsemi.com/products/nrf54l15) QFN |✅|✅|✅|🚧| 
+| [nRF54L15](https://www.nordicsemi.com/products/nrf54l15) WLCSP |✅|✅|🚧|🚧| 
+| [nRF54L10](https://www.nordicsemi.com/products/nrf54l10) QFN |✅|✅|✅|🚧| 
+| [nRF54L05](https://www.nordicsemi.com/products/nrf54l05) QFN |✅|✅|✅|🚧| 
+
  # nRF53 series - Bluetooth Low Energy
 
 |             | Symbol | Footprint | 3D Model | KLC Compliant |
