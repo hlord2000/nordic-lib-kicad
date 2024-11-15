@@ -16,7 +16,7 @@ find symbols -type f -name "*.kicad_sym" | while read file; do
     temp_file="${file}.tmp"
     
     # Process the file and write to temporary file
-    sed 's/(property "Footprint" "nordic-lib-kicad-\([^"]*\)")/(property "Footprint" "PCM_nordic-lib-kicad-\1")/g' "$file" > "$temp_file"
+    sed 's/"nordic-lib-kicad-/"PCM_nordic-lib-kicad-/g' "$file" > "$temp_file"
     
     # Replace original with temporary file
     mv "$temp_file" "$file"
