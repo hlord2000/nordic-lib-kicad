@@ -148,6 +148,56 @@
 		(layer "F.CrtYd")
 		(uuid "ae3264be-dc83-44cb-a327-76c67c00298c")
 	)
+	(fp_line
+		(start -5 -6.9)
+		(end -4 -7.9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "ac99dd19-e3ab-46eb-9651-7b75173e2c27")
+	)
+	(fp_line
+		(start -5 7.9)
+		(end -5 -6.9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "c976646f-276f-448c-835c-fc5ad30bd5bb")
+	)
+	(fp_line
+		(start 5 -7.9)
+		(end -4 -7.9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "be3a4b99-b04b-4ade-aca2-ae1acbe81a85")
+	)
+	(fp_line
+		(start 5 -7.9)
+		(end 5 7.9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "fe901912-6e91-4221-b5a3-369f94a3af24")
+	)
+	(fp_line
+		(start 5 7.9)
+		(end -5 7.9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "4f0757fd-ed91-4524-acb2-b2d8e9ee02ed")
+	)
 	(fp_text user "Antenna Keepout"
 		(at 0 -5.3 0)
 		(unlocked yes)
