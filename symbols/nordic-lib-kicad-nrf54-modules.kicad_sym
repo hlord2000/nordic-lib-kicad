@@ -440,7 +440,7 @@
 				)
 			)
 			(pin input line
-				(at 20.32 -30.48 180)
+				(at 20.32 -25.4 180)
 				(length 2.54)
 				(name "~{RESET}"
 					(effects
@@ -566,7 +566,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 20.32 -27.94 180)
+				(at 20.32 -30.48 180)
 				(length 2.54)
 				(name "SWDIO"
 					(effects
@@ -1857,7 +1857,7 @@
 				)
 			)
 			(pin input line
-				(at -22.86 -45.72 0)
+				(at -22.86 -40.64 0)
 				(length 2.54)
 				(name "~{RESET}"
 					(effects
@@ -2145,7 +2145,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -22.86 -40.64 0)
+				(at -22.86 -45.72 0)
 				(length 2.54)
 				(name "SWDIO"
 					(effects
@@ -2289,7 +2289,7 @@
 				)
 			)
 			(pin input line
-				(at -22.86 -43.18 0)
+				(at -22.86 -48.26 0)
 				(length 2.54)
 				(name "SWDCLK"
 					(effects

@@ -25,7 +25,7 @@
 			)
 		)
 		(property "Footprint" "Package_DFN_QFN:QFN-48-1EP_6x6mm_P0.4mm_EP4.6x4.6mm_ThermalVias"
-			(at 0 17.78 0)
+			(at 0 -50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33,8 +33,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 0 17.78 0)
+		(property "Datasheet" "https://docs.nordicsemi.com/bundle/ps_nrf7001/page/keyfeatures_html5.html"
+			(at 0 -53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42,8 +42,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 0 -2.54 0)
+		(property "Description" "2.4GHz Wi-Fi 6 Companion IC, SSID scanning, Matter support, QFN-48"
+			(at 0 -55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "wifi6 802.11ax matter companion-ic locationing ssid-scan low-power coexistence qfn"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "QFN*1EP*6x6mm*P0.4mm*EP4.6x4.6mm*"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -207,24 +225,6 @@
 					)
 				)
 				(number "17"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -38.1 15.24 0)
-				(length 5.08)
-				(name "XON"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "18"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -430,60 +430,6 @@
 					)
 				)
 			)
-			(pin input line
-				(at -38.1 -2.54 0)
-				(length 5.08)
-				(name "QSPI_SS/SPI_SS"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "36"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -38.1 -5.08 0)
-				(length 5.08)
-				(name "QSPI_DATA0/SPI_MOSI"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "37"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -38.1 -7.62 0)
-				(length 5.08)
-				(name "QSPI_DATA1/SPI_MISO"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "38"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin bidirectional line
 				(at -38.1 -10.16 0)
 				(length 5.08)
@@ -666,6 +612,24 @@
 			)
 		)
 		(symbol "nRF7001-QFXX_1_0"
+			(pin output line
+				(at -38.1 15.24 0)
+				(length 5.08)
+				(name "XON"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "18"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin no_connect line
 				(at 10.16 35.56 270)
 				(length 5.08) hide
@@ -795,7 +759,7 @@
 			(pin input line
 				(at -38.1 0 0)
 				(length 5.08)
-				(name "QSPI_CLK/SPI_CLK"
+				(name "QSPI_CLK"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -809,6 +773,64 @@
 						)
 					)
 				)
+				(alternate "SPI_CLK" input line)
+			)
+			(pin input line
+				(at -38.1 -2.54 0)
+				(length 5.08)
+				(name "~{QSPI_SS}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "36"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "~{SPI_SS}" input line)
+			)
+			(pin bidirectional line
+				(at -38.1 -5.08 0)
+				(length 5.08)
+				(name "QSPI_DATA0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "37"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "SPI_MOSI" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -38.1 -7.62 0)
+				(length 5.08)
+				(name "QSPI_DATA1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "38"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "SPI_MISO" bidirectional line)
 			)
 			(pin no_connect line
 				(at 12.7 35.56 270)
@@ -974,7 +996,7 @@
 			)
 		)
 		(property "Footprint" "nordic-lib-kicad-nrf7:BGA-90_10x9_3.7495x3.385mm"
-			(at 0 22.86 0)
+			(at 0 -50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -982,8 +1004,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 0 22.86 0)
+		(property "Datasheet" "https://docs.nordicsemi.com/bundle/ps_nrf7002/page/keyfeatures_html5.html"
+			(at 0 -53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -991,8 +1013,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at -76.2 53.34 0)
+		(property "Description" "2.4/5GHz Wi-Fi 6 Companion IC, SSID scanning, Matter support, CSP-90"
+			(at 0 -55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "wifi6 802.11ax matter companion-ic locationing ssid-scan low-power coexistence csp"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "BGA?90*10x9*3.7495x3.385mm*"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2212,7 +2252,7 @@
 			(pin bidirectional line
 				(at -38.1 -5.08 0)
 				(length 5.08)
-				(name "QSPI_DATA0/SPI_MOSI"
+				(name "QSPI_DATA0"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2226,11 +2266,12 @@
 						)
 					)
 				)
+				(alternate "SPI_MOSI" bidirectional line)
 			)
 			(pin bidirectional line
 				(at -38.1 -7.62 0)
 				(length 5.08)
-				(name "QSPI_DATA1/SPI_MISO"
+				(name "QSPI_DATA1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2244,11 +2285,12 @@
 						)
 					)
 				)
+				(alternate "SPI_MISO" bidirectional line)
 			)
 			(pin input line
 				(at -38.1 0 0)
 				(length 5.08)
-				(name "QSPI_CLK_SPI_CLK"
+				(name "QSPI_CLK"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2262,11 +2304,12 @@
 						)
 					)
 				)
+				(alternate "SPI_CLK" input line)
 			)
 			(pin input line
 				(at -38.1 -2.54 0)
 				(length 5.08)
-				(name "QSPI_SS/SPI_SS"
+				(name "~{QSPI_SS}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2280,6 +2323,7 @@
 						)
 					)
 				)
+				(alternate "~{SPI_SS}" input line)
 			)
 			(pin bidirectional line
 				(at 38.1 22.86 180)
@@ -2499,7 +2543,7 @@
 			)
 		)
 		(property "Footprint" "Package_DFN_QFN:QFN-48-1EP_6x6mm_P0.4mm_EP4.6x4.6mm_ThermalVias"
-			(at 0 22.86 0)
+			(at 0 -53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2507,8 +2551,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 0 22.86 0)
+		(property "Datasheet" "https://docs.nordicsemi.com/bundle/ps_nrf7002/page/keyfeatures_html5.html"
+			(at 0 -58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2516,8 +2560,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 0 2.54 0)
+		(property "Description" "2.4/5GHz Wi-Fi 6 Companion IC, SSID scanning, Matter support, QFN-48"
+			(at 0 -55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "wifi6 802.11ax matter companion-ic locationing ssid-scan low-power coexistence qfn"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "QFN*1EP*6x6mm*P0.4mm*EP4.6x4.6mm*"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2886,60 +2948,6 @@
 					)
 				)
 			)
-			(pin input line
-				(at -38.1 -2.54 0)
-				(length 5.08)
-				(name "QSPI_SS/SPI_SS"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "36"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -38.1 -5.08 0)
-				(length 5.08)
-				(name "QSPI_DATA0/SPI_MOSI"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "37"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -38.1 -7.62 0)
-				(length 5.08)
-				(name "QSPI_DATA1/SPI_MISO"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "38"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin bidirectional line
 				(at -38.1 -10.16 0)
 				(length 5.08)
@@ -3269,7 +3277,7 @@
 			(pin input line
 				(at -38.1 0 0)
 				(length 5.08)
-				(name "QSPI_CLK/SPI_CLK"
+				(name "QSPI_CLK"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3283,6 +3291,64 @@
 						)
 					)
 				)
+				(alternate "SPI_CLK" input line)
+			)
+			(pin input line
+				(at -38.1 -2.54 0)
+				(length 5.08)
+				(name "~{QSPI_SS}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "36"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "~{SPI_SS}" input line)
+			)
+			(pin bidirectional line
+				(at -38.1 -5.08 0)
+				(length 5.08)
+				(name "QSPI_DATA0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "37"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "SPI_MOSI" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -38.1 -7.62 0)
+				(length 5.08)
+				(name "QSPI_DATA1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "38"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "SPI_MISO" bidirectional line)
 			)
 			(pin no_connect line
 				(at 12.7 35.56 270)
@@ -3426,7 +3492,7 @@
 		)
 	)
 	(symbol "nRF7000-QFXX"
-		(extends "nRF7001-QFXX")
+		(extends "nRF7002-QFXX")
 		(property "Reference" "U"
 			(at 0 0 0)
 			(do_not_autoplace)
@@ -3446,7 +3512,7 @@
 			)
 		)
 		(property "Footprint" "Package_DFN_QFN:QFN-48-1EP_6x6mm_P0.4mm_EP4.6x4.6mm_ThermalVias"
-			(at 0 17.78 0)
+			(at 0 -50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3454,8 +3520,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 0 17.78 0)
+		(property "Datasheet" "https://docs.nordicsemi.com/bundle/ps_nrf7000/page/keyfeatures_html5.html"
+			(at 0 -55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3463,8 +3529,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 0 -2.54 0)
+		(property "Description" "2.4/5GHz Wi-Fi 6 SCAN ONLY Companion IC, SSID scanning, QFN-48"
+			(at 0 -53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "wifi6 802.11ax matter companion-ic locationing ssid-scan low-power coexistence qfn"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "QFN*1EP*6x6mm*P0.4mm*EP4.6x4.6mm*"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)

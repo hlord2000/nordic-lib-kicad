@@ -288,7 +288,7 @@
 				)
 				(alternate "XL1" input line)
 			)
-			(pin output line
+			(pin bidirectional line
 				(at 22.86 0 180)
 				(length 2.54)
 				(name "ANT"
@@ -734,7 +734,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin bidirectional line
 				(at 22.86 0 180)
 				(length 2.54)
 				(name "ANT"
@@ -1473,7 +1473,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin bidirectional line
 				(at 22.86 0 180)
 				(length 2.54)
 				(name "ANT"
@@ -2393,7 +2393,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin bidirectional line
 				(at 22.86 0 180)
 				(length 2.54)
 				(name "ANT"
@@ -3155,7 +3155,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin bidirectional line
 				(at 25.4 0 180)
 				(length 2.54)
 				(name "ANT"
@@ -4093,7 +4093,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin bidirectional line
 				(at 25.4 0 180)
 				(length 2.54)
 				(name "ANT"
@@ -4851,7 +4851,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin bidirectional line
 				(at 30.48 0 180)
 				(length 2.54)
 				(name "ANT"
@@ -5944,7 +5944,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin bidirectional line
 				(at 30.48 0 180)
 				(length 2.54)
 				(name "ANT"
@@ -6911,7 +6911,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin bidirectional line
 				(at 35.56 0 180)
 				(length 2.54)
 				(name "ANT"
@@ -8714,7 +8714,7 @@
 				)
 				(alternate "NFC2" input line)
 			)
-			(pin output line
+			(pin bidirectional line
 				(at 25.4 0 180)
 				(length 2.54)
 				(name "ANT"
@@ -9482,7 +9482,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin bidirectional line
 				(at 33.02 0 180)
 				(length 5.08)
 				(name "ANT"
@@ -10630,7 +10630,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin bidirectional line
 				(at 34.29 0 180)
 				(length 3.81)
 				(name "ANT"
@@ -12424,7 +12424,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin bidirectional line
 				(at 27.94 0 180)
 				(length 2.54)
 				(name "ANT"
@@ -14357,7 +14357,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin bidirectional line
 				(at 33.02 0 180)
 				(length 5.08)
 				(name "ANT"

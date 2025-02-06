@@ -25,7 +25,7 @@
 			)
 		)
 		(property "Footprint" "nordic-lib-kicad-nrf9:LGA_9151_12.1x11.1mm"
-			(at 0 0 0)
+			(at 0 -86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34,6 +34,24 @@
 			)
 		)
 		(property "Datasheet" "https://docs.nordicsemi.com/bundle/ps_nrf9151/page/nRF9151_html5_keyfeatures.html"
+			(at 0 -88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LTE-M/NB-IoT/DECT-NR+ SiP, ARM Cortex-M33, GNSS, LGA-100"
+			(at 0 -91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "cellular iot lte-m nb-iot dect-nr+ non-terrestrial-network gnss trustzone arm microcontroller wireless mesh-networking secure-boot nrf91-series"
 			(at 0 0 0)
 			(effects
 				(font
@@ -42,7 +60,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "ki_fp_filters" "LGA?9151*12.1x11.1mm*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2126,7 +2144,7 @@
 			)
 		)
 		(property "Footprint" "nordic-lib-kicad-nrf9:LGA_9160_16.0x10.5mm"
-			(at 0 45.72 0)
+			(at 0 -83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2135,7 +2153,7 @@
 			)
 		)
 		(property "Datasheet" "https://docs.nordicsemi.com/bundle/ps_nrf9160/page/nRF9160_html5_keyfeatures.html"
-			(at 0 45.72 0)
+			(at 0 -86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2143,7 +2161,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LTE-M/NB-IoT SiP, 1MB Flash, 256KB RAM, Cortex-M33, GNSS, ADC, SPI, I2C, I2S, UART, PDM, PWM, LGA-100"
+			(at 0 -88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "cellular iot lte-m nb-iot gnss trustzone cryptocell arm microcontroller wireless secure-boot esim psa-certified fota nrf91-series lga"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "LGA?9160*16.0x10.5m*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4479,7 +4515,7 @@
 			)
 		)
 		(property "Footprint" "nordic-lib-kicad-nrf9:LGA_9161_16.0x10.5mm"
-			(at 0 45.72 0)
+			(at 0 -83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4487,8 +4523,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://infocenter.nordicsemi.com/topic/ps_nrf9161/nRF9161_html5_keyfeatures.html"
-			(at 0 45.72 0)
+		(property "Datasheet" "https://docs.nordicsemi.com/bundle/ps_nrf9161/page/nRF9161_html5_keyfeatures.html"
+			(at 0 -86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4496,7 +4532,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LTE-M/NB-IoT/DECT-NR+ SiP, ARM Cortex-M33, GNSS, LTE PC3, LGA-100"
+			(at 0 -88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "cellular iot lte-m nb-iot dect-nr+ gnss trustzone arm microcontroller wireless mesh-networking secure-boot nrf91-series lga"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "LGA?9161*16.0x10.5mm*"
 			(at 0 0 0)
 			(effects
 				(font

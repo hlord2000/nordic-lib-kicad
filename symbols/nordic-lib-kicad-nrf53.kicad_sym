@@ -1863,7 +1863,7 @@
 			)
 		)
 		(property "Footprint" "Package_DFN_QFN:Nordic_AQFN-94-1EP_7x7mm_P0.4mm"
-			(at 0 0 0)
+			(at 0 -68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1872,7 +1872,7 @@
 			)
 		)
 		(property "Datasheet" "https://docs-be.nordicsemi.com/bundle/ps_nrf5340/attach/nRF5340_PS_v1.5.pdf"
-			(at 0 0 0)
+			(at 0 -66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1897,10 +1897,19 @@
 				)
 			)
 		)
+		(property "ki_fp_filters" "Nordic?AQFN?94*1EP*7x7mm*P0.4mm*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "nRF5340-QKXX_1_0"
 			(pin no_connect line
-				(at -2.54 63.5 270)
-				(length 7.62) hide
+				(at -2.54 60.96 270)
+				(length 5.08) hide
 				(name "N.C."
 					(effects
 						(font
@@ -1917,8 +1926,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 33.02 7.62 180)
-				(length 7.62)
+				(at 30.48 10.16 180)
+				(length 5.08)
 				(name "P1.13"
 					(effects
 						(font
@@ -1935,8 +1944,8 @@
 				)
 			)
 			(pin no_connect line
-				(at 12.7 63.5 270)
-				(length 7.62) hide
+				(at 12.7 60.96 270)
+				(length 5.08) hide
 				(name "N.C."
 					(effects
 						(font
@@ -1953,8 +1962,8 @@
 				)
 			)
 			(pin no_connect line
-				(at -5.08 63.5 270)
-				(length 7.62) hide
+				(at -5.08 60.96 270)
+				(length 5.08) hide
 				(name "N.C."
 					(effects
 						(font
@@ -1971,9 +1980,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at -33.02 12.7 0)
-				(length 7.62)
-				(name "P0.03/NFC2"
+				(at -30.48 15.24 0)
+				(length 5.08)
+				(name "P0.03"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1987,10 +1996,11 @@
 						)
 					)
 				)
+				(alternate "NFC2" input line)
 			)
 			(pin bidirectional line
-				(at 33.02 -17.78 180)
-				(length 7.62)
+				(at 30.48 -58.42 180)
+				(length 5.08)
 				(name "SWDIO"
 					(effects
 						(font
@@ -2007,9 +2017,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at -33.02 0 0)
-				(length 7.62)
-				(name "P0.06/AIN2"
+				(at -30.48 0 0)
+				(length 5.08)
+				(name "P0.06"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2023,10 +2033,11 @@
 						)
 					)
 				)
+				(alternate "AIN2" input line)
 			)
 			(pin input line
-				(at 33.02 -22.86 180)
-				(length 7.62)
+				(at 30.48 -53.34 180)
+				(length 5.08)
 				(name "~{RESET}"
 					(effects
 						(font
@@ -2043,9 +2054,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at -33.02 -2.54 0)
-				(length 7.62)
-				(name "P0.07/AIN3"
+				(at -30.48 -2.54 0)
+				(length 5.08)
+				(name "P0.07"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2059,11 +2070,12 @@
 						)
 					)
 				)
+				(alternate "AIN3" input line)
 			)
 			(pin bidirectional line
-				(at -33.02 -20.32 0)
-				(length 7.62)
-				(name "P1.02/TWI"
+				(at -30.48 -20.32 0)
+				(length 5.08)
+				(name "P1.02"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2077,11 +2089,12 @@
 						)
 					)
 				)
+				(alternate "TWI" bidirectional line)
 			)
 			(pin bidirectional line
-				(at -33.02 -12.7 0)
-				(length 7.62)
-				(name "P0.28/AIN7"
+				(at -30.48 -12.7 0)
+				(length 5.08)
+				(name "P0.28"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2095,11 +2108,12 @@
 						)
 					)
 				)
+				(alternate "AIN7" input line)
 			)
 			(pin bidirectional line
-				(at -33.02 -22.86 0)
-				(length 7.62)
-				(name "P1.03/TWI"
+				(at -30.48 -22.86 0)
+				(length 5.08)
+				(name "P1.03"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2113,10 +2127,11 @@
 						)
 					)
 				)
+				(alternate "TWI" bidirectional line)
 			)
 			(pin no_connect line
-				(at 0 63.5 270)
-				(length 7.62) hide
+				(at 0 60.96 270)
+				(length 5.08) hide
 				(name "N.C."
 					(effects
 						(font
@@ -2133,9 +2148,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at -33.02 -55.88 0)
-				(length 7.62)
-				(name "P0.08/TRACEDATA3/SCK"
+				(at -30.48 -55.88 0)
+				(length 5.08)
+				(name "P0.08"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2149,11 +2164,13 @@
 						)
 					)
 				)
+				(alternate "HS_SPI_SCK" output line)
+				(alternate "TRACEDATA[3]" bidirectional line)
 			)
 			(pin bidirectional line
-				(at -33.02 -50.8 0)
-				(length 7.62)
-				(name "P0.09/TRACEDATA2/MOSI"
+				(at -30.48 -50.8 0)
+				(length 5.08)
+				(name "P0.09"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2167,11 +2184,13 @@
 						)
 					)
 				)
+				(alternate "HS_SPI_MOSI" output line)
+				(alternate "TRACEDATA[2]" output line)
 			)
 			(pin bidirectional line
-				(at -33.02 -35.56 0)
-				(length 7.62)
-				(name "P0.15/IO2"
+				(at -30.48 -35.56 0)
+				(length 5.08)
+				(name "P0.15"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2185,11 +2204,12 @@
 						)
 					)
 				)
+				(alternate "QSPI_IO2" bidirectional line)
 			)
 			(pin bidirectional line
-				(at -33.02 -40.64 0)
-				(length 7.62)
-				(name "P0.17/SCK"
+				(at -30.48 -40.64 0)
+				(length 5.08)
+				(name "P0.17"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2203,11 +2223,12 @@
 						)
 					)
 				)
+				(alternate "QSPI_SCK" input line)
 			)
 			(pin bidirectional line
-				(at -33.02 -43.18 0)
-				(length 7.62)
-				(name "P0.18/~{CS}"
+				(at -30.48 -43.18 0)
+				(length 5.08)
+				(name "P0.18"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2221,10 +2242,11 @@
 						)
 					)
 				)
+				(alternate "QSPI_~{CS}" input line)
 			)
 			(pin bidirectional line
-				(at 33.02 55.88 180)
-				(length 7.62)
+				(at 30.48 58.42 180)
+				(length 5.08)
 				(name "P0.20"
 					(effects
 						(font
@@ -2241,8 +2263,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 33.02 50.8 180)
-				(length 7.62)
+				(at 30.48 53.34 180)
+				(length 5.08)
 				(name "P0.22"
 					(effects
 						(font
@@ -2259,9 +2281,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at -33.02 -53.34 0)
-				(length 7.62)
-				(name "P0.10/TRACEDATA1/MISO"
+				(at -30.48 -53.34 0)
+				(length 5.08)
+				(name "P0.10"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2275,10 +2297,12 @@
 						)
 					)
 				)
+				(alternate "HS_SPI_MISO" input line)
+				(alternate "TRACEDATA[1]" output line)
 			)
 			(pin bidirectional line
-				(at 33.02 48.26 180)
-				(length 7.62)
+				(at 30.48 50.8 180)
+				(length 5.08)
 				(name "P0.23"
 					(effects
 						(font
@@ -2295,8 +2319,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 33.02 27.94 180)
-				(length 7.62)
+				(at 30.48 30.48 180)
+				(length 5.08)
 				(name "P1.05"
 					(effects
 						(font
@@ -2313,8 +2337,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 33.02 22.86 180)
-				(length 7.62)
+				(at 30.48 25.4 180)
+				(length 5.08)
 				(name "P1.07"
 					(effects
 						(font
@@ -2331,8 +2355,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 33.02 17.78 180)
-				(length 7.62)
+				(at 30.48 20.32 180)
+				(length 5.08)
 				(name "P1.09"
 					(effects
 						(font
@@ -2349,9 +2373,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at -33.02 -5.08 0)
-				(length 7.62)
-				(name "P0.25/AIN4"
+				(at -30.48 -5.08 0)
+				(length 5.08)
+				(name "P0.25"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2365,11 +2389,12 @@
 						)
 					)
 				)
+				(alternate "AIN4" input line)
 			)
 			(pin bidirectional line
-				(at -33.02 -10.16 0)
-				(length 7.62)
-				(name "P0.27/AIN6"
+				(at -30.48 -10.16 0)
+				(length 5.08)
+				(name "P0.27"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2383,11 +2408,12 @@
 						)
 					)
 				)
+				(alternate "AIN6" input line)
 			)
 			(pin bidirectional line
-				(at -33.02 -58.42 0)
-				(length 7.62)
-				(name "P0.11/TRACEDATA0/~{CS}"
+				(at -30.48 -58.42 0)
+				(length 5.08)
+				(name "P0.11"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2401,11 +2427,13 @@
 						)
 					)
 				)
+				(alternate "HS_SPI_~{CS}" input line)
+				(alternate "TRACEDATA[0]" output line)
 			)
 			(pin bidirectional line
-				(at -33.02 -60.96 0)
-				(length 7.62)
-				(name "P0.12/TRACECLK/DCX"
+				(at -30.48 -60.96 0)
+				(length 5.08)
+				(name "P0.12"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2419,11 +2447,13 @@
 						)
 					)
 				)
+				(alternate "HS_SPI_DCX" output line)
+				(alternate "TRACECLK" input line)
 			)
 			(pin bidirectional line
-				(at -33.02 -33.02 0)
-				(length 7.62)
-				(name "P0.14/IO1"
+				(at -30.48 -33.02 0)
+				(length 5.08)
+				(name "P0.14"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2437,10 +2467,11 @@
 						)
 					)
 				)
+				(alternate "QSPI_IO1" bidirectional line)
 			)
 			(pin no_connect line
-				(at -7.62 63.5 270)
-				(length 7.62) hide
+				(at -7.62 60.96 270)
+				(length 5.08) hide
 				(name "N.C."
 					(effects
 						(font
@@ -2457,8 +2488,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 33.02 58.42 180)
-				(length 7.62)
+				(at 30.48 60.96 180)
+				(length 5.08)
 				(name "P0.19"
 					(effects
 						(font
@@ -2475,8 +2506,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 33.02 53.34 180)
-				(length 7.62)
+				(at 30.48 55.88 180)
+				(length 5.08)
 				(name "P0.21"
 					(effects
 						(font
@@ -2493,8 +2524,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 33.02 30.48 180)
-				(length 7.62)
+				(at 30.48 33.02 180)
+				(length 5.08)
 				(name "P1.04"
 					(effects
 						(font
@@ -2511,8 +2542,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 33.02 25.4 180)
-				(length 7.62)
+				(at 30.48 27.94 180)
+				(length 5.08)
 				(name "P1.06"
 					(effects
 						(font
@@ -2529,8 +2560,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 33.02 20.32 180)
-				(length 7.62)
+				(at 30.48 22.86 180)
+				(length 5.08)
 				(name "P1.08"
 					(effects
 						(font
@@ -2547,8 +2578,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 33.02 45.72 180)
-				(length 7.62)
+				(at 30.48 48.26 180)
+				(length 5.08)
 				(name "P0.24"
 					(effects
 						(font
@@ -2565,9 +2596,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at -33.02 -7.62 0)
-				(length 7.62)
-				(name "P0.26/AIN5"
+				(at -30.48 -7.62 0)
+				(length 5.08)
+				(name "P0.26"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2581,10 +2612,11 @@
 						)
 					)
 				)
+				(alternate "AIN5" input line)
 			)
 			(pin no_connect line
-				(at -10.16 63.5 270)
-				(length 7.62) hide
+				(at -10.16 60.96 270)
+				(length 5.08) hide
 				(name "N.C."
 					(effects
 						(font
@@ -2601,9 +2633,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at -33.02 -30.48 0)
-				(length 7.62)
-				(name "P0.13/IO0"
+				(at -30.48 -30.48 0)
+				(length 5.08)
+				(name "P0.13"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2617,11 +2649,12 @@
 						)
 					)
 				)
+				(alternate "QSPI_IO0" bidirectional line)
 			)
 			(pin bidirectional line
-				(at -33.02 -38.1 0)
-				(length 7.62)
-				(name "P0.16/IO3"
+				(at -30.48 -38.1 0)
+				(length 5.08)
+				(name "P0.16"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2635,10 +2668,11 @@
 						)
 					)
 				)
+				(alternate "QSPI_IO3" bidirectional line)
 			)
 			(pin no_connect line
-				(at 10.16 63.5 270)
-				(length 7.62) hide
+				(at 10.16 60.96 270)
+				(length 5.08) hide
 				(name "N.C."
 					(effects
 						(font
@@ -2655,8 +2689,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 33.02 2.54 180)
-				(length 7.62)
+				(at 30.48 5.08 180)
+				(length 5.08)
 				(name "P1.15"
 					(effects
 						(font
@@ -2673,8 +2707,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 33.02 5.08 180)
-				(length 7.62)
+				(at 30.48 7.62 180)
+				(length 5.08)
 				(name "P1.14"
 					(effects
 						(font
@@ -2691,8 +2725,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 33.02 10.16 180)
-				(length 7.62)
+				(at 30.48 12.7 180)
+				(length 5.08)
 				(name "P1.12"
 					(effects
 						(font
@@ -2709,8 +2743,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -33.02 25.4 0)
-				(length 7.62)
+				(at -30.48 60.96 0)
+				(length 5.08)
 				(name "D+"
 					(effects
 						(font
@@ -2727,8 +2761,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 33.02 12.7 180)
-				(length 7.62)
+				(at 30.48 15.24 180)
+				(length 5.08)
 				(name "P1.11"
 					(effects
 						(font
@@ -2745,8 +2779,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 33.02 38.1 180)
-				(length 7.62)
+				(at 30.48 40.64 180)
+				(length 5.08)
 				(name "P0.31"
 					(effects
 						(font
@@ -2763,8 +2797,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 33.02 40.64 180)
-				(length 7.62)
+				(at 30.48 43.18 180)
+				(length 5.08)
 				(name "P0.30"
 					(effects
 						(font
@@ -2781,8 +2815,8 @@
 				)
 			)
 			(pin no_connect line
-				(at 7.62 63.5 270)
-				(length 7.62) hide
+				(at 7.62 60.96 270)
+				(length 5.08) hide
 				(name "N.C."
 					(effects
 						(font
@@ -2798,9 +2832,9 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at -33.02 53.34 0)
-				(length 7.62)
+			(pin input line
+				(at -30.48 45.72 0)
+				(length 5.08)
 				(name "XC2"
 					(effects
 						(font
@@ -2817,8 +2851,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -33.02 22.86 0)
-				(length 7.62)
+				(at -30.48 58.42 0)
+				(length 5.08)
 				(name "D-"
 					(effects
 						(font
@@ -2834,9 +2868,9 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at -33.02 58.42 0)
-				(length 7.62)
+			(pin input line
+				(at -30.48 50.8 0)
+				(length 5.08)
 				(name "XC1"
 					(effects
 						(font
@@ -2853,8 +2887,8 @@
 				)
 			)
 			(pin no_connect line
-				(at 5.08 63.5 270)
-				(length 7.62) hide
+				(at 5.08 60.96 270)
+				(length 5.08) hide
 				(name "N.C."
 					(effects
 						(font
@@ -2871,8 +2905,8 @@
 				)
 			)
 			(pin no_connect line
-				(at -20.32 63.5 270)
-				(length 7.62) hide
+				(at -20.32 60.96 270)
+				(length 5.08) hide
 				(name "N.C."
 					(effects
 						(font
@@ -2889,8 +2923,8 @@
 				)
 			)
 			(pin no_connect line
-				(at 15.24 63.5 270)
-				(length 7.62) hide
+				(at 15.24 60.96 270)
+				(length 5.08) hide
 				(name "N.C."
 					(effects
 						(font
@@ -2907,8 +2941,8 @@
 				)
 			)
 			(pin no_connect line
-				(at -12.7 63.5 270)
-				(length 7.62) hide
+				(at -12.7 60.96 270)
+				(length 5.08) hide
 				(name "N.C."
 					(effects
 						(font
@@ -2925,8 +2959,8 @@
 				)
 			)
 			(pin no_connect line
-				(at -15.24 63.5 270)
-				(length 7.62) hide
+				(at -15.24 60.96 270)
+				(length 5.08) hide
 				(name "N.C."
 					(effects
 						(font
@@ -2943,8 +2977,8 @@
 				)
 			)
 			(pin no_connect line
-				(at -17.78 63.5 270)
-				(length 7.62) hide
+				(at -17.78 60.96 270)
+				(length 5.08) hide
 				(name "N.C."
 					(effects
 						(font
@@ -2961,8 +2995,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 33.02 -7.62 180)
-				(length 7.62)
+				(at 30.48 -7.62 180)
+				(length 5.08)
 				(name "ANT"
 					(effects
 						(font
@@ -2979,8 +3013,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 33.02 35.56 180)
-				(length 7.62)
+				(at 30.48 38.1 180)
+				(length 5.08)
 				(name "P1.00"
 					(effects
 						(font
@@ -2997,9 +3031,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at -33.02 43.18 0)
-				(length 7.62)
-				(name "P0.00/XL1"
+				(at -30.48 35.56 0)
+				(length 5.08)
+				(name "P0.00"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3013,10 +3047,11 @@
 						)
 					)
 				)
+				(alternate "XL1" input line)
 			)
 			(pin bidirectional line
-				(at 33.02 33.02 180)
-				(length 7.62)
+				(at 30.48 35.56 180)
+				(length 5.08)
 				(name "P1.01"
 					(effects
 						(font
@@ -3033,9 +3068,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at -33.02 38.1 0)
-				(length 7.62)
-				(name "P0.01/XL2"
+				(at -30.48 30.48 0)
+				(length 5.08)
+				(name "P0.01"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3049,10 +3084,11 @@
 						)
 					)
 				)
+				(alternate "XL2" input line)
 			)
 			(pin bidirectional line
-				(at 33.02 15.24 180)
-				(length 7.62)
+				(at 30.48 17.78 180)
+				(length 5.08)
 				(name "P1.10"
 					(effects
 						(font
@@ -3069,8 +3105,8 @@
 				)
 			)
 			(pin no_connect line
-				(at 2.54 63.5 270)
-				(length 7.62) hide
+				(at 2.54 60.96 270)
+				(length 5.08) hide
 				(name "N.C."
 					(effects
 						(font
@@ -3087,8 +3123,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 33.02 43.18 180)
-				(length 7.62)
+				(at 30.48 45.72 180)
+				(length 5.08)
 				(name "P0.29"
 					(effects
 						(font
@@ -3105,9 +3141,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at -33.02 5.08 0)
-				(length 7.62)
-				(name "P0.04/AIN0"
+				(at -30.48 5.08 0)
+				(length 5.08)
+				(name "P0.04"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3121,11 +3157,12 @@
 						)
 					)
 				)
+				(alternate "AIN0" input line)
 			)
 			(pin bidirectional line
-				(at -33.02 15.24 0)
-				(length 7.62)
-				(name "P0.02/NFC1"
+				(at -30.48 20.32 0)
+				(length 5.08)
+				(name "P0.02"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3139,10 +3176,11 @@
 						)
 					)
 				)
+				(alternate "NFC1" input line)
 			)
 			(pin input line
-				(at 33.02 -20.32 180)
-				(length 7.62)
+				(at 30.48 -60.96 180)
+				(length 5.08)
 				(name "SWDCLK"
 					(effects
 						(font
@@ -3159,9 +3197,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at -33.02 2.54 0)
-				(length 7.62)
-				(name "P0.05/AIN1"
+				(at -30.48 2.54 0)
+				(length 5.08)
+				(name "P0.05"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3175,6 +3213,7 @@
 						)
 					)
 				)
+				(alternate "AIN1" input line)
 			)
 		)
 		(symbol "nRF5340-QKXX_1_1"
@@ -3200,27 +3239,9 @@
 			)
 		)
 		(symbol "nRF5340-QKXX_2_0"
-			(pin power_in line
-				(at 0 -22.86 90)
-				(length 7.62)
-				(name "VSS"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "104"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin passive line
-				(at 25.4 7.62 180)
-				(length 7.62)
+				(at 22.86 7.62 180)
+				(length 5.08)
 				(name "DECA"
 					(effects
 						(font
@@ -3237,8 +3258,8 @@
 				)
 			)
 			(pin passive line
-				(at -25.4 -10.16 0)
-				(length 7.62)
+				(at -22.86 -10.16 0)
+				(length 5.08)
 				(name "DECD"
 					(effects
 						(font
@@ -3255,8 +3276,8 @@
 				)
 			)
 			(pin passive line
-				(at -2.54 22.86 270)
-				(length 7.62) hide
+				(at -2.54 20.32 270)
+				(length 5.08) hide
 				(name "VDD"
 					(effects
 						(font
@@ -3273,8 +3294,8 @@
 				)
 			)
 			(pin passive line
-				(at -25.4 7.62 0)
-				(length 7.62)
+				(at -22.86 7.62 0)
+				(length 5.08)
 				(name "DCC"
 					(effects
 						(font
@@ -3291,8 +3312,8 @@
 				)
 			)
 			(pin passive line
-				(at 25.4 5.08 180)
-				(length 7.62)
+				(at 22.86 5.08 180)
+				(length 5.08)
 				(name "DECN"
 					(effects
 						(font
@@ -3309,8 +3330,8 @@
 				)
 			)
 			(pin passive line
-				(at -25.4 2.54 0)
-				(length 7.62)
+				(at -22.86 2.54 0)
+				(length 5.08)
 				(name "DECR"
 					(effects
 						(font
@@ -3327,8 +3348,8 @@
 				)
 			)
 			(pin power_in line
-				(at 2.54 22.86 270)
-				(length 7.62)
+				(at 2.54 20.32 270)
+				(length 5.08)
 				(name "VBUS"
 					(effects
 						(font
@@ -3345,8 +3366,8 @@
 				)
 			)
 			(pin passive line
-				(at -2.54 22.86 270)
-				(length 7.62) hide
+				(at -2.54 20.32 270)
+				(length 5.08) hide
 				(name "VDD"
 					(effects
 						(font
@@ -3363,8 +3384,8 @@
 				)
 			)
 			(pin passive line
-				(at -2.54 22.86 270)
-				(length 7.62) hide
+				(at -2.54 20.32 270)
+				(length 5.08) hide
 				(name "VDD"
 					(effects
 						(font
@@ -3381,8 +3402,8 @@
 				)
 			)
 			(pin passive line
-				(at -2.54 22.86 270)
-				(length 7.62) hide
+				(at -2.54 20.32 270)
+				(length 5.08) hide
 				(name "VDD"
 					(effects
 						(font
@@ -3399,8 +3420,8 @@
 				)
 			)
 			(pin passive line
-				(at -2.54 22.86 270)
-				(length 7.62) hide
+				(at -2.54 20.32 270)
+				(length 5.08) hide
 				(name "VDD"
 					(effects
 						(font
@@ -3417,8 +3438,8 @@
 				)
 			)
 			(pin passive line
-				(at -2.54 22.86 270)
-				(length 7.62) hide
+				(at -2.54 20.32 270)
+				(length 5.08) hide
 				(name "VDD"
 					(effects
 						(font
@@ -3435,8 +3456,8 @@
 				)
 			)
 			(pin passive line
-				(at -2.54 22.86 270)
-				(length 7.62) hide
+				(at -2.54 20.32 270)
+				(length 5.08) hide
 				(name "VDD"
 					(effects
 						(font
@@ -3453,8 +3474,8 @@
 				)
 			)
 			(pin passive line
-				(at -2.54 22.86 270)
-				(length 7.62) hide
+				(at -2.54 20.32 270)
+				(length 5.08) hide
 				(name "VDD"
 					(effects
 						(font
@@ -3471,8 +3492,8 @@
 				)
 			)
 			(pin passive line
-				(at -2.54 22.86 270)
-				(length 7.62) hide
+				(at -2.54 20.32 270)
+				(length 5.08) hide
 				(name "VDD"
 					(effects
 						(font
@@ -3489,8 +3510,8 @@
 				)
 			)
 			(pin passive line
-				(at -25.4 -5.08 0)
-				(length 7.62)
+				(at -22.86 -5.08 0)
+				(length 5.08)
 				(name "DCCD"
 					(effects
 						(font
@@ -3507,8 +3528,8 @@
 				)
 			)
 			(pin passive line
-				(at -2.54 22.86 270)
-				(length 7.62) hide
+				(at -2.54 20.32 270)
+				(length 5.08) hide
 				(name "VDD"
 					(effects
 						(font
@@ -3525,8 +3546,8 @@
 				)
 			)
 			(pin passive line
-				(at 25.4 -7.62 180)
-				(length 7.62)
+				(at 22.86 -7.62 180)
+				(length 5.08)
 				(name "DECUSB"
 					(effects
 						(font
@@ -3543,8 +3564,8 @@
 				)
 			)
 			(pin power_in line
-				(at -2.54 22.86 270)
-				(length 7.62)
+				(at -2.54 20.32 270)
+				(length 5.08)
 				(name "VDD"
 					(effects
 						(font
@@ -3561,8 +3582,8 @@
 				)
 			)
 			(pin passive line
-				(at -2.54 22.86 270)
-				(length 7.62) hide
+				(at -2.54 20.32 270)
+				(length 5.08) hide
 				(name "VDD"
 					(effects
 						(font
@@ -3579,8 +3600,8 @@
 				)
 			)
 			(pin power_in line
-				(at 0 22.86 270)
-				(length 7.62)
+				(at 0 20.32 270)
+				(length 5.08)
 				(name "VDDH"
 					(effects
 						(font
@@ -3597,8 +3618,8 @@
 				)
 			)
 			(pin passive line
-				(at -2.54 22.86 270)
-				(length 7.62) hide
+				(at -2.54 20.32 270)
+				(length 5.08) hide
 				(name "VDD"
 					(effects
 						(font
@@ -3614,9 +3635,27 @@
 					)
 				)
 			)
+			(pin power_in line
+				(at 0 -20.32 90)
+				(length 5.08)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "EP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin passive line
-				(at -25.4 0 0)
-				(length 7.62)
+				(at -22.86 0 0)
+				(length 5.08)
 				(name "DECRF"
 					(effects
 						(font
@@ -3633,8 +3672,8 @@
 				)
 			)
 			(pin passive line
-				(at 25.4 -5.08 180)
-				(length 7.62)
+				(at 22.86 -5.08 180)
+				(length 5.08)
 				(name "DCCH"
 					(effects
 						(font
@@ -3651,8 +3690,8 @@
 				)
 			)
 			(pin passive line
-				(at -2.54 22.86 270)
-				(length 7.62) hide
+				(at -2.54 20.32 270)
+				(length 5.08) hide
 				(name "VDD"
 					(effects
 						(font
@@ -3669,8 +3708,8 @@
 				)
 			)
 			(pin passive line
-				(at -2.54 22.86 270)
-				(length 7.62) hide
+				(at -2.54 20.32 270)
+				(length 5.08) hide
 				(name "VDD"
 					(effects
 						(font
@@ -3687,8 +3726,8 @@
 				)
 			)
 			(pin passive line
-				(at -2.54 22.86 270)
-				(length 7.62) hide
+				(at -2.54 20.32 270)
+				(length 5.08) hide
 				(name "VDD"
 					(effects
 						(font
