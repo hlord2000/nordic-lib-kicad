@@ -27,7 +27,7 @@ cp VERSION PCM/archive
 cp -r footprints PCM/archive
 cp -r symbols PCM/archive
 cp -r 3dmodels PCM/archive
-cp -r design_blocks PCM/archive
+cp -r blocks PCM/archive
 cp PCM/icon.png PCM/archive/resources
 cp PCM/metadata.template.json PCM/archive/metadata.json
 
