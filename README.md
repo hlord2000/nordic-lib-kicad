@@ -36,7 +36,7 @@ Then, using the dropdown in the PCM, switch to "hlord2000's KiCad Repository" an
 |             | Symbol | Footprint | Reference Design Block | 3D Model | KLC Compliant |
 |-------------|--------|-----------|------------------------|----------|---------------|
 | [nRF7002](https://www.nordicsemi.com/products/nrf7002) QFN |✅|✅|🚧|✅|🚧| 
-| [nRF7002](https://www.nordicsemi.com/products/nrf7002) WLCSP |✅|✅|🚧|🚧|🚧| 
+| [nRF7002](https://www.nordicsemi.com/products/nrf7002) WLCSP |✅|✅|🚧|✅|🚧| 
 | [nRF7001](https://www.nordicsemi.com/products/nrf7001) QFN |✅|✅|🚧|✅|🚧| 
 | [nRF7000](https://www.nordicsemi.com/products/nrf7000) QFN |✅|✅|🚧|✅|🚧| 
 
