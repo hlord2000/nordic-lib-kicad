@@ -1,25 +1,25 @@
-# Nordic Semiconductor KiCAD Library
+# Nordic Semiconductor KiCad Library
 
 [![GitHub stars](https://img.shields.io/github/stars/hlord2000/nordic-lib-kicad)](https://github.com/hlord2000/nordic-lib-kicad/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/hlord2000/nordic-lib-kicad)](https://github.com/hlord2000/nordic-lib-kicad/network)
 [![GitHub issues](https://img.shields.io/github/issues/hlord2000/nordic-lib-kicad)](https://github.com/hlord2000/nordic-lib-kicad/issues)
 ---
-# A KiCAD 8 library for all modern Nordic Semiconductor parts.
+# A KiCad 9 library for all modern Nordic Semiconductor parts.
 <p align="center">
   <img src="img/img.png" alt="centered image" />
 </p>
 
-KLC compliance is established using KiCAD's official scripts within the "kicad-library-utils" folder and the "lib_check.sh" script
+KLC compliance is established using KiCad's official scripts within the "kicad-library-utils" folder and the "lib_check.sh" script
 
 Compliance for the purposes of this library is defined as zero errors for footprints and symbols. Reasonable warnings about pin position or names may be accepted.
 
 ## Installation instructions
 
-Open the KiCAD Plugin and Content Manager (PCM), click "Manage..." in the top right, and add the following URL to your list of repositories:
+Open the KiCad Plugin and Content Manager (PCM), click "Manage..." in the top right, and add the following URL to your list of repositories:
 ```
 https://raw.githubusercontent.com/hlord2000/hlord2000-kicad-repository/main/repository.json
 ```
-Then, using the dropdown in the PCM, switch to "hlord2000's KiCAD Repository" and click on the "Libraries" tab.
+Then, using the dropdown in the PCM, switch to "hlord2000's KiCad Repository" and click on the "Libraries" tab.
 
 ## Seeking pull-requests for any footprint/symbol/reference design block/3D model marked 🚧
 
@@ -89,6 +89,8 @@ Then, using the dropdown in the PCM, switch to "hlord2000's KiCAD Repository" an
 |             | Symbol | Footprint | Reference Design Block | 3D Model | KLC Compliant |
 |-------------|--------|-----------|------------------------|----------|---------------|
 | [nPM6001](https://www.nordicsemi.com/products/nPM6001) WLCSP |✅|✅|🚧|🚧|✅| 
+| [nPM2100](https://www.nordicsemi.com/products/nPM2100) WLCSP |✅|✅|🚧|✅|✅| 
+| [nPM2100](https://www.nordicsemi.com/products/nPM2100) QFN |✅|✅|🚧|✅|✅| 
 | [nPM1300](https://www.nordicsemi.com/products/nPM1300) WLCSP |✅|✅|🚧|🚧|✅| 
 | [nPM1300](https://www.nordicsemi.com/products/nPM1300) QFN |✅|✅|🚧|✅|✅| 
 | [nPM1100](https://www.nordicsemi.com/products/nPM1100) WLCSP |✅|✅|🚧|🚧|✅| 
