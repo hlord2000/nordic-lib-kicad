@@ -44,10 +44,16 @@ Then, using the dropdown in the PCM, switch to "hlord2000's KiCad Repository" an
 
 |             | Symbol | Footprint | Reference Design Block | 3D Model | KLC Compliant |
 |-------------|--------|-----------|------------------------|----------|---------------|
-| [nRF54L15](https://www.nordicsemi.com/products/nrf54l15) QFN |✅|✅|✅|✅|🚧| 
+| [nRF54L15](https://www.nordicsemi.com/products/nrf54l15) QFN-52 |✅|✅|✅|✅|🚧| 
+| [nRF54L15](https://www.nordicsemi.com/products/nrf54l15) QFN-48 |✅|✅|✅|✅|🚧| 
+| [nRF54L15](https://www.nordicsemi.com/products/nrf54l15) QFN-40 |✅|✅|✅|✅|🚧| 
 | [nRF54L15](https://www.nordicsemi.com/products/nrf54l15) WLCSP |✅|✅|✅|✅|🚧| 
-| [nRF54L10](https://www.nordicsemi.com/products/nrf54l10) QFN |✅|✅|✅|✅|🚧| 
-| [nRF54L05](https://www.nordicsemi.com/products/nrf54l05) QFN |✅|✅|✅|✅|🚧| 
+| [nRF54L10](https://www.nordicsemi.com/products/nrf54l10) QFN-52 |✅|✅|✅|✅|🚧| 
+| [nRF54L10](https://www.nordicsemi.com/products/nrf54l10) QFN-48 |✅|✅|✅|✅|🚧| 
+| [nRF54L10](https://www.nordicsemi.com/products/nrf54l10) QFN-40 |✅|✅|✅|✅|🚧| 
+| [nRF54L05](https://www.nordicsemi.com/products/nrf54l05) QFN-52 |✅|✅|✅|✅|🚧| 
+| [nRF54L05](https://www.nordicsemi.com/products/nrf54l05) QFN-48 |✅|✅|✅|✅|🚧| 
+| [nRF54L05](https://www.nordicsemi.com/products/nrf54l05) QFN-40 |✅|✅|✅|✅|🚧| 
 
  # nRF53 series - Bluetooth Low Energy
 
