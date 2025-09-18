@@ -44,6 +44,8 @@ Then, using the dropdown in the PCM, switch to "hlord2000's KiCad Repository" an
 
 |             | Symbol | Footprint | Reference Design Block | 3D Model | KLC Compliant |
 |-------------|--------|-----------|------------------------|----------|---------------|
+| [nRF54LM20A](https://www.nordicsemi.com/Products/nRF54LM20A) QFN-52 |✅|✅|✅|✅|🚧| 
+| [nRF54LM20A](https://www.nordicsemi.com/Products/nRF54LM20A) FCCSP |✅|✅|✅|✅|🚧| 
 | [nRF54L15](https://www.nordicsemi.com/products/nrf54l15) QFN-52 |✅|✅|✅|✅|🚧| 
 | [nRF54L15](https://www.nordicsemi.com/products/nrf54l15) QFN-48 |✅|✅|✅|✅|🚧| 
 | [nRF54L15](https://www.nordicsemi.com/products/nrf54l15) QFN-40 |✅|✅|✅|✅|🚧| 
