@@ -4346,7 +4346,6 @@
 		(on_board yes)
 		(property "Reference" "U"
 			(at 0 1.27 0)
-			(do_not_autoplace)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4355,7 +4354,6 @@
 		)
 		(property "Value" "nRF54LM20A-PAXX"
 			(at 0 -1.27 0)
-			(do_not_autoplace)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4371,7 +4369,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://docs-be.nordicsemi.com/bundle/ps_nrf54LM20A/page/pdf/nRF54LM20A_Preliminary_Datasheet_v0.7.pdf"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4417,7 +4415,7 @@
 				)
 			)
 			(pin input line
-				(at -19.05 2.54 0)
+				(at -19.05 15.24 0)
 				(length 3.81)
 				(name "XC1"
 					(effects
@@ -4435,7 +4433,7 @@
 				)
 			)
 			(pin output line
-				(at -19.05 -2.54 0)
+				(at -19.05 10.16 0)
 				(length 3.81)
 				(name "XC2"
 					(effects
@@ -4451,6 +4449,44 @@
 						)
 					)
 				)
+			)
+			(pin bidirectional line
+				(at -19.05 2.54 0)
+				(length 3.81)
+				(name "P1.20"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "XL1" input line)
+			)
+			(pin bidirectional line
+				(at -19.05 -2.54 0)
+				(length 3.81)
+				(name "P1.21"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "XL2" output line)
 			)
 			(pin bidirectional line
 				(at -19.05 -12.7 0)
@@ -4900,7 +4936,7 @@
 				)
 			)
 			(pin passive line
-				(at 19.05 12.7 180)
+				(at 19.05 7.62 180)
 				(length 3.81)
 				(name "DECRF"
 					(effects
@@ -4918,7 +4954,7 @@
 				)
 			)
 			(pin passive line
-				(at 19.05 0 180)
+				(at 19.05 -10.16 180)
 				(length 3.81)
 				(name "ANT"
 					(effects
@@ -5200,7 +5236,7 @@
 		)
 		(symbol "nRF54LM20A-PAXX_3_0"
 			(pin bidirectional line
-				(at 19.05 39.37 180)
+				(at 19.05 36.83 180)
 				(length 3.81)
 				(name "P1.00"
 					(effects
@@ -5218,7 +5254,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 19.05 36.83 180)
+				(at 19.05 34.29 180)
 				(length 3.81)
 				(name "P1.01"
 					(effects
@@ -5236,7 +5272,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 19.05 34.29 180)
+				(at 19.05 31.75 180)
 				(length 3.81)
 				(name "P1.02"
 					(effects
@@ -5254,7 +5290,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 19.05 31.75 180)
+				(at 19.05 29.21 180)
 				(length 3.81)
 				(name "P1.03"
 					(effects
@@ -5272,7 +5308,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 19.05 29.21 180)
+				(at 19.05 26.67 180)
 				(length 3.81)
 				(name "P1.04"
 					(effects
@@ -5290,7 +5326,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 19.05 26.67 180)
+				(at 19.05 24.13 180)
 				(length 3.81)
 				(name "P1.05"
 					(effects
@@ -5308,7 +5344,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 19.05 24.13 180)
+				(at 19.05 21.59 180)
 				(length 3.81)
 				(name "P1.06"
 					(effects
@@ -5326,7 +5362,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 19.05 21.59 180)
+				(at 19.05 19.05 180)
 				(length 3.81)
 				(name "P1.07"
 					(effects
@@ -5344,7 +5380,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 19.05 19.05 180)
+				(at 19.05 16.51 180)
 				(length 3.81)
 				(name "P1.08"
 					(effects
@@ -5362,7 +5398,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 19.05 16.51 180)
+				(at 19.05 13.97 180)
 				(length 3.81)
 				(name "P1.09"
 					(effects
@@ -5380,7 +5416,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 19.05 13.97 180)
+				(at 19.05 11.43 180)
 				(length 3.81)
 				(name "P1.10"
 					(effects
@@ -5398,7 +5434,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 19.05 11.43 180)
+				(at 19.05 8.89 180)
 				(length 3.81)
 				(name "P1.11"
 					(effects
@@ -5416,7 +5452,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 19.05 8.89 180)
+				(at 19.05 6.35 180)
 				(length 3.81)
 				(name "P1.12"
 					(effects
@@ -5434,7 +5470,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 19.05 6.35 180)
+				(at 19.05 3.81 180)
 				(length 3.81)
 				(name "P1.13"
 					(effects
@@ -5452,7 +5488,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 19.05 3.81 180)
+				(at 19.05 1.27 180)
 				(length 3.81)
 				(name "P1.14"
 					(effects
@@ -5470,7 +5506,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 19.05 1.27 180)
+				(at 19.05 -1.27 180)
 				(length 3.81)
 				(name "P1.15"
 					(effects
@@ -5488,7 +5524,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 19.05 -1.27 180)
+				(at 19.05 -3.81 180)
 				(length 3.81)
 				(name "P1.16"
 					(effects
@@ -5506,7 +5542,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 19.05 -3.81 180)
+				(at 19.05 -6.35 180)
 				(length 3.81)
 				(name "P1.17"
 					(effects
@@ -5524,7 +5560,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 19.05 -6.35 180)
+				(at 19.05 -8.89 180)
 				(length 3.81)
 				(name "P1.18"
 					(effects
@@ -5542,7 +5578,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 19.05 -8.89 180)
+				(at 19.05 -11.43 180)
 				(length 3.81)
 				(name "P1.19"
 					(effects
@@ -5560,43 +5596,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 19.05 -11.43 180)
-				(length 3.81)
-				(name "P1.20"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "C6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
 				(at 19.05 -13.97 180)
-				(length 3.81)
-				(name "P1.21"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "C7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 19.05 -16.51 180)
 				(length 3.81)
 				(name "P1.22"
 					(effects
@@ -5614,7 +5614,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 19.05 -19.05 180)
+				(at 19.05 -16.51 180)
 				(length 3.81)
 				(name "P1.23"
 					(effects
@@ -5632,7 +5632,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 19.05 -21.59 180)
+				(at 19.05 -19.05 180)
 				(length 3.81)
 				(name "P1.24"
 					(effects
@@ -5650,7 +5650,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 19.05 -24.13 180)
+				(at 19.05 -21.59 180)
 				(length 3.81)
 				(name "P1.25"
 					(effects
@@ -5668,7 +5668,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 19.05 -26.67 180)
+				(at 19.05 -24.13 180)
 				(length 3.81)
 				(name "P1.26"
 					(effects
@@ -5686,7 +5686,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 19.05 -29.21 180)
+				(at 19.05 -26.67 180)
 				(length 3.81)
 				(name "P1.27"
 					(effects
@@ -5704,7 +5704,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 19.05 -31.75 180)
+				(at 19.05 -29.21 180)
 				(length 3.81)
 				(name "P1.28"
 					(effects
@@ -5722,7 +5722,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 19.05 -34.29 180)
+				(at 19.05 -31.75 180)
 				(length 3.81)
 				(name "P1.29"
 					(effects
@@ -5740,7 +5740,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 19.05 -36.83 180)
+				(at 19.05 -34.29 180)
 				(length 3.81)
 				(name "P1.30"
 					(effects
@@ -5758,7 +5758,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 19.05 -39.37 180)
+				(at 19.05 -36.83 180)
 				(length 3.81)
 				(name "P1.31"
 					(effects
@@ -5778,8 +5778,8 @@
 		)
 		(symbol "nRF54LM20A-PAXX_3_1"
 			(rectangle
-				(start -15.24 41.91)
-				(end 15.24 -41.91)
+				(start -15.24 39.37)
+				(end 15.24 -39.37)
 				(stroke
 					(width 0)
 					(type solid)
@@ -6242,6 +6242,1092 @@
 			(rectangle
 				(start -15.24 17.78)
 				(end 15.24 -17.78)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "nRF54LM20A-QGAA"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at -12.7 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "nRF54LM20A-QGAA"
+			(at -13.97 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "nordic-lib-kicad-nrf54l:QFN-52-1EP_6x6mm_P0.4mm_EP4.7x4.7mm_ThermalVias"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://docs-be.nordicsemi.com/bundle/ps_nrf54LM20A/page/pdf/nRF54LM20A_Preliminary_Datasheet_v0.7.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_locked" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "QFN*52*1EP*6x6mm*P0.4mm*EP4.7x4.7mm*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "nRF54LM20A-QGAA_1_0"
+			(pin power_in line
+				(at -19.05 25.4 0)
+				(length 3.81)
+				(name "VBUS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -19.05 15.24 0)
+				(length 3.81)
+				(name "XC1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "37"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -19.05 10.16 0)
+				(length 3.81)
+				(name "XC2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "38"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -19.05 2.54 0)
+				(length 3.81)
+				(name "P1.20"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "48"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "XL1" input line)
+			)
+			(pin bidirectional line
+				(at -19.05 -2.54 0)
+				(length 3.81)
+				(name "P1.21"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "49"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "XL2" output line)
+			)
+			(pin bidirectional line
+				(at -19.05 -12.7 0)
+				(length 3.81)
+				(name "D+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "19"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -19.05 -15.24 0)
+				(length 3.81)
+				(name "D-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "20"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -19.05 -20.32 0)
+				(length 3.81)
+				(name "TXRTUNE"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "21"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -19.05 -25.4 0)
+				(length 3.81)
+				(name "DECUSB"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "18"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 34.29 270)
+				(length 3.81)
+				(hide yes)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "42"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 34.29 270)
+				(length 3.81)
+				(hide yes)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "51"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 34.29 270)
+				(length 3.81)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -34.29 90)
+				(length 3.81)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "35"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -34.29 90)
+				(length 3.81)
+				(hide yes)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "45"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -34.29 90)
+				(length 3.81)
+				(hide yes)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "53"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 19.05 25.4 180)
+				(length 3.81)
+				(name "DCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "43"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 19.05 20.32 180)
+				(length 3.81)
+				(name "DECD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "44"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 19.05 15.24 180)
+				(length 3.81)
+				(name "DECA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "46"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 19.05 12.7 180)
+				(length 3.81)
+				(name "DECRF"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "36"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 19.05 0 180)
+				(length 3.81)
+				(name "ANT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "34"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 19.05 -17.78 180)
+				(length 3.81)
+				(name "~{RESET}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "33"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 19.05 -22.86 180)
+				(length 3.81)
+				(name "SWDCLK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "31"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 19.05 -25.4 180)
+				(length 3.81)
+				(name "SWDIO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "32"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "nRF54LM20A-QGAA_1_1"
+			(rectangle
+				(start -15.24 30.48)
+				(end 15.24 -30.48)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "nRF54LM20A-QGAA_2_0"
+			(pin bidirectional line
+				(at 19.05 6.35 180)
+				(length 3.81)
+				(name "P0.03"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "25"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 19.05 3.81 180)
+				(length 3.81)
+				(name "P0.04"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "26"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 19.05 1.27 180)
+				(length 3.81)
+				(name "P0.06"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "27"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 19.05 -1.27 180)
+				(length 3.81)
+				(name "P0.07"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "28"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 19.05 -3.81 180)
+				(length 3.81)
+				(name "P0.08"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "29"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 19.05 -6.35 180)
+				(length 3.81)
+				(name "P0.09"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "30"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "nRF54LM20A-QGAA_2_1"
+			(rectangle
+				(start -15.24 8.89)
+				(end 15.24 -8.89)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "nRF54LM20A-QGAA_3_0"
+			(pin bidirectional line
+				(at 19.05 21.59 180)
+				(length 3.81)
+				(name "P1.00"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 19.05 19.05 180)
+				(length 3.81)
+				(name "P1.01"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 19.05 16.51 180)
+				(length 3.81)
+				(name "P1.02"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 19.05 13.97 180)
+				(length 3.81)
+				(name "P1.03"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 19.05 11.43 180)
+				(length 3.81)
+				(name "P1.04"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 19.05 8.89 180)
+				(length 3.81)
+				(name "P1.05"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 19.05 6.35 180)
+				(length 3.81)
+				(name "P1.06"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 19.05 3.81 180)
+				(length 3.81)
+				(name "P1.07"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "22"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 19.05 1.27 180)
+				(length 3.81)
+				(name "P1.08"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "23"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 19.05 -1.27 180)
+				(length 3.81)
+				(name "P1.09"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "24"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 19.05 -3.81 180)
+				(length 3.81)
+				(name "P1.15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "39"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 19.05 -6.35 180)
+				(length 3.81)
+				(name "P1.16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "40"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 19.05 -8.89 180)
+				(length 3.81)
+				(name "P1.18"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "41"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 19.05 -11.43 180)
+				(length 3.81)
+				(name "P1.19"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "47"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 19.05 -13.97 180)
+				(length 3.81)
+				(name "P1.24"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "50"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 19.05 -16.51 180)
+				(length 3.81)
+				(name "P1.29"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 19.05 -19.05 180)
+				(length 3.81)
+				(name "P1.30"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 19.05 -21.59 180)
+				(length 3.81)
+				(name "P1.31"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "nRF54LM20A-QGAA_3_1"
+			(rectangle
+				(start -15.24 24.13)
+				(end 15.24 -24.13)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "nRF54LM20A-QGAA_4_0"
+			(pin bidirectional line
+				(at 19.05 6.35 180)
+				(length 3.81)
+				(name "P2.00"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "52"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 19.05 3.81 180)
+				(length 3.81)
+				(name "P2.01"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 19.05 1.27 180)
+				(length 3.81)
+				(name "P2.02"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 19.05 -1.27 180)
+				(length 3.81)
+				(name "P2.03"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 19.05 -3.81 180)
+				(length 3.81)
+				(name "P2.04"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 19.05 -6.35 180)
+				(length 3.81)
+				(name "P2.05"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "nRF54LM20A-QGAA_4_1"
+			(rectangle
+				(start -15.24 8.89)
+				(end 15.24 -8.89)
 				(stroke
 					(width 0)
 					(type solid)
