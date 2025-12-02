@@ -1,0 +1,30 @@
+{
+  "name": "TestChip",
+  "reference": "U",
+  "footprint": "Package_QFP:LQFP-48_7x7mm_P0.5mm",
+  "datasheet": "https://example.com/datasheet.pdf",
+  "description": "Test example microcontroller",
+  "keywords": "test example mcu",
+  "fp_filters": "LQFP?48*7x7*",
+  "left_pins": [
+    {"number": "1", "name": "PA0", "electrical_type": "bidirectional", "graphical_style": "line", "hidden": false, "alternates": []},
+    {"number": "2", "name": "PA1", "electrical_type": "bidirectional", "graphical_style": "line", "hidden": false, "alternates": []},
+    {"number": "3", "name": "PA2", "electrical_type": "bidirectional", "graphical_style": "line", "hidden": false, "alternates": [{"name": "ADC0", "electrical_type": "input", "graphical_style": "line"}]},
+    {"number": "4", "name": "PA3", "electrical_type": "bidirectional", "graphical_style": "line", "hidden": false, "alternates": [{"name": "ADC1", "electrical_type": "input", "graphical_style": "line"}]},
+    {"number": "5", "name": "~{RESET}", "electrical_type": "input", "graphical_style": "line", "hidden": false, "alternates": []}
+  ],
+  "right_pins": [
+    {"number": "10", "name": "PB0", "electrical_type": "bidirectional", "graphical_style": "line", "hidden": false, "alternates": []},
+    {"number": "11", "name": "PB1", "electrical_type": "bidirectional", "graphical_style": "line", "hidden": false, "alternates": []},
+    {"number": "12", "name": "SWDIO", "electrical_type": "bidirectional", "graphical_style": "line", "hidden": false, "alternates": []},
+    {"number": "13", "name": "SWDCLK", "electrical_type": "input", "graphical_style": "line", "hidden": false, "alternates": []}
+  ],
+  "top_pins": [
+    {"number": "6", "name": "VDD", "electrical_type": "power_in", "graphical_style": "line", "hidden": false, "alternates": []},
+    {"number": "7", "name": "VDDIO", "electrical_type": "power_in", "graphical_style": "line", "hidden": false, "alternates": []}
+  ],
+  "bottom_pins": [
+    {"number": "8", "name": "VSS", "electrical_type": "power_in", "graphical_style": "line", "hidden": false, "alternates": []},
+    {"number": "9", "name": "EP", "electrical_type": "passive", "graphical_style": "line", "hidden": false, "alternates": []}
+  ]
+}
