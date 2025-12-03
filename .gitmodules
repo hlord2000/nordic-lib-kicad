@@ -4,3 +4,6 @@
 [submodule "kiutils"]
 	path = kiutils
 	url = https://github.com/mvnmgrx/kiutils
+[submodule "kicad-footprint-generator"]
+	path = kicad-footprint-generator
+	url = https://gitlab.com/kicad/libraries/kicad-footprint-generator
