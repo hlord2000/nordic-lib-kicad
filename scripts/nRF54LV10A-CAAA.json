@@ -1,0 +1,46 @@
+{
+  "name": "nRF54LV10A-CAAA",
+  "reference": "U",
+  "footprint": "nordic-lib-kicad-nrf54:CSP-29_2.53x2.03mm",
+  "datasheet": "https://docs.nordicsemi.com/bundle/ps_nrf54LV10/page/keyfeatures_html5.html",
+  "description": "nRF54LV Ultra-low power Bluetooth 5.4 SoC, 1.5V-3.6V, CSP29",
+  "keywords": "BLE Bluetooth SoC nRF nRF54 ultra-low-power WLCSP",
+  "fp_filters": "CSP?29*",
+  "left_pins": [
+    {"number": "A2", "name": "XC1", "electrical_type": "bidirectional", "graphical_style": "line", "hidden": false, "alternates": []},
+    {"number": "A3", "name": "XC2", "electrical_type": "bidirectional", "graphical_style": "line", "hidden": false, "alternates": []},
+    {"number": "B5", "name": "P1.13", "electrical_type": "bidirectional", "graphical_style": "line", "hidden": false, "alternates": [{"name": "TRACEDATA[2]", "electrical_type": "output", "graphical_style": "line"}, {"name": "XL1", "electrical_type": "bidirectional", "graphical_style": "line"}]},
+    {"number": "C5", "name": "P1.14", "electrical_type": "bidirectional", "graphical_style": "line", "hidden": false, "alternates": [{"name": "TRACEDATA[3]", "electrical_type": "output", "graphical_style": "line"}, {"name": "XL2", "electrical_type": "bidirectional", "graphical_style": "line"}]},
+    {"number": "E3", "name": "P1.00", "electrical_type": "bidirectional", "graphical_style": "line", "hidden": false, "alternates": [{"name": "AIN0", "electrical_type": "input", "graphical_style": "line"}]},
+    {"number": "C3", "name": "P1.01", "electrical_type": "bidirectional", "graphical_style": "line", "hidden": false, "alternates": [{"name": "AIN1", "electrical_type": "input", "graphical_style": "line"}]},
+    {"number": "D3", "name": "P1.02", "electrical_type": "bidirectional", "graphical_style": "line", "hidden": false, "alternates": [{"name": "AIN2", "electrical_type": "input", "graphical_style": "line"}]},
+    {"number": "A4", "name": "P1.03", "electrical_type": "bidirectional", "graphical_style": "line", "hidden": false, "alternates": [{"name": "AIN3", "electrical_type": "input", "graphical_style": "line"}]},
+    {"number": "B4", "name": "P1.05", "electrical_type": "bidirectional", "graphical_style": "line", "hidden": false, "alternates": [{"name": "ASO[0]", "electrical_type": "output", "graphical_style": "line"}, {"name": "EXTREF", "electrical_type": "input", "graphical_style": "line"}]},
+    {"number": "C4", "name": "P1.07", "electrical_type": "bidirectional", "graphical_style": "line", "hidden": false, "alternates": [{"name": "AIN4", "electrical_type": "input", "graphical_style": "line"}, {"name": "ASI[0]", "electrical_type": "input", "graphical_style": "line"}]},
+    {"number": "B3", "name": "P1.09", "electrical_type": "bidirectional", "graphical_style": "line", "hidden": false, "alternates": []},
+    {"number": "A5", "name": "P1.10", "electrical_type": "bidirectional", "graphical_style": "line", "hidden": false, "alternates": [{"name": "ASO[1]", "electrical_type": "output", "graphical_style": "line"}, {"name": "TRACECLK", "electrical_type": "output", "graphical_style": "line"}, {"name": "AIN5", "electrical_type": "input", "graphical_style": "line"}]},
+    {"number": "D4", "name": "P1.11", "electrical_type": "bidirectional", "graphical_style": "line", "hidden": false, "alternates": [{"name": "ASI[1]", "electrical_type": "input", "graphical_style": "line"}, {"name": "TRACEDATA[0]", "electrical_type": "output", "graphical_style": "line"}, {"name": "SWO", "electrical_type": "output", "graphical_style": "line"}, {"name": "AIN6", "electrical_type": "input", "graphical_style": "line"}]},
+    {"number": "E4", "name": "P1.12", "electrical_type": "bidirectional", "graphical_style": "line", "hidden": false, "alternates": [{"name": "TRACEDATA[1]", "electrical_type": "output", "graphical_style": "line"}, {"name": "AIN7", "electrical_type": "input", "graphical_style": "line"}]}
+  ],
+  "right_pins": [
+    {"number": "B1", "name": "ANT", "electrical_type": "bidirectional", "graphical_style": "line", "hidden": false, "alternates": []},
+    {"number": "C2", "name": "~{RESET}", "electrical_type": "input", "graphical_style": "line", "hidden": false, "alternates": []},
+    {"number": "E2", "name": "SWDIO", "electrical_type": "bidirectional", "graphical_style": "line", "hidden": false, "alternates": []},
+    {"number": "D2", "name": "SWDCLK", "electrical_type": "input", "graphical_style": "line", "hidden": false, "alternates": []}
+  ],
+  "top_pins": [
+    {"number": "F3", "name": "VDDL", "electrical_type": "power_in", "graphical_style": "line", "hidden": false, "alternates": []},
+    {"number": "F5", "name": "DCC", "electrical_type": "power_out", "graphical_style": "line", "hidden": false, "alternates": []}
+  ],
+  "bottom_pins": [
+    {"number": "C1", "name": "VSS", "electrical_type": "power_in", "graphical_style": "line", "hidden": false, "alternates": []},
+    {"number": "D1", "name": "VSS", "electrical_type": "passive", "graphical_style": "line", "hidden": true, "alternates": []},
+    {"number": "F4", "name": "VSS", "electrical_type": "passive", "graphical_style": "line", "hidden": true, "alternates": []},
+    {"number": "A1", "name": "DECRF", "electrical_type": "passive", "graphical_style": "line", "hidden": false, "alternates": []},
+    {"number": "D5", "name": "DECA", "electrical_type": "passive", "graphical_style": "line", "hidden": false, "alternates": []},
+    {"number": "E1", "name": "DECB", "electrical_type": "passive", "graphical_style": "line", "hidden": false, "alternates": []},
+    {"number": "E5", "name": "DECD", "electrical_type": "passive", "graphical_style": "line", "hidden": false, "alternates": []},
+    {"number": "F2", "name": "CFLYL", "electrical_type": "passive", "graphical_style": "line", "hidden": false, "alternates": []},
+    {"number": "F1", "name": "CFLYH", "electrical_type": "passive", "graphical_style": "line", "hidden": false, "alternates": []}
+  ]
+}

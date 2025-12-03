@@ -53,6 +53,106 @@ def snap_to_grid(value: float, grid: float = GRID_SIZE) -> float:
     return round(value / grid) * grid
 
 
+def parse_pin_name(name: str) -> Tuple[str, int, int]:
+    """
+    Parse a pin name into sortable components.
+
+    Returns tuple of (category, port, pin_num) for sorting.
+    Categories (lower number = higher priority/position):
+    - 0: Crystal (XC1, XC2, XL1, XL2)
+    - 1: GPIO Port 1 (P1.xx)
+    - 2: GPIO Port 0 (P0.xx)
+    - 3: GPIO Port 2+ (P2.xx, etc.)
+    - 4: Antenna (ANT)
+    - 5: Debug (RESET, SWDIO, SWDCLK)
+    - 6: Power (VDD, VDDL, VSS, DCC)
+    - 7: Decoupling (DEC*, CFLY*)
+    - 9: Other
+    """
+    import re
+
+    name_upper = name.upper().replace('~{', '').replace('}', '')
+
+    # Crystal pins
+    if name_upper.startswith('XC') or name_upper.startswith('XL'):
+        match = re.search(r'(\d+)', name)
+        num = int(match.group(1)) if match else 0
+        return (0, 0, num)
+
+    # GPIO pins - P<port>.<pin>
+    gpio_match = re.match(r'P(\d+)\.(\d+)', name)
+    if gpio_match:
+        port = int(gpio_match.group(1))
+        pin = int(gpio_match.group(2))
+        # P1 first (category 1), then P0 (category 2), then P2+ (category 3)
+        if port == 1:
+            return (1, port, pin)
+        elif port == 0:
+            return (2, port, pin)
+        else:
+            return (3, port, pin)
+
+    # Antenna
+    if name_upper == 'ANT':
+        return (4, 0, 0)
+
+    # Debug pins
+    if name_upper in ('RESET', 'SWDIO', 'SWDCLK', 'SWO'):
+        order = {'RESET': 0, 'SWDIO': 1, 'SWDCLK': 2, 'SWO': 3}
+        return (5, 0, order.get(name_upper, 99))
+
+    # Power pins
+    if name_upper.startswith('VDD') or name_upper == 'DCC':
+        return (6, 0, 0 if name_upper.startswith('VDD') else 1)
+    if name_upper.startswith('VSS'):
+        return (6, 1, 0)
+
+    # Decoupling caps
+    if name_upper.startswith('DEC') or name_upper.startswith('CFLY'):
+        order = {'DECRF': 0, 'DECA': 1, 'DECB': 2, 'DECD': 3, 'CFLYL': 4, 'CFLYH': 5}
+        return (7, 0, order.get(name_upper, 99))
+
+    # Everything else
+    return (9, 0, 0)
+
+
+def sort_pins_by_name(pins: List['PinDefinition']) -> List['PinDefinition']:
+    """Sort pins by their name according to Nordic convention."""
+    return sorted(pins, key=lambda p: parse_pin_name(p.name))
+
+
+def parse_pin_number(number: str) -> Tuple[bool, int, str]:
+    """
+    Parse a pin number for sorting.
+
+    Returns tuple of (is_numeric, numeric_value, alpha_part) for sorting.
+    Handles both numeric (1, 2, 48) and BGA-style (A1, B2, F5) pin numbers.
+    """
+    import re
+
+    # Try pure numeric first
+    if number.isdigit():
+        return (True, int(number), '')
+
+    # Try BGA style (letter + number)
+    match = re.match(r'([A-Z]+)(\d+)', number.upper())
+    if match:
+        letter_part = match.group(1)
+        num_part = int(match.group(2))
+        # Convert letter to number (A=0, B=1, etc.) for sorting
+        letter_val = sum((ord(c) - ord('A')) * (26 ** i)
+                        for i, c in enumerate(reversed(letter_part)))
+        return (False, letter_val * 100 + num_part, letter_part)
+
+    # Fallback
+    return (False, 0, number)
+
+
+def sort_pins_by_number(pins: List['PinDefinition']) -> List['PinDefinition']:
+    """Sort pins by their pin number (numeric or BGA-style)."""
+    return sorted(pins, key=lambda p: parse_pin_number(p.number))
+
+
 @dataclass
 class PinDefinition:
     """Represents a single pin definition for symbol generation."""
@@ -310,27 +410,40 @@ class SymbolGenerator:
         )
         return prop
 
-    def _create_unit(self, definition: SymbolDefinition) -> Symbol:
-        """Create a symbol unit with pins and graphics (KLC compliant)."""
+    def _create_unit(self, definition: SymbolDefinition, sort_pins: bool = True) -> Symbol:
+        """Create a symbol unit with pins and graphics (KLC compliant).
+
+        Args:
+            definition: The symbol definition with pins organized by side
+            sort_pins: If True, sort pins by name within each side
+        """
         unit = Symbol()
         unit.entryName = definition.name
         unit.unitId = 1
         unit.styleId = 0
 
+        # Sort pins by name if requested
+        left_pins = sort_pins_by_name(definition.left_pins) if sort_pins else definition.left_pins
+        right_pins = sort_pins_by_name(definition.right_pins) if sort_pins else definition.right_pins
+        top_pins = sort_pins_by_name(definition.top_pins) if sort_pins else definition.top_pins
+        bottom_pins = sort_pins_by_name(definition.bottom_pins) if sort_pins else definition.bottom_pins
+
         # Calculate dimensions based on pin counts
-        left_count = len(definition.left_pins)
-        right_count = len(definition.right_pins)
-        top_count = len(definition.top_pins)
-        bottom_count = len(definition.bottom_pins)
+        # Count only visible pins for spacing calculation
+        left_count = len([p for p in left_pins if not p.hidden])
+        right_count = len([p for p in right_pins if not p.hidden])
+        top_count = len([p for p in top_pins if not p.hidden])
+        bottom_count = len([p for p in bottom_pins if not p.hidden])
 
         # Calculate rectangle dimensions - ensure grid alignment
         vertical_pins = max(left_count, right_count)
         horizontal_pins = max(top_count, bottom_count)
 
         # Calculate minimum dimensions and snap to grid
-        # Add padding: 1 grid unit above/below pins, plus space for text
+        # Height: need space for all vertical pins plus padding
         min_height = snap_to_grid(max(vertical_pins * PIN_SPACING + 2 * PIN_SPACING, 10.16))
-        min_width = snap_to_grid(max(horizontal_pins * PIN_SPACING + 2 * PIN_SPACING, 15.24))
+        # Width: need space for all horizontal pins plus padding
+        min_width = snap_to_grid(max(horizontal_pins * PIN_SPACING + 4 * PIN_SPACING, 15.24))
 
         rect_half_height = snap_to_grid(min_height / 2)
         rect_half_width = snap_to_grid(min_width / 2)
@@ -343,48 +456,85 @@ class SymbolGenerator:
         rect.fill = Fill(type="background")
         unit.graphicItems.append(rect)
 
-        # Calculate pin starting positions - ensure grid alignment
+        # Calculate pin positions - ensure grid alignment
         # KLC S4.1: All pins must be on 100mil (2.54mm) grid
 
         # Left pins (pointing right, angle=0)
-        # Pin end position is at rectangle edge, so start_x = -(rect_half_width + PIN_LENGTH)
-        left_start_x = snap_to_grid(-rect_half_width - PIN_LENGTH)
-        left_start_y = snap_to_grid(rect_half_height - PIN_SPACING)
-        self._add_pins_to_unit(unit, definition.left_pins,
-                              start_x=left_start_x,
-                              start_y=left_start_y,
-                              angle=0, direction='vertical')
+        # Start from top, working down
+        left_x = snap_to_grid(-rect_half_width - PIN_LENGTH)
+        left_y_start = snap_to_grid(rect_half_height - PIN_SPACING)
+        self._add_pins_to_unit_positioned(unit, left_pins,
+                                          base_x=left_x,
+                                          start_y=left_y_start,
+                                          angle=0,
+                                          direction='vertical')
 
         # Right pins (pointing left, angle=180)
-        right_start_x = snap_to_grid(rect_half_width + PIN_LENGTH)
-        right_start_y = snap_to_grid(rect_half_height - PIN_SPACING)
-        self._add_pins_to_unit(unit, definition.right_pins,
-                              start_x=right_start_x,
-                              start_y=right_start_y,
-                              angle=180, direction='vertical')
+        right_x = snap_to_grid(rect_half_width + PIN_LENGTH)
+        right_y_start = snap_to_grid(rect_half_height - PIN_SPACING)
+        self._add_pins_to_unit_positioned(unit, right_pins,
+                                          base_x=right_x,
+                                          start_y=right_y_start,
+                                          angle=180,
+                                          direction='vertical')
 
         # Top pins (pointing down, angle=270)
-        top_start_x = snap_to_grid(-rect_half_width + PIN_SPACING)
-        top_start_y = snap_to_grid(rect_half_height + PIN_LENGTH)
-        self._add_pins_to_unit(unit, definition.top_pins,
-                              start_x=top_start_x,
-                              start_y=top_start_y,
-                              angle=270, direction='horizontal')
+        # Center horizontally
+        top_width_needed = len([p for p in top_pins if not p.hidden]) * PIN_SPACING
+        top_x_start = snap_to_grid(-top_width_needed / 2 + PIN_SPACING / 2)
+        top_y = snap_to_grid(rect_half_height + PIN_LENGTH)
+        self._add_pins_to_unit_positioned(unit, top_pins,
+                                          base_x=top_x_start,
+                                          start_y=top_y,
+                                          angle=270,
+                                          direction='horizontal')
 
         # Bottom pins (pointing up, angle=90)
-        bottom_start_x = snap_to_grid(-rect_half_width + PIN_SPACING)
-        bottom_start_y = snap_to_grid(-rect_half_height - PIN_LENGTH)
-        self._add_pins_to_unit(unit, definition.bottom_pins,
-                              start_x=bottom_start_x,
-                              start_y=bottom_start_y,
-                              angle=90, direction='horizontal')
+        # Center horizontally
+        bottom_width_needed = len([p for p in bottom_pins if not p.hidden]) * PIN_SPACING
+        bottom_x_start = snap_to_grid(-bottom_width_needed / 2 + PIN_SPACING / 2)
+        bottom_y = snap_to_grid(-rect_half_height - PIN_LENGTH)
+        self._add_pins_to_unit_positioned(unit, bottom_pins,
+                                          base_x=bottom_x_start,
+                                          start_y=bottom_y,
+                                          angle=90,
+                                          direction='horizontal')
 
         return unit
+
+    def _add_pins_to_unit_positioned(self, unit: Symbol, pins: List[PinDefinition],
+                                      base_x: float, start_y: float, angle: float,
+                                      direction: str) -> None:
+        """Add pins to unit with proper positioning for hidden pins.
+
+        Hidden pins are placed at the same position as the previous visible pin.
+        This ensures stacked pins (like multiple VSS) share the same location.
+        """
+        x = snap_to_grid(base_x)
+        y = snap_to_grid(start_y)
+        last_visible_x = x
+        last_visible_y = y
+
+        for pin_def in pins:
+            if pin_def.hidden:
+                # Hidden pins go at the same position as the last visible pin
+                pin = self._create_pin(pin_def, last_visible_x, last_visible_y, angle)
+            else:
+                pin = self._create_pin(pin_def, x, y, angle)
+                last_visible_x = x
+                last_visible_y = y
+                # Only advance position for visible pins
+                if direction == 'vertical':
+                    y = snap_to_grid(y - PIN_SPACING)
+                else:
+                    x = snap_to_grid(x + PIN_SPACING)
+
+            unit.pins.append(pin)
 
     def _add_pins_to_unit(self, unit: Symbol, pins: List[PinDefinition],
                          start_x: float, start_y: float, angle: float,
                          direction: str) -> None:
-        """Add a list of pins to a unit (KLC S4.1: grid-aligned)."""
+        """Add a list of pins to a unit (KLC S4.1: grid-aligned). DEPRECATED."""
         x, y = snap_to_grid(start_x), snap_to_grid(start_y)
 
         for pin_def in pins:
@@ -602,6 +752,66 @@ def cmd_validate(args):
     sys.exit(0 if error_count == 0 else 1)
 
 
+def cmd_analyze(args):
+    """Handle the 'analyze' command - show pin positions from existing symbols."""
+    parser = SymbolParser(args.library)
+    symbol = parser.get_symbol(args.symbol)
+
+    if not symbol:
+        print(f"Symbol '{args.symbol}' not found")
+        sys.exit(1)
+
+    # Group pins by side based on position and rotation
+    sides = {'left': [], 'right': [], 'top': [], 'bottom': []}
+
+    for unit in symbol.units:
+        for pin in unit.pins:
+            x, y = pin.position.X, pin.position.Y
+            rot = pin.position.angle if pin.position.angle is not None else 0
+
+            pin_info = {
+                'number': pin.number,
+                'name': pin.name,
+                'x': x,
+                'y': y,
+                'type': pin.electricalType,
+                'hidden': pin.hide,
+            }
+
+            if rot == 0:
+                sides['left'].append(pin_info)
+            elif rot == 180:
+                sides['right'].append(pin_info)
+            elif rot == 270:
+                sides['top'].append(pin_info)
+            elif rot == 90:
+                sides['bottom'].append(pin_info)
+
+    # Sort by position
+    sides['left'].sort(key=lambda p: -p['y'])  # top to bottom
+    sides['right'].sort(key=lambda p: -p['y'])
+    sides['top'].sort(key=lambda p: p['x'])  # left to right
+    sides['bottom'].sort(key=lambda p: p['x'])
+
+    # Calculate rectangle bounds
+    all_x = [p['x'] for side in sides.values() for p in side]
+    all_y = [p['y'] for side in sides.values() for p in side]
+    if all_x and all_y:
+        print(f"Pin position bounds: X=[{min(all_x):.2f}, {max(all_x):.2f}], Y=[{min(all_y):.2f}, {max(all_y):.2f}]")
+
+    for side_name in ['left', 'right', 'top', 'bottom']:
+        pins = sides[side_name]
+        if not pins:
+            continue
+
+        print(f"\n{side_name.upper()} PINS ({len(pins)} pins):")
+        print(f"  {'Num':<6} {'Name':<20} {'X':>8} {'Y':>8} {'Type':<12} {'Hidden'}")
+        print("  " + "-" * 70)
+        for p in pins:
+            hidden = 'HIDDEN' if p['hidden'] else ''
+            print(f"  {p['number']:<6} {p['name']:<20} {p['x']:>8.2f} {p['y']:>8.2f} {p['type']:<12} {hidden}")
+
+
 def main():
     parser = argparse.ArgumentParser(
         description="Symbol utilities for Nordic KiCad Library",
@@ -648,6 +858,13 @@ def main():
     validate_parser.add_argument('--symbol', '-s', help='Specific symbol to validate')
     validate_parser.add_argument('--klc-path', help='Path to check_symbol.py')
     validate_parser.set_defaults(func=cmd_validate)
+
+    # Analyze command
+    analyze_parser = subparsers.add_parser('analyze',
+                                           help='Analyze pin positions in existing symbol')
+    analyze_parser.add_argument('library', help='Path to .kicad_sym library file')
+    analyze_parser.add_argument('--symbol', '-s', required=True, help='Symbol name')
+    analyze_parser.set_defaults(func=cmd_analyze)
 
     args = parser.parse_args()
 

@@ -1,0 +1,25 @@
+diff --git a/data/grid_array/csp.yaml b/data/grid_array/csp.yaml
+index 6bc12d33..cfde3864 100644
+--- a/data/grid_array/csp.yaml
++++ b/data/grid_array/csp.yaml
+@@ -1510,3 +1510,20 @@ Xilinx_CSG48_7.0x7.0mm_Layout7x7_P0.8mm:
+   pad_skips: [D5]
+   pad_diameter: 0.33
+   mask_margin: 0.055
++
++Nordic_CSP-29_1.93x2.29mm_Layout5x6_P0.35mm:
++  description: "CSP-29, 5x6 ball array, 0.35mm pitch, Nordic nRF54LV10A-CAAA"
++  size_source: "https://docs.nordicsemi.com/bundle/ps_nrf54LV10/page/keyfeatures_html5.html"
++  body_size_x: 1.9268
++  body_size_y: 2.2893
++  body_pcb_gap: 0.155
++  overall_height: 0.480
++  ball_diameter: 0.22
++  pitch: 0.35
++  pad_diameter: 0.20
++  mask_margin: 0.025
++  layout_x: 5
++  layout_y: 6
++  pad_skips: [B2]
++  offset_x: 0.0235
++  offset_y: 0.0185
