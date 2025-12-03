@@ -8,7 +8,7 @@ Utilities for parsing and generating KiCad symbols using the kiutils library.
 # From the repository root
 uv venv
 source .venv/bin/activate
-uv pip install -e ./kiutils
+uv pip install kiutils
 ```
 
 ## Usage
