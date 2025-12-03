@@ -9,4 +9,6 @@
   (lib (name "nordic-lib-kicad-nrf53-modules")(type "KiCad")(uri "${KIPRJMOD}/../symbols/nordic-lib-kicad-nrf53-modules.kicad_sym")(options "")(descr ""))
   (lib (name "nordic-lib-kicad-nrf54l")(type "KiCad")(uri "${KIPRJMOD}/../symbols/nordic-lib-kicad-nrf54l.kicad_sym")(options "")(descr ""))
   (lib (name "nordic-lib-kicad-nrf54-modules")(type "KiCad")(uri "${KIPRJMOD}/../symbols/nordic-lib-kicad-nrf54-modules.kicad_sym")(options "")(descr ""))
+  (lib (name "nRF54LV10A-CAAA")(type "KiCad")(uri "/tmp/nRF54LV10A-CAAA.kicad_sym")(options "")(descr ""))
+  (lib (name "nRF54LV10A-QFAA")(type "KiCad")(uri "/tmp/nRF54LV10A-QFAA.kicad_sym")(options "")(descr ""))
 )
