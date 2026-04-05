@@ -8584,6 +8584,186 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "nRF54LM20B-PAXX"
+		(extends "nRF54LM20A-PAXX")
+		(property "Reference" "U"
+			(at 0 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "nRF54LM20B-PAXX"
+			(at 0 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "nordic-lib-kicad-nrf54l:Nordic_FCCSP-98_3.67x3.85mm_Layout10x10_P0.35mm_Offcenter"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://docs-be.nordicsemi.com/bundle/ps_nrf54LM20A/page/pdf/nRF54LM20A_nRF54LM20B_Preliminary_Datasheet_v0.8.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_locked" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(symbol "nRF54LM20B-QGAA"
+		(extends "nRF54LM20A-QGAA")
+		(property "Reference" "U"
+			(at -12.7 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "nRF54LM20B-QGAA"
+			(at -13.97 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "nordic-lib-kicad-nrf54l:QFN-52-1EP_6x6mm_P0.4mm_EP4.7x4.7mm_ThermalVias"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://docs-be.nordicsemi.com/bundle/ps_nrf54LM20A/page/pdf/nRF54LM20A_nRF54LM20B_Preliminary_Datasheet_v0.8.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_locked" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "QFN*52*1EP*6x6mm*P0.4mm*EP4.7x4.7mm*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "nRF54LM20B-CAAA"
+		(extends "nRF54LM20A-CAAA")
+		(property "Reference" "U"
+			(at -12.7 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "nRF54LM20B-CAAA"
+			(at -13.97 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "nordic-lib-kicad-nrf54l:Nordic_CSP-61_3.017x2.4313mm_Layout10x8_P0.325mm_Offcenter"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://docs-be.nordicsemi.com/bundle/ps_nrf54LM20A/page/pdf/nRF54LM20A_nRF54LM20B_Preliminary_Datasheet_v0.8.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_locked" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "CSP*61*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(symbol "nRF54LV10A-CAAA"
 		(exclude_from_sim no)
 		(in_bom yes)
