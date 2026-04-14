@@ -13,6 +13,14 @@ KLC compliance is established using KiCad's official scripts within the "kicad-l
 
 Compliance for the purposes of this library is defined as zero errors for footprints and symbols. Reasonable warnings about pin position or names may be accepted.
 
+Current generated-footprint status:
+- Repo-local Nordic footprints and STEP models are generated from spec through the `kicad-footprint-generator` submodule.
+- The current footprint KLC sweep covers 29 generated footprints.
+- 26 pass cleanly; 3 still emit warnings:
+  - `QFN-52-1EP_6x6mm_P0.4mm_EP4.7x4.7mm_ThermalVias` (`F6.3`, same thermal-via checker issue seen on KiCad's official QFN thermal-via footprints)
+  - `LGA_9160_16.0x10.5mm` (`F9.2`, non-default `solder_paste_ratio`)
+  - `LGA_9161_16.0x10.5mm` (`F9.2`, non-default `solder_paste_ratio`)
+
 ## Installation instructions
 
 Open the KiCad Plugin and Content Manager (PCM), click "Manage..." in the top right, and add the following URL to your list of repositories:
@@ -53,6 +61,8 @@ Then, using the dropdown in the PCM, switch to "hlord2000's KiCad Repository" an
 | [nRF54L10](https://www.nordicsemi.com/products/nrf54l10) QFN-52 |✅|✅|✅|✅|🚧| 
 | [nRF54L10](https://www.nordicsemi.com/products/nrf54l10) QFN-48 |✅|✅|✅|✅|🚧| 
 | [nRF54L10](https://www.nordicsemi.com/products/nrf54l10) QFN-40 |✅|✅|✅|✅|🚧| 
+| [nRF54LV10A](https://www.nordicsemi.com/products/nrf54lv10) CSP-29 |✅|✅|🚧|✅|🚧| 
+| [nRF54LV10A](https://www.nordicsemi.com/products/nrf54lv10) QFN-48 |✅|✅|🚧|✅|🚧| 
 | [nRF54L05](https://www.nordicsemi.com/products/nrf54l05) QFN-52 |✅|✅|✅|✅|🚧| 
 | [nRF54L05](https://www.nordicsemi.com/products/nrf54l05) QFN-48 |✅|✅|✅|✅|🚧| 
 | [nRF54L05](https://www.nordicsemi.com/products/nrf54l05) QFN-40 |✅|✅|✅|✅|🚧| 
@@ -86,11 +96,36 @@ Then, using the dropdown in the PCM, switch to "hlord2000's KiCad Repository" an
 | [nRF52810](https://www.nordicsemi.com/products/nrf52810) QFN-48 |✅|✅|🚧|✅|🚧| 
 | [nRF52805](https://www.nordicsemi.com/products/nrf52805) WLCSP |✅|✅|🚧|✅|🚧| 
 
+ # nRF52 series - Modules
+
+|             | Symbol | Footprint | Reference Design Block | 3D Model | KLC Compliant |
+|-------------|--------|-----------|------------------------|----------|---------------|
+| [E73-2G4M08S1C](https://www.ebyte.com/product-view-news.html?id=787) LGA module |✅|✅|🚧|✅|🚧|
+| [ISP1907-LL](https://www.insightsip.com/products/bluetooth-low-energy/isp1907) LGA module |✅|✅|🚧|✅|🚧|
+
  # nRF21 series - PA + LNA ICs
 
 |             | Symbol | Footprint | Reference Design Block | 3D Model | KLC Compliant |
 |-------------|--------|-----------|------------------------|----------|---------------|
 | [nRF21540](https://www.nordicsemi.com/products/nrf21540) QFN |✅|✅|🚧|✅|✅| 
+
+ # nRF53 series - Modules
+
+|             | Symbol | Footprint | Reference Design Block | 3D Model | KLC Compliant |
+|-------------|--------|-----------|------------------------|----------|---------------|
+| [E83-2G4M03S](https://www.ebyte.com/product-view-news.html?id=1307) LGA module |✅|✅|🚧|✅|🚧|
+| [ISP2053-AX](https://www.insightsip.com/products/bluetooth-low-energy-and-802-15-4/isp2053) LGA module |✅|✅|🚧|✅|🚧|
+
+ # nRF54 series - Modules
+
+|             | Symbol | Footprint | Reference Design Block | 3D Model | KLC Compliant |
+|-------------|--------|-----------|------------------------|----------|---------------|
+| BC15C LGA module |✅|✅|🚧|✅|🚧|
+| BC15M LGA module |✅|✅|🚧|✅|🚧|
+| BL54L15-453-000xxx LGA module |✅|✅|🚧|✅|🚧|
+| BL54L10-453-000xxx LGA module |✅|✅|🚧|✅|🚧|
+| BM15x LGA module |✅|✅|🚧|✅|🚧|
+| BM20x LGA module |✅|✅|🚧|✅|🚧|
 
  # nPM Power Management ICs
 
