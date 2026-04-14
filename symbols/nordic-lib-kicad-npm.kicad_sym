@@ -2502,7 +2502,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "nordic-lib-kicad-npm:BGA-16_4x4_1.9175x1.8975mm"
 			(at -5.08 17.78 0)
 			(effects
 				(font
@@ -2521,6 +2521,15 @@
 			)
 		)
 		(property "Description" ""
+			(at -5.08 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "BGA*16*4x4*1.9175x1.8975mm*"
 			(at -5.08 17.78 0)
 			(effects
 				(font
@@ -2859,7 +2868,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:UQFN-16-1EP_4x4mm_P0.65mm_EP2.6x2.6mm"
+		(property "Footprint" "Package_DFN_QFN:UQFN-16-1EP_4x4mm_P0.65mm_EP2.6x2.6mm_ThermalVias"
 			(at 0 -20.32 0)
 			(effects
 				(font
@@ -2878,6 +2887,15 @@
 			)
 		)
 		(property "Description" ""
+			(at -39.37 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "UQFN?16?1EP*4x4mm*P0.65mm*EP2.6x2.6mm*"
 			(at -39.37 -10.16 0)
 			(effects
 				(font

@@ -24,7 +24,7 @@
 				)
 			)
 		)
-		(property "Footprint" "nordic-lib-kicad-nrf54-modules:BM15x-LGA-45_15.8x10mm"
+		(property "Footprint" ""
 			(at 0 -50.8 0)
 			(effects
 				(font
@@ -52,6 +52,15 @@
 			)
 		)
 		(property "ki_keywords" "nRF54L15"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "BC15*-LGA-36*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1799,6 +1808,15 @@
 				(hide yes)
 			)
 		)
+		(property "ki_fp_filters" "BM15*-LGA-45*15.8x10mm*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "BM15x_0_0"
 			(pin passive line
 				(at 0 58.42 270)
@@ -2802,7 +2820,7 @@
 				)
 			)
 		)
-		(property "Footprint" "nordic-lib-kicad-nrf54-modules:BM20x-LGA-90_15.8x10mm_1"
+		(property "Footprint" "nordic-lib-kicad-nrf54-modules:BM20x-LGA-90_15.8x10mm"
 			(at 0 5.08 0)
 			(effects
 				(font
@@ -2822,6 +2840,15 @@
 		)
 		(property "Description" ""
 			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "BM20*-LGA-90*15.8x10mm*"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4495,7 +4522,7 @@
 				)
 			)
 		)
-		(property "Value" "BL54L15-453-000xxx"
+		(property "Value" "BL54L10-453-000xxx"
 			(at 0 -2.54 0)
 			(do_not_autoplace)
 			(effects
@@ -4504,7 +4531,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DFN_QFN:QFN-48-1EP_6x6mm_P0.4mm_EP4.6x4.6mm_ThermalVias"
 			(at 0 -73.66 0)
 			(effects
 				(font

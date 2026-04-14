@@ -22,7 +22,7 @@
 				)
 			)
 		)
-		(property "Footprint" "nordic-lib-kicad-nrf54:BGA-47_7x7_2.451x2.245mm"
+		(property "Footprint" "nordic-lib-kicad-nrf54l:BGA-47_7x7_2.451x2.245mm"
 			(at 0 -73.66 0)
 			(effects
 				(font
@@ -2056,7 +2056,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:QFN-48-1EP_6x6mm_P0.4mm_EP4.6x4.6mm"
+		(property "Footprint" "Package_DFN_QFN:QFN-48-1EP_6x6mm_P0.4mm_EP4.6x4.6mm_ThermalVias"
 			(at 0 -73.66 0)
 			(effects
 				(font
@@ -4393,6 +4393,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "ki_fp_filters" "Nordic?FCCSP?98*3.67x3.85mm*P0.35mm*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(symbol "nRF54LM20A-PAXX_1_0"
@@ -9062,7 +9071,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:QFN-48-1EP_6x6mm_P0.4mm_EP4.6x4.6mm"
+		(property "Footprint" "Package_DFN_QFN:QFN-48-1EP_6x6mm_P0.4mm_EP4.6x4.6mm_ThermalVias"
 			(at 0 -73.66 0)
 			(effects
 				(font
@@ -9194,7 +9203,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:QFN-48-1EP_6x6mm_P0.4mm_EP4.6x4.6mm"
+		(property "Footprint" "Package_DFN_QFN:QFN-48-1EP_6x6mm_P0.4mm_EP4.6x4.6mm_ThermalVias"
 			(at 0 -71.12 0)
 			(effects
 				(font

@@ -24,7 +24,7 @@
 				)
 			)
 		)
-		(property "Footprint" "WIP_marbastlib-various:E73-2G4M08S1C"
+		(property "Footprint" "nordic-lib-kicad-nrf52-modules:E73-2G4M08S1C"
 			(at -5.08 0 90)
 			(effects
 				(font
@@ -61,6 +61,15 @@
 			)
 		)
 		(property "ki_keywords" "Bluetooth LE nRF nordic"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "E73*2G4M08S1C*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -911,6 +920,15 @@
 			)
 		)
 		(property "LCSC" "C5657563"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "ISP1907*8x8mm*LGA*"
 			(at 0 0 0)
 			(effects
 				(font

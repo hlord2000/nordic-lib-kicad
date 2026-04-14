@@ -22,7 +22,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "nordic-lib-kicad-nrf53-modules:E83-2G4M03S_16x16mm_LGA"
 			(at 0 21.59 0)
 			(effects
 				(font
@@ -58,6 +58,15 @@
 			)
 		)
 		(property "ki_keywords" "nRF5340 Module External Antenna"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "E83*2G4M03S*16x16mm*LGA*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1295,6 +1304,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "ISP2053*8x8mm*LGA*"
 			(at 0 0 0)
 			(effects
 				(font

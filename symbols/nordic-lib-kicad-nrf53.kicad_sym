@@ -59,6 +59,15 @@
 				)
 			)
 		)
+		(property "ki_fp_filters" "BGA?132*12x11*4.39x3.994mm*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "nRF5340-CLXX_1_0"
 			(pin bidirectional line
 				(at -30.48 58.42 0)
