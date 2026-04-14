@@ -631,7 +631,7 @@
 					)
 				)
 			)
-			(property "Footprint" "nordic-lib-kicad-nrf54:BGA-47_7x7_2.451x2.245mm"
+			(property "Footprint" "nordic-lib-kicad-nrf54l:BGA-47_7x7_2.451x2.245mm"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -3376,7 +3376,7 @@
 				)
 			)
 		)
-		(property "Footprint" "nordic-lib-kicad-nrf54:BGA-47_7x7_2.451x2.245mm"
+		(property "Footprint" "nordic-lib-kicad-nrf54l:BGA-47_7x7_2.451x2.245mm"
 			(at 140.97 109.22 0)
 			(effects
 				(font
