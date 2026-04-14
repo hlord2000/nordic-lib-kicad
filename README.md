@@ -63,6 +63,8 @@ Then, using the dropdown in the PCM, switch to "hlord2000's KiCad Repository" an
 | [nRF54L10](https://www.nordicsemi.com/products/nrf54l10) QFN-40 |✅|✅|✅|✅|🚧| 
 | [nRF54LV10A](https://www.nordicsemi.com/products/nrf54lv10) CSP-29 |✅|✅|🚧|✅|🚧| 
 | [nRF54LV10A](https://www.nordicsemi.com/products/nrf54lv10) QFN-48 |✅|✅|🚧|✅|🚧| 
+| [nRF54LS05A](https://www.nordicsemi.com/Products/nRF54LS05A) QFN-48 |✅|✅|🚧|✅|🚧| 
+| [nRF54LS05B](https://www.nordicsemi.com/Products/nRF54LS05B) QFN-48 |✅|✅|🚧|✅|🚧| 
 | [nRF54L05](https://www.nordicsemi.com/products/nrf54l05) QFN-52 |✅|✅|✅|✅|🚧| 
 | [nRF54L05](https://www.nordicsemi.com/products/nrf54l05) QFN-48 |✅|✅|✅|✅|🚧| 
 | [nRF54L05](https://www.nordicsemi.com/products/nrf54l05) QFN-40 |✅|✅|✅|✅|🚧| 
