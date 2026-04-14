@@ -729,7 +729,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/nordic-lib-kicad-nrf54l.3dshapes/Nordic_FCCSP-98_3.67x3.85mm_Layout10x10_P0.35mm_Offcenter.step"
+	(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_hlord2000_nordic-lib-kicad/nordic-lib-kicad-nrf54l.3dshapes/Nordic_FCCSP-98_3.67x3.85mm_Layout10x10_P0.35mm_Offcenter.step"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -351,7 +351,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/nordic-lib-kicad-npm.3dshapes/BGA-35_7x5_3.077x2.3775mm.step"
+	(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_hlord2000_nordic-lib-kicad/nordic-lib-kicad-npm.3dshapes/BGA-35_7x5_3.077x2.3775mm.step"
 		(offset
 			(xyz 0 0 0)
 		)

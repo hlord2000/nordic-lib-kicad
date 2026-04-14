@@ -811,7 +811,7 @@
 		(remove_unused_layers no)
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/nordic-lib-kicad-nrf54l.3dshapes/QFN-52-1EP_6x6mm_P0.4mm_EP4.7x4.7mm.step"
+	(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_hlord2000_nordic-lib-kicad/nordic-lib-kicad-nrf54l.3dshapes/QFN-52-1EP_6x6mm_P0.4mm_EP4.7x4.7mm.step"
 		(offset
 			(xyz 0 0 0)
 		)

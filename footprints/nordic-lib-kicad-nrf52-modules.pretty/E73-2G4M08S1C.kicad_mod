@@ -477,7 +477,7 @@
 		)
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/nordic-lib-kicad-nrf52-modules.3dshapes/E73-2G4M08S1C.step"
+	(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_hlord2000_nordic-lib-kicad/nordic-lib-kicad-nrf52-modules.3dshapes/E73-2G4M08S1C.step"
 		(offset
 			(xyz 0 0 0)
 		)

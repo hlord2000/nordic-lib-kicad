@@ -1269,7 +1269,7 @@
 		(roundrect_rratio 0.25)
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/nordic-lib-kicad-nrf9.3dshapes/LGA_9160_16.0x10.5mm.step"
+	(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_hlord2000_nordic-lib-kicad/nordic-lib-kicad-nrf9.3dshapes/LGA_9160_16.0x10.5mm.step"
 		(offset
 			(xyz 0 0 0)
 		)

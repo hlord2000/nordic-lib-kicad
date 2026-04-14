@@ -786,7 +786,7 @@
 		)
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/nordic-lib-kicad-nrf54-modules.3dshapes/BM20x-LGA-90_15.8x10mm.step"
+	(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_hlord2000_nordic-lib-kicad/nordic-lib-kicad-nrf54-modules.3dshapes/BM20x-LGA-90_15.8x10mm.step"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -694,7 +694,7 @@
 		)
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/nordic-lib-kicad-nrf53-modules.3dshapes/ISP2053_8x8mm_LGA.step"
+	(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_hlord2000_nordic-lib-kicad/nordic-lib-kicad-nrf53-modules.3dshapes/ISP2053_8x8mm_LGA.step"
 		(offset
 			(xyz 0 0 0)
 		)

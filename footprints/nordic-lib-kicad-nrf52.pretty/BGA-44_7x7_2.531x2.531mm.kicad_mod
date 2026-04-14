@@ -405,7 +405,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/nordic-lib-kicad-nrf52.3dshapes/BGA-44_7x7_2.531x2.531mm.step"
+	(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_hlord2000_nordic-lib-kicad/nordic-lib-kicad-nrf52.3dshapes/BGA-44_7x7_2.531x2.531mm.step"
 		(offset
 			(xyz 0 0 0)
 		)
