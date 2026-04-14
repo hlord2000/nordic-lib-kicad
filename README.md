@@ -4,7 +4,7 @@
 [![GitHub forks](https://img.shields.io/github/forks/hlord2000/nordic-lib-kicad)](https://github.com/hlord2000/nordic-lib-kicad/network)
 [![GitHub issues](https://img.shields.io/github/issues/hlord2000/nordic-lib-kicad)](https://github.com/hlord2000/nordic-lib-kicad/issues)
 ---
-# A KiCad 9 library for all modern Nordic Semiconductor parts.
+# A KiCad 10 library for all modern Nordic Semiconductor parts.
 <p align="center">
   <img src="img/img.png" alt="centered image" />
 </p>
@@ -12,14 +12,6 @@
 KLC compliance is established using KiCad's official scripts within the "kicad-library-utils" folder and the "lib_check.sh" script
 
 Compliance for the purposes of this library is defined as zero errors for footprints and symbols. Reasonable warnings about pin position or names may be accepted.
-
-Current generated-footprint status:
-- Repo-local Nordic footprints and STEP models are generated from spec through the `kicad-footprint-generator` submodule.
-- The current footprint KLC sweep covers 29 generated footprints.
-- 26 pass cleanly; 3 still emit warnings:
-  - `QFN-52-1EP_6x6mm_P0.4mm_EP4.7x4.7mm_ThermalVias` (`F6.3`, same thermal-via checker issue seen on KiCad's official QFN thermal-via footprints)
-  - `LGA_9160_16.0x10.5mm` (`F9.2`, non-default `solder_paste_ratio`)
-  - `LGA_9161_16.0x10.5mm` (`F9.2`, non-default `solder_paste_ratio`)
 
 ## Installation instructions
 
