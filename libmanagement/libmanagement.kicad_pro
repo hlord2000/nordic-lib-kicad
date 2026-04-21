@@ -638,7 +638,7 @@
         "uuid": "18a23bb5-e0c1-4da6-b91f-9b9e99ecaaa8"
       }
     ],
-    "used_designators": "U1-14",
+    "used_designators": "#PWR11,Y2",
     "variants": []
   },
   "sheets": [
