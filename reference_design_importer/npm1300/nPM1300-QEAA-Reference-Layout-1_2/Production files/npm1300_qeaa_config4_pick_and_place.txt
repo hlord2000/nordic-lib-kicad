@@ -1,0 +1,36 @@
+Altium Designer Pick and Place Locations
+C:\nordic\applications\reference_layouts\npm1300_qeaa\trunk\production_files\npm1300_qeaa_config4_pick_and_place.txt
+
+========================================================================================================================
+File Design Information:
+
+Date:       05-06-25
+Time:       13:23
+Revision:   37394
+Variant:    No variations
+Units used: mil
+
+Designator Comment      Layer    Footprint                   Center-X(mil) Center-Y(mil) Rotation Description                                                                                                                         
+C15        100nF        TopLayer CAPC1005X04L                -174.213      -110.236      180      "Capacitor, Ceramic, X7R, ±20%, 16V"                                                                                                
+C14        100nF        TopLayer CAPC1005X04L                -174.213      129.921       180      "Capacitor, Ceramic, X7R, ±20%, 16V"                                                                                                
+C16        100nF        TopLayer CAPC1005X04L                175.197       -36.417       270      "Capacitor, Ceramic, X7R, ±20%, 16V"                                                                                                
+U1         nPM1300-QEAA TopLayer Nordic_QFN50P500X500X90-33N 0.000         0.000         0        "Li-Ion/Li-Polymer USB-C battery charger with high efficiency buck regulators, LDOs or load switches, LED drivers, TWI and VBUSOUT" 
+C13        100nF        TopLayer CAPC0603X03L_C              -23.622       -157.480      270      "Capacitor, X5R, ±10%, 100nF, 16V"                                                                                                  
+C12        10µF         TopLayer CAPC1608X06L                -70.866       216.535       270      "Capacitor, X5R, ±20%"                                                                                                              
+C11        10µF         TopLayer CAPC1608X06L                -23.622       216.535       270      "Capacitor, X5R, ±20%"                                                                                                              
+C10        10µF         TopLayer CAPC1608X06L                23.622        216.535       270      "Capacitor, X5R, ±20%"                                                                                                              
+C9         10µF         TopLayer CAPC1608X06L                70.866        216.535       270      "Capacitor, X5R, ±20%"                                                                                                              
+C8         10µF         TopLayer CAPC1608X06L                -264.764      -112.205      180      "Capacitor, X5R, ±20%"                                                                                                              
+R4         150k         TopLayer RESC0603X03L_C              82.677        -157.480      270      "Resistor, ±1%, 0.05W"                                                                                                              
+R3         47k          TopLayer RESC0603X03L_C              106.299       -157.480      270      "Resistor, ±1%, 0.05W"                                                                                                              
+R2         10k          TopLayer RESC0603X03L_C              7.874         -157.480      270      "Resistor, ±1%, 0.05W"                                                                                                              
+R1         10k          TopLayer RESC0603X03L_C              31.496        -157.480      270      "Resistor, ±1%, 0.05W"                                                                                                              
+C4         10µF         TopLayer CAPC1608X06L                224.409       -47.244       90       "Capacitor, X5R, ±20%"                                                                                                              
+C2         10µF         TopLayer CAPC1608X06L                -189.961      61.024        270      "Capacitor, X5R, ±20%"                                                                                                              
+C5         1.0µF        TopLayer CAPC1608X06L                177.165       80.709        270      "Capacitor, Ceramic, 1.0µF 10V X5R 0603,±10%"                                                                                       
+C6         2.2µF        TopLayer CAPC1608X06L                197.835       -122.047      180      "Capacitor, Ceramic, X7R, ±10%, 16V"                                                                                                
+L1         2.2µH        TopLayer INDC2016X10N                -263.779      79.724        270      "Inductor, Irms=2.5A, Isat=2.9A, ±20%, DCR=73mO"                                                                                    
+L2         2.2µH        TopLayer INDC2016X10N                -283.465      -40.354       0        "Inductor, Irms=2.5A, Isat=2.9A, ±20%, DCR=73mO"                                                                                    
+C1         1.0µF        TopLayer CAPC1608X06L                224.409       56.102        270      "Capacitor, Ceramic, 1.0µF 10V X5R 0603,±10%"                                                                                       
+C3         10µF         TopLayer CAPC1608X06L                -189.961      -41.339       90       "Capacitor, X5R, ±20%"                                                                                                              
+C7         10µF         TopLayer CAPC1608X06L                -216.535      171.260       180      "Capacitor, X5R, ±20%"                                                                                                              

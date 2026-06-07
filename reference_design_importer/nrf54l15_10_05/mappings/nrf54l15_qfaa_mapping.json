@@ -1,0 +1,381 @@
+[
+  {
+    "at": "146.6161 102.0786 180",
+    "pad_nets": {
+      "1": "GND",
+      "2": "DECD"
+    },
+    "reference": "C1",
+    "side": "F.Cu",
+    "source_footprint": "Parts$:CAPC0603X03L_C",
+    "status": "verified",
+    "symbol": "Device:C_Small",
+    "target_footprint": "passives:C_0201_0603Metric_L",
+    "target_footprint_path": "/home/h/Documents/Nordic/nordic-lib-kicad/footprints/passives.pretty/C_0201_0603Metric_L.kicad_mod",
+    "value": "2.2uF"
+  },
+  {
+    "at": "145.1921 102.0802 180",
+    "pad_nets": {
+      "1": "VDD_NRF",
+      "2": "GND"
+    },
+    "reference": "C10",
+    "side": "F.Cu",
+    "source_footprint": "CAPC0603X03L_C:CAPC0603X03L_C",
+    "status": "verified",
+    "symbol": "Device:C_Small",
+    "target_footprint": "passives:C_0201_0603Metric_L",
+    "target_footprint_path": "/home/h/Documents/Nordic/nordic-lib-kicad/footprints/passives.pretty/C_0201_0603Metric_L.kicad_mod",
+    "value": "100nF"
+  },
+  {
+    "at": "155.2505 105.3822 -90",
+    "pad_nets": {
+      "1": "GND",
+      "2": "RF"
+    },
+    "reference": "C11",
+    "side": "F.Cu",
+    "source_footprint": "CAPC0603X03L_C:CAPC0603X03L_C",
+    "status": "verified",
+    "symbol": "Device:C_Small",
+    "target_footprint": "passives:C_0201_0603Metric_L",
+    "target_footprint_path": "/home/h/Documents/Nordic/nordic-lib-kicad/footprints/passives.pretty/C_0201_0603Metric_L.kicad_mod",
+    "value": "0.3pF"
+  },
+  {
+    "at": "147.5289 101.8008 -90",
+    "pad_nets": {
+      "1": "GND",
+      "2": "DECA"
+    },
+    "reference": "C12",
+    "side": "F.Cu",
+    "source_footprint": "CAPC0603X03L_C:CAPC0603X03L_C",
+    "status": "verified",
+    "symbol": "Device:C_Small",
+    "target_footprint": "passives:C_0201_0603Metric_L",
+    "target_footprint_path": "/home/h/Documents/Nordic/nordic-lib-kicad/footprints/passives.pretty/C_0201_0603Metric_L.kicad_mod",
+    "value": "10nF"
+  },
+  {
+    "at": "151.67403 106.37393 180",
+    "pad_nets": {
+      "1": "GND",
+      "2": "NetC13_2"
+    },
+    "reference": "C13",
+    "side": "F.Cu",
+    "source_footprint": "CAPC0603X03L_C:CAPC0603X03L_C",
+    "status": "verified",
+    "symbol": "Device:C_Small",
+    "target_footprint": "passives:C_0201_0603Metric_L",
+    "target_footprint_path": "/home/h/Documents/Nordic/nordic-lib-kicad/footprints/passives.pretty/C_0201_0603Metric_L.kicad_mod",
+    "value": "3.9pF"
+  },
+  {
+    "at": "148.1893 100.2006 -90",
+    "pad_nets": {
+      "1": "GND",
+      "2": "DECA"
+    },
+    "reference": "C2",
+    "side": "F.Cu",
+    "source_footprint": "Parts$:CAPC0603X03L_C",
+    "status": "verified",
+    "symbol": "Device:C_Small",
+    "target_footprint": "passives:C_0201_0603Metric_L",
+    "target_footprint_path": "/home/h/Documents/Nordic/nordic-lib-kicad/footprints/passives.pretty/C_0201_0603Metric_L.kicad_mod",
+    "value": "2.2uF"
+  },
+  {
+    "at": "144.0237 101.0896 -90",
+    "pad_nets": {
+      "1": "GND",
+      "2": "VDD_NRF"
+    },
+    "reference": "C3",
+    "side": "F.Cu",
+    "source_footprint": "Parts$:CAPC1005X04L",
+    "status": "verified",
+    "symbol": "Device:C_Small",
+    "target_footprint": "passives:C_0402_1005Metric_L",
+    "target_footprint_path": "/home/h/Documents/Nordic/nordic-lib-kicad/footprints/passives.pretty/C_0402_1005Metric_L.kicad_mod",
+    "value": "10uF"
+  },
+  {
+    "at": "151.0595 102.9946 90",
+    "pad_nets": {
+      "1": "VDD_NRF",
+      "2": "GND"
+    },
+    "reference": "C4",
+    "side": "F.Cu",
+    "source_footprint": "CAPC0603X03L_C:CAPC0603X03L_C",
+    "status": "verified",
+    "symbol": "Device:C_Small",
+    "target_footprint": "passives:C_0201_0603Metric_L",
+    "target_footprint_path": "/home/h/Documents/Nordic/nordic-lib-kicad/footprints/passives.pretty/C_0201_0603Metric_L.kicad_mod",
+    "value": "100nF"
+  },
+  {
+    "at": "151.6691 104.7686 180",
+    "pad_nets": {
+      "1": "GND",
+      "2": "DECA"
+    },
+    "reference": "C5",
+    "side": "F.Cu",
+    "source_footprint": "Passive:CAPC0603X03L_C",
+    "status": "verified",
+    "symbol": "Device:C_Small",
+    "target_footprint": "passives:C_0201_0603Metric_L",
+    "target_footprint_path": "/home/h/Documents/Nordic/nordic-lib-kicad/footprints/passives.pretty/C_0201_0603Metric_L.kicad_mod",
+    "value": "2.2nF"
+  },
+  {
+    "at": "151.6691 105.2806",
+    "pad_nets": {
+      "1": "GND",
+      "2": "NetC6_2"
+    },
+    "reference": "C6",
+    "side": "F.Cu",
+    "source_footprint": "CAPC0603X03L_C:CAPC0603X03L_C",
+    "status": "verified",
+    "symbol": "Device:C_Small",
+    "target_footprint": "passives:C_0201_0603Metric_L",
+    "target_footprint_path": "/home/h/Documents/Nordic/nordic-lib-kicad/footprints/passives.pretty/C_0201_0603Metric_L.kicad_mod",
+    "value": "1.5pF"
+  },
+  {
+    "at": "143.4141 107.6682 -90",
+    "pad_nets": {
+      "1": "VDD_NRF",
+      "2": "GND"
+    },
+    "reference": "C7",
+    "side": "F.Cu",
+    "source_footprint": "CAPC0603X03L_C:CAPC0603X03L_C",
+    "status": "verified",
+    "symbol": "Device:C_Small",
+    "target_footprint": "passives:C_0201_0603Metric_L",
+    "target_footprint_path": "/home/h/Documents/Nordic/nordic-lib-kicad/footprints/passives.pretty/C_0201_0603Metric_L.kicad_mod",
+    "value": "100nF"
+  },
+  {
+    "at": "149.1799 109.95",
+    "pad_nets": {
+      "1": "VDD_NRF",
+      "2": "GND"
+    },
+    "reference": "C8",
+    "side": "F.Cu",
+    "source_footprint": "CAPC0603X03L_C:CAPC0603X03L_C",
+    "status": "verified",
+    "symbol": "Device:C_Small",
+    "target_footprint": "passives:C_0201_0603Metric_L",
+    "target_footprint_path": "/home/h/Documents/Nordic/nordic-lib-kicad/footprints/passives.pretty/C_0201_0603Metric_L.kicad_mod",
+    "value": "100nF"
+  },
+  {
+    "at": "153.5995 106.0736 90",
+    "pad_nets": {
+      "1": "GND",
+      "2": "NetC9_2"
+    },
+    "reference": "C9",
+    "side": "F.Cu",
+    "source_footprint": "CAPC0603X03L_C:CAPC0603X03L_C",
+    "status": "verified",
+    "symbol": "Device:C_Small",
+    "target_footprint": "passives:C_0201_0603Metric_L",
+    "target_footprint_path": "/home/h/Documents/Nordic/nordic-lib-kicad/footprints/passives.pretty/C_0201_0603Metric_L.kicad_mod",
+    "value": "2.0pF"
+  },
+  {
+    "at": "147.5289 100.2006 -90",
+    "pad_nets": {
+      "1": "DECD",
+      "2": "DECA"
+    },
+    "reference": "FB1",
+    "side": "F.Cu",
+    "source_footprint": "INDC0603X03L_C:INDC0603X03L_C",
+    "status": "verified",
+    "symbol": "Device:FerriteBead_Small",
+    "target_footprint": "passives:L_0201_0603Metric_L",
+    "target_footprint_path": "/home/h/Documents/Nordic/nordic-lib-kicad/footprints/passives.pretty/L_0201_0603Metric_L.kicad_mod",
+    "value": "120R/0.2A"
+  },
+  {
+    "at": "145.6239 100.7594",
+    "pad_nets": {
+      "1": "DCC",
+      "2": "DECD"
+    },
+    "reference": "L1",
+    "side": "F.Cu",
+    "source_footprint": "0603:INDC1608X06L",
+    "status": "verified",
+    "symbol": "Device:L_Small",
+    "target_footprint": "passives:L_0603_1608Metric_L",
+    "target_footprint_path": "/home/h/Documents/Nordic/nordic-lib-kicad/footprints/passives.pretty/L_0603_1608Metric_L.kicad_mod",
+    "value": "4.7uH"
+  },
+  {
+    "at": "151.6691 105.7886",
+    "pad_nets": {
+      "1": "NetL2_1",
+      "2": "NetC6_2"
+    },
+    "reference": "L2",
+    "side": "F.Cu",
+    "source_footprint": "Passive:INDC0603X03L_C",
+    "status": "verified",
+    "symbol": "Device:L_Small",
+    "target_footprint": "passives:L_0201_0603Metric_L",
+    "target_footprint_path": "/home/h/Documents/Nordic/nordic-lib-kicad/footprints/passives.pretty/L_0201_0603Metric_L.kicad_mod",
+    "value": "2.7nH"
+  },
+  {
+    "at": "152.77158 105.7886",
+    "pad_nets": {
+      "1": "NetC6_2",
+      "2": "NetC9_2"
+    },
+    "reference": "L3",
+    "side": "F.Cu",
+    "source_footprint": "INDC0603X03L_C:INDC0603X03L_C",
+    "status": "verified",
+    "symbol": "Device:L_Small",
+    "target_footprint": "passives:L_0201_0603Metric_L",
+    "target_footprint_path": "/home/h/Documents/Nordic/nordic-lib-kicad/footprints/passives.pretty/L_0201_0603Metric_L.kicad_mod",
+    "value": "3.5nH"
+  },
+  {
+    "at": "154.42741 105.7886",
+    "pad_nets": {
+      "1": "NetC9_2",
+      "2": "RF"
+    },
+    "reference": "L4",
+    "side": "F.Cu",
+    "source_footprint": "INDC0603X03L_C:INDC0603X03L_C",
+    "status": "verified",
+    "symbol": "Device:L_Small",
+    "target_footprint": "passives:L_0201_0603Metric_L",
+    "target_footprint_path": "/home/h/Documents/Nordic/nordic-lib-kicad/footprints/passives.pretty/L_0201_0603Metric_L.kicad_mod",
+    "value": "3.5nH"
+  },
+  {
+    "at": "152.1517 106.93919",
+    "pad_nets": {
+      "1": "NetC13_2",
+      "2": "NRESET"
+    },
+    "reference": "R1",
+    "side": "F.Cu",
+    "source_footprint": "RESC0603X03L_C:RESC0603X03L_C",
+    "status": "verified",
+    "symbol": "Device:R_Small",
+    "target_footprint": "passives:R_0201_0603Metric_L",
+    "target_footprint_path": "/home/h/Documents/Nordic/nordic-lib-kicad/footprints/passives.pretty/R_0201_0603Metric_L.kicad_mod",
+    "value": "1k"
+  },
+  {
+    "at": "147.5011 105.9876",
+    "pad_nets": {
+      "1": "P1.00/XL1",
+      "10": "VDD_NRF",
+      "11": "P2.00",
+      "12": "P2.01",
+      "13": "P2.02",
+      "14": "P2.03",
+      "15": "P2.04",
+      "16": "P2.05",
+      "17": "P2.06",
+      "18": "P2.07",
+      "19": "P2.08",
+      "2": "P1.01/XL2",
+      "20": "P2.09",
+      "21": "P2.10",
+      "22": "VDD_NRF",
+      "23": "P0.00",
+      "24": "P0.01",
+      "25": "SWDIO",
+      "26": "SWDCLK",
+      "27": "P0.02",
+      "28": "P0.03",
+      "29": "P0.04",
+      "3": "P1.02/NFC1",
+      "30": "NetC13_2",
+      "31": "NetL2_1",
+      "32": "GND",
+      "33": "DECA",
+      "34": "XC1",
+      "35": "XC2",
+      "36": "VDD_NRF",
+      "37": "P1.09",
+      "38": "P1.10",
+      "39": "P1.11",
+      "4": "P1.03/NFC2",
+      "40": "P1.12",
+      "41": "P1.13",
+      "42": "P1.14",
+      "43": "DECA",
+      "44": "GND",
+      "45": "DECD",
+      "46": "DCC",
+      "47": "VDD_NRF",
+      "48": "VDD_NRF",
+      "49": "GND",
+      "5": "P1.04/AIN0",
+      "6": "P1.05/AIN1",
+      "7": "P1.06/AIN2",
+      "8": "P1.07/AIN3",
+      "9": "P1.08"
+    },
+    "reference": "U1",
+    "side": "F.Cu",
+    "source_footprint": "Misc:QFN40P600X600X90-48N",
+    "status": "verified",
+    "symbol": "nordic-lib-kicad-nrf54l:nRF54L15-QFXX",
+    "target_footprint": "Package_DFN_QFN:QFN-48-1EP_6x6mm_P0.4mm_EP4.6x4.6mm_ThermalVias",
+    "target_footprint_path": "/usr/share/kicad/footprints/Package_DFN_QFN.pretty/QFN-48-1EP_6x6mm_P0.4mm_EP4.6x4.6mm_ThermalVias.kicad_mod",
+    "value": "nRF54L15-QFAA"
+  },
+  {
+    "at": "142.6775 103.8074 90",
+    "pad_nets": {
+      "1": "P1.01/XL2",
+      "2": "P1.00/XL1"
+    },
+    "reference": "X1",
+    "side": "F.Cu",
+    "source_footprint": "Parts$:XTAL_2012",
+    "status": "verified",
+    "symbol": "Device:Crystal_Small",
+    "target_footprint": "Crystal:Crystal_SMD_2012-2Pin_2.0x1.2mm",
+    "target_footprint_path": "/usr/share/kicad/footprints/Crystal.pretty/Crystal_SMD_2012-2Pin_2.0x1.2mm.kicad_mod",
+    "value": "32.768kHz"
+  },
+  {
+    "at": "152.8883 102.2834 90",
+    "pad_nets": {
+      "1": "XC1",
+      "2": "GND",
+      "3": "XC2",
+      "4": "GND"
+    },
+    "reference": "X2",
+    "side": "F.Cu",
+    "source_footprint": "Parts$:BT-XTAL_2016",
+    "status": "verified",
+    "symbol": "Device:Crystal_GND24_Small",
+    "target_footprint": "Crystal:Crystal_SMD_2016-4Pin_2.0x1.6mm",
+    "target_footprint_path": "/usr/share/kicad/footprints/Crystal.pretty/Crystal_SMD_2016-4Pin_2.0x1.6mm.kicad_mod",
+    "value": "32MHz"
+  }
+]

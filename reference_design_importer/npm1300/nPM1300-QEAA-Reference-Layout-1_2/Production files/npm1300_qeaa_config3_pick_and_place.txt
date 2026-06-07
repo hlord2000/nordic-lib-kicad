@@ -1,0 +1,21 @@
+Altium Designer Pick and Place Locations
+C:\nordic\applications\reference_layouts\npm1300_qeaa\trunk\production_files\npm1300_qeaa_config3_pick_and_place.txt
+
+========================================================================================================================
+File Design Information:
+
+Date:       05-06-25
+Time:       13:23
+Revision:   37394
+Variant:    No variations
+Units used: mil
+
+Designator Comment      Layer    Footprint                   Center-X(mil) Center-Y(mil) Rotation Description                                                                                                                         
+C5         1.0µF        TopLayer CAPC1608X06L                211.614       114.567       180      "Capacitor, Ceramic, 1.0µF 10V X5R 0603,±10%"                                                                                       
+U1         nPM1300-QEAA TopLayer Nordic_QFN50P500X500X90-33N 0.000         0.000         0        "Li-Ion/Li-Polymer USB-C battery charger with high efficiency buck regulators, LDOs or load switches, LED drivers, TWI and VBUSOUT" 
+C13        100nF        TopLayer CAPC0603X03L_C              -23.622       -157.480      270      "Capacitor, X5R, ±10%, 100nF, 16V"                                                                                                  
+R2         10k          TopLayer RESC0603X03L_C              7.874         -157.480      270      "Resistor, ±1%, 0.05W"                                                                                                              
+R1         10k          TopLayer RESC0603X03L_C              31.496        -157.480      270      "Resistor, ±1%, 0.05W"                                                                                                              
+C4         10µF         TopLayer CAPC1608X06L                211.614       -24.606       180      "Capacitor, X5R, ±20%"                                                                                                              
+C6         2.2µF        TopLayer CAPC1608X06L                211.614       -114.173      180      "Capacitor, Ceramic, X7R, ±10%, 16V"                                                                                                
+C1         1.0µF        TopLayer CAPC1608X06L                211.614       24.606        180      "Capacitor, Ceramic, 1.0µF 10V X5R 0603,±10%"                                                                                       

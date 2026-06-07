@@ -1,0 +1,562 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-05-27T11:38:16",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.3",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/be1f0cba-08ef-4e4b-a6be-2b39859b6091",
+            "violations": [
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U1 Pin 10 [VDD, Power input, Line]",
+                            "pos": {
+                                "x": 1.27,
+                                "y": 0.4318
+                            },
+                            "uuid": "5954f842-9105-47da-aa03-8692a2bc7451"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U1 Pin 44 [VSS, Power input, Line]",
+                            "pos": {
+                                "x": 1.27,
+                                "y": 1.6002
+                            },
+                            "uuid": "7e55518d-d59b-41b0-8f47-21a0dc84c3d4"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol U1 Pin 26 [SWDCLK, Input, Line]",
+                            "pos": {
+                                "x": 1.5494,
+                                "y": 1.4986
+                            },
+                            "uuid": "e4412d2b-fbbe-4914-94c6-8fca1cfb8fa5"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Label 'P0.00'",
+                            "pos": {
+                                "x": 0.9144,
+                                "y": 0.762
+                            },
+                            "uuid": "fd3dd8a4-c4ff-4fe3-b476-7654af012096"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Label 'P0.01'",
+                            "pos": {
+                                "x": 0.9144,
+                                "y": 0.7874
+                            },
+                            "uuid": "08077a8b-5fc1-441c-9779-7952661a4377"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Label 'P0.02'",
+                            "pos": {
+                                "x": 0.9144,
+                                "y": 0.8128
+                            },
+                            "uuid": "a2b4d302-88c0-4956-8a3f-3e63a93b717b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Label 'P0.03'",
+                            "pos": {
+                                "x": 0.9144,
+                                "y": 0.8382
+                            },
+                            "uuid": "24f6f71f-39ee-45aa-ab81-43fe6d082832"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Label 'P0.04'",
+                            "pos": {
+                                "x": 0.9144,
+                                "y": 0.8636
+                            },
+                            "uuid": "0b6d91b3-f8d4-44d3-b30c-df7f693c6a87"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Label 'P1.02/NFC1'",
+                            "pos": {
+                                "x": 0.9144,
+                                "y": 0.9144
+                            },
+                            "uuid": "60076ac5-4aa5-4730-ac5d-07f8fc5b33db"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Label 'P1.03/NFC2'",
+                            "pos": {
+                                "x": 0.9144,
+                                "y": 0.9398
+                            },
+                            "uuid": "eb29cfc9-4487-401f-a1ca-5b55b257e09f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Label 'P1.04/AIN0'",
+                            "pos": {
+                                "x": 0.9144,
+                                "y": 0.9652
+                            },
+                            "uuid": "3940c03a-999b-4a98-abdd-1b948326c4be"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Label 'P1.05/AIN1'",
+                            "pos": {
+                                "x": 0.9144,
+                                "y": 0.9906
+                            },
+                            "uuid": "92f15d5d-90d1-44cc-9f79-c58dda20868b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Label 'P1.06/AIN2'",
+                            "pos": {
+                                "x": 0.9144,
+                                "y": 1.016
+                            },
+                            "uuid": "10f0cb6c-5389-447a-b4d4-ec2a0f1450fc"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Label 'P1.07/AIN3'",
+                            "pos": {
+                                "x": 0.9144,
+                                "y": 1.0414
+                            },
+                            "uuid": "aa343a67-01d4-44fe-b50e-c1f6461cae05"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Label 'P1.08'",
+                            "pos": {
+                                "x": 0.9144,
+                                "y": 1.0668
+                            },
+                            "uuid": "16a90165-e0c5-41d2-9d4c-d26803dfe6de"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Label 'P1.09'",
+                            "pos": {
+                                "x": 0.9144,
+                                "y": 1.0922
+                            },
+                            "uuid": "299d5657-185d-4323-834c-09114e96831e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Label 'P1.10'",
+                            "pos": {
+                                "x": 0.9144,
+                                "y": 1.1176
+                            },
+                            "uuid": "d611edb4-03e5-4e74-9110-dc33b35c45fe"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Label 'P1.11'",
+                            "pos": {
+                                "x": 0.9144,
+                                "y": 1.143
+                            },
+                            "uuid": "465bc556-40db-47a5-97f0-e7f770b19d5f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Label 'P1.12'",
+                            "pos": {
+                                "x": 0.9144,
+                                "y": 1.1684
+                            },
+                            "uuid": "c424151b-0fd0-405e-ab3d-f2ce8218add0"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Label 'P1.13'",
+                            "pos": {
+                                "x": 0.9144,
+                                "y": 1.1938
+                            },
+                            "uuid": "6bdebac8-da2c-4e27-9b9d-bd3f720cbadb"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Label 'P1.14'",
+                            "pos": {
+                                "x": 0.9144,
+                                "y": 1.2192
+                            },
+                            "uuid": "666c946b-18fb-4a6e-9d24-0d4af094b1c9"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Label 'P2.00'",
+                            "pos": {
+                                "x": 0.9144,
+                                "y": 1.27
+                            },
+                            "uuid": "ad36f380-787f-45a4-a4f1-b7098d24ae7e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Label 'P2.01'",
+                            "pos": {
+                                "x": 0.9144,
+                                "y": 1.2954
+                            },
+                            "uuid": "1c487c52-b190-47e4-9884-cbe3215fcedd"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Label 'P2.02'",
+                            "pos": {
+                                "x": 0.9144,
+                                "y": 1.3208
+                            },
+                            "uuid": "df88e564-fa32-462b-bb63-2696cf7a321b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Label 'P2.03'",
+                            "pos": {
+                                "x": 0.9144,
+                                "y": 1.3462
+                            },
+                            "uuid": "d60da3ca-0c0c-4905-a1ff-a4bb143a06d3"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Label 'P2.04'",
+                            "pos": {
+                                "x": 0.9144,
+                                "y": 1.3716
+                            },
+                            "uuid": "3275feb4-c81c-4bb2-a4aa-47acc5df1d11"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Label 'P2.05'",
+                            "pos": {
+                                "x": 0.9144,
+                                "y": 1.397
+                            },
+                            "uuid": "4798d7c5-6169-4a4c-9dfd-442a08406790"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Label 'P2.06'",
+                            "pos": {
+                                "x": 0.9144,
+                                "y": 1.4224
+                            },
+                            "uuid": "920aa45c-1e65-4525-bf03-a80542fa3971"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Label 'P2.07'",
+                            "pos": {
+                                "x": 0.9144,
+                                "y": 1.4478
+                            },
+                            "uuid": "c9c69b60-9091-4d5c-8236-2e325fa881da"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Label 'P2.08'",
+                            "pos": {
+                                "x": 0.9144,
+                                "y": 1.4732
+                            },
+                            "uuid": "656e909c-bb87-4c2c-84db-fa26a18308e6"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Label 'P2.09'",
+                            "pos": {
+                                "x": 0.9144,
+                                "y": 1.4986
+                            },
+                            "uuid": "d48e752a-5257-4cec-bff6-762ff10fd007"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Label 'P2.10'",
+                            "pos": {
+                                "x": 0.9144,
+                                "y": 1.524
+                            },
+                            "uuid": "2e3e0c8b-926a-4b66-abbf-e85f034878b7"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Label 'SWDCLK'",
+                            "pos": {
+                                "x": 1.6256,
+                                "y": 1.4986
+                            },
+                            "uuid": "3bd1a1f2-de1b-473a-abd2-155b36334029"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Label 'SWDIO'",
+                            "pos": {
+                                "x": 1.6256,
+                                "y": 1.524
+                            },
+                            "uuid": "6a607e5d-9e55-4839-bf3a-02ca3acfb47d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Label 'NRESET'",
+                            "pos": {
+                                "x": 3.302,
+                                "y": 1.5748
+                            },
+                            "uuid": "0d020e4e-1027-44ef-96d1-407e4b728ad2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                }
+            ]
+        }
+    ],
+    "source": "nRF54L15_qfaa_4L_config1.kicad_sch"
+}

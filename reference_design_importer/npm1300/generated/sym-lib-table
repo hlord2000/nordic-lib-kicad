@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Device")(type "KiCad")(uri "/usr/share/kicad/symbols/Device.kicad_sym")(options "")(descr "KiCad stock device symbols"))
+  (lib (name "power")(type "KiCad")(uri "/usr/share/kicad/symbols/power.kicad_sym")(options "")(descr "KiCad stock power symbols"))
+  (lib (name "nordic-lib-kicad-npm")(type "KiCad")(uri "/home/h/Documents/Nordic/nordic-lib-kicad/symbols/nordic-lib-kicad-npm.kicad_sym")(options "")(descr "Nordic nPM symbols"))
+)

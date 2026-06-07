@@ -1,0 +1,6 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "passives")(type "KiCad")(uri "/home/h/Documents/Nordic/nordic-lib-kicad/footprints/passives.pretty")(options "")(descr "Nordic generated passives"))
+  (lib (name "Crystal")(type "KiCad")(uri "/usr/share/kicad/footprints/Crystal.pretty")(options "")(descr "KiCad stock crystal footprints"))
+  (lib (name "Package_DFN_QFN")(type "KiCad")(uri "/usr/share/kicad/footprints/Package_DFN_QFN.pretty")(options "")(descr "KiCad stock QFN footprints"))
+)

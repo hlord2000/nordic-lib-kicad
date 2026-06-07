@@ -1,0 +1,135 @@
+{
+  "errors": [],
+  "layer_mapping": {
+    "B.Adhesive": {
+      "kicad_layer": "B.Adhes",
+      "method": "auto"
+    },
+    "B.Courtyard": {
+      "kicad_layer": "B.CrtYd",
+      "method": "auto"
+    },
+    "Board Outline": {
+      "kicad_layer": "User.1",
+      "method": "auto"
+    },
+    "Bottom 3D Models": {
+      "kicad_layer": "User.14",
+      "method": "auto"
+    },
+    "Bottom Assembly": {
+      "kicad_layer": "B.Fab",
+      "method": "auto"
+    },
+    "Bottom Layer": {
+      "kicad_layer": "B.Cu",
+      "method": "auto"
+    },
+    "Bottom Overlay": {
+      "kicad_layer": "B.SilkS",
+      "method": "auto"
+    },
+    "Bottom Paste": {
+      "kicad_layer": "B.Paste",
+      "method": "auto"
+    },
+    "Bottom Solder": {
+      "kicad_layer": "B.Mask",
+      "method": "auto"
+    },
+    "Dimension": {
+      "kicad_layer": "User.3",
+      "method": "auto"
+    },
+    "Edge.Cuts": {
+      "kicad_layer": "Edge.Cuts",
+      "method": "auto"
+    },
+    "F.Adhesive": {
+      "kicad_layer": "F.Adhes",
+      "method": "auto"
+    },
+    "F.Courtyard": {
+      "kicad_layer": "F.CrtYd",
+      "method": "auto"
+    },
+    "Margin": {
+      "kicad_layer": "Margin",
+      "method": "auto"
+    },
+    "Mid-Layer 1": {
+      "kicad_layer": "In1.Cu",
+      "method": "auto"
+    },
+    "Mid-Layer 2": {
+      "kicad_layer": "In2.Cu",
+      "method": "auto"
+    },
+    "Placement": {
+      "kicad_layer": "User.15",
+      "method": "auto"
+    },
+    "Rescue": {
+      "kicad_layer": "Rescue",
+      "method": "auto"
+    },
+    "Top 3D Models": {
+      "kicad_layer": "User.13",
+      "method": "auto"
+    },
+    "Top Assembly": {
+      "kicad_layer": "F.Fab",
+      "method": "auto"
+    },
+    "Top Layer": {
+      "kicad_layer": "F.Cu",
+      "method": "auto"
+    },
+    "Top Overlay": {
+      "kicad_layer": "F.SilkS",
+      "method": "auto"
+    },
+    "Top Paste": {
+      "kicad_layer": "F.Paste",
+      "method": "auto"
+    },
+    "Top Solder": {
+      "kicad_layer": "F.Mask",
+      "method": "auto"
+    },
+    "User.2": {
+      "kicad_layer": "User.2",
+      "method": "auto"
+    },
+    "User.4": {
+      "kicad_layer": "User.4",
+      "method": "auto"
+    },
+    "User.Comments": {
+      "kicad_layer": "Cmts.User",
+      "method": "auto"
+    },
+    "User.Drawings": {
+      "kicad_layer": "Dwgs.User",
+      "method": "auto"
+    },
+    "User.Eco1": {
+      "kicad_layer": "Eco1.User",
+      "method": "auto"
+    },
+    "User.Eco2": {
+      "kicad_layer": "Eco2.User",
+      "method": "auto"
+    }
+  },
+  "output_file": "imported.kicad_pcb",
+  "source_file": "npm1300_qeaa_config1.PcbDoc",
+  "source_format": "Altium Designer",
+  "statistics": {
+    "footprints": 22,
+    "tracks": 171,
+    "vias": 52,
+    "zones": 7
+  },
+  "warnings": []
+}

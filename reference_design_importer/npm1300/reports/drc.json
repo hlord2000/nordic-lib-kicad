@@ -1,0 +1,4993 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-05-27T14:36:21",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.3",
+    "schematic_parity": [],
+    "source": "npm1300_qeaa_config1.kicad_pcb",
+    "unconnected_items": [
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 1 [GND] of NT2 on Top Layer",
+                    "pos": {
+                        "x": 143.7761,
+                        "y": 108.1536
+                    },
+                    "uuid": "1745e8e7-cb05-4e0c-be57-60ff31465fb9"
+                },
+                {
+                    "description": "Track [GND] on Top Layer, length 0.2468 mm",
+                    "pos": {
+                        "x": 144.4793,
+                        "y": 108.1536
+                    },
+                    "uuid": "8066d640-772b-4eec-a525-7686a7742f2c"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [GND] on Top Layer, length 0.1968 mm",
+                    "pos": {
+                        "x": 145.8293,
+                        "y": 103.1536
+                    },
+                    "uuid": "5ee5889d-b128-4d44-a9b9-866166bbee1e"
+                },
+                {
+                    "description": "Pad 1 [GND] of NT2 on Top Layer",
+                    "pos": {
+                        "x": 143.7761,
+                        "y": 108.1536
+                    },
+                    "uuid": "1745e8e7-cb05-4e0c-be57-60ff31465fb9"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        }
+    ],
+    "violations": [
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Polygon [VOUT1] on Top Layer",
+                    "pos": {
+                        "x": 144.4043,
+                        "y": 101.2004
+                    },
+                    "uuid": "caef6912-6ec9-45b5-bca5-4491aee3348b"
+                },
+                {
+                    "description": "Pad 2 [SW1] of L1 on Top Layer",
+                    "pos": {
+                        "x": 143.0761,
+                        "y": 104.1286
+                    },
+                    "uuid": "7a341c4c-55d0-42ae-a279-172a1324ff3e"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Polygon [VBUSIN] on Top Layer",
+                    "pos": {
+                        "x": 154.5011,
+                        "y": 105.4036
+                    },
+                    "uuid": "05849ef7-b4cf-479c-8229-fdc287fdba06"
+                },
+                {
+                    "description": "Pad 1 [GND] of C1 on Top Layer",
+                    "pos": {
+                        "x": 155.4261,
+                        "y": 104.8786
+                    },
+                    "uuid": "e2a7dd1f-576d-45ae-a5a6-13cb0f3e76b9"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 1 [VOUT1] of L1 on Top Layer",
+                    "pos": {
+                        "x": 143.0761,
+                        "y": 102.8286
+                    },
+                    "uuid": "6293c45d-b7fb-44c0-a6c8-c689550137c9"
+                },
+                {
+                    "description": "Pad 2 [SW1] of L1 on Top Layer",
+                    "pos": {
+                        "x": 143.0761,
+                        "y": 104.1286
+                    },
+                    "uuid": "7a341c4c-55d0-42ae-a279-172a1324ff3e"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Polygon [VSYS] on Top Layer",
+                    "pos": {
+                        "x": 154.5011,
+                        "y": 105.6036
+                    },
+                    "uuid": "70bf7a85-4eda-4aa9-ab31-54ad7c494f80"
+                },
+                {
+                    "description": "Pad 1 [GND] of C4 on Top Layer",
+                    "pos": {
+                        "x": 155.4261,
+                        "y": 106.1286
+                    },
+                    "uuid": "6265322e-9fc5-4688-8432-1c83efdbcc4b"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Polygon [PVSS1] on Top Layer",
+                    "pos": {
+                        "x": 144.5511,
+                        "y": 101.4536
+                    },
+                    "uuid": "d323bfba-c16b-4fe3-8574-b4c51f407006"
+                },
+                {
+                    "description": "Pad 1 [VOUT1] of U1 on Top Layer",
+                    "pos": {
+                        "x": 146.9261,
+                        "y": 103.7536
+                    },
+                    "uuid": "fc488aa7-30fd-459e-b9e5-f98098c46f79"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Polygon [PVSS2] on Top Layer",
+                    "pos": {
+                        "x": 146.9261,
+                        "y": 106.1036
+                    },
+                    "uuid": "c2ccbe35-e8c3-48bd-8103-a6b181d85306"
+                },
+                {
+                    "description": "Pad 7 [GPIO0] of U1 on Top Layer",
+                    "pos": {
+                        "x": 146.9261,
+                        "y": 106.7536
+                    },
+                    "uuid": "32cb50c0-9797-4bbc-adfb-264d29b1879e"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [VDDIO] on Top Layer, length 0.1139 mm",
+                    "pos": {
+                        "x": 149.8761,
+                        "y": 110.4036
+                    },
+                    "uuid": "09443ea4-ff95-4667-a2fc-9b5e5976510d"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [VDDIO] on Top Layer, length 0.3011 mm",
+                    "pos": {
+                        "x": 149.5761,
+                        "y": 110.08968
+                    },
+                    "uuid": "758f4fb8-8156-4227-a8c3-680a044f5281"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [VDDIO] on Top Layer, length 0.3536 mm",
+                    "pos": {
+                        "x": 149.5761,
+                        "y": 110.08968
+                    },
+                    "uuid": "8839eb6d-d25e-4ec1-bee9-ac405da30529"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [VDDIO] on Top Layer, length 0.3150 mm",
+                    "pos": {
+                        "x": 150.1761,
+                        "y": 110.1036
+                    },
+                    "uuid": "eddf11c0-bb87-4f9c-b9cd-6e36cbe8ede7"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [VDDIO] on Top Layer, length 0.4243 mm",
+                    "pos": {
+                        "x": 149.8761,
+                        "y": 110.4036
+                    },
+                    "uuid": "f006d2f7-03b4-4d02-881c-5dda1d1dc24a"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [SDA] on Top Layer, length 0.1343 mm",
+                    "pos": {
+                        "x": 149.5011,
+                        "y": 109.2786
+                    },
+                    "uuid": "1255b108-f3fc-4009-8e45-bd43686b4a5b"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [SDA] on Top Layer, length 0.0171 mm",
+                    "pos": {
+                        "x": 149.5011,
+                        "y": 109.29575
+                    },
+                    "uuid": "8de48c5a-e7ed-4283-b730-a5a11c21260e"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [SDA] on Top Layer, length 1.2300 mm",
+                    "pos": {
+                        "x": 149.62608,
+                        "y": 109.18362
+                    },
+                    "uuid": "8fc41587-698c-4dd1-a601-77222d0ea3ac"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [SDA] on Top Layer, length 0.0300 mm",
+                    "pos": {
+                        "x": 149.59609,
+                        "y": 109.18362
+                    },
+                    "uuid": "ac0bd38c-71eb-4319-89cb-10a5f54f565e"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [SDA] on Top Layer, length 2.1328 mm",
+                    "pos": {
+                        "x": 149.1761,
+                        "y": 111.7536
+                    },
+                    "uuid": "b79726d1-3e17-451d-ac2a-f912fb4ba7f1"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [SDA] on Top Layer, length 0.4596 mm",
+                    "pos": {
+                        "x": 149.1761,
+                        "y": 109.62075
+                    },
+                    "uuid": "cfc7d224-aff1-4eea-a000-a8f1676d2da2"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [SCL] on Top Layer, length 0.0707 mm",
+                    "pos": {
+                        "x": 150.12611,
+                        "y": 109.16861
+                    },
+                    "uuid": "23036903-7646-49dd-8770-f85b79ca3c8f"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [SCL] on Top Layer, length 0.0150 mm",
+                    "pos": {
+                        "x": 150.2511,
+                        "y": 109.2936
+                    },
+                    "uuid": "290c4564-b11f-4905-93d7-6fb56f3f8e99"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [SCL] on Top Layer, length 1.2150 mm",
+                    "pos": {
+                        "x": 150.12611,
+                        "y": 109.16861
+                    },
+                    "uuid": "3836d3e9-a75b-4801-8822-450ab44e7065"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [SCL] on Top Layer, length 0.4596 mm",
+                    "pos": {
+                        "x": 150.2511,
+                        "y": 109.2936
+                    },
+                    "uuid": "9846a20f-21d0-48d9-992b-a10b9ac2cb30"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [SCL] on Top Layer, length 2.1350 mm",
+                    "pos": {
+                        "x": 150.5761,
+                        "y": 111.7536
+                    },
+                    "uuid": "9e67e52e-e15c-43c2-996a-d787ee63c9a4"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [SCL] on Top Layer, length 0.0150 mm",
+                    "pos": {
+                        "x": 150.1761,
+                        "y": 109.21861
+                    },
+                    "uuid": "b5e73685-27f7-4f6d-80f9-b44ea60b35cd"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [SCL] on Top Layer, length 0.0848 mm",
+                    "pos": {
+                        "x": 150.1911,
+                        "y": 109.21861
+                    },
+                    "uuid": "e7905a0d-0bfa-42cc-bd58-f29aaf469450"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [GPIO4] on Top Layer, length 1.8000 mm",
+                    "pos": {
+                        "x": 147.2761,
+                        "y": 111.7036
+                    },
+                    "uuid": "2a6db691-05a3-4691-8be7-d00525549611"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [GPIO4] on Top Layer, length 1.9092 mm",
+                    "pos": {
+                        "x": 147.2761,
+                        "y": 109.9036
+                    },
+                    "uuid": "54cf9e01-2e53-4870-a5eb-1ce307c5b980"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [GPIO4] on Top Layer, length 0.6000 mm",
+                    "pos": {
+                        "x": 148.62609,
+                        "y": 108.55361
+                    },
+                    "uuid": "c0c00665-3f9d-466c-8868-debdb150777a"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [GPIO3] on Top Layer, length 0.6000 mm",
+                    "pos": {
+                        "x": 148.1261,
+                        "y": 108.5536
+                    },
+                    "uuid": "090ae299-1194-46b7-b9c4-c331a3ebfbdc"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [GPIO3] on Top Layer, length 2.0250 mm",
+                    "pos": {
+                        "x": 147.0011,
+                        "y": 111.7036
+                    },
+                    "uuid": "4ba24f36-95be-450b-9b08-ab32af8dfa4d"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [GPIO3] on Top Layer, length 1.5910 mm",
+                    "pos": {
+                        "x": 147.0011,
+                        "y": 109.6786
+                    },
+                    "uuid": "e7d1ac82-2c6a-4004-81d0-74de102796f4"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [GPIO2] on Top Layer, length 0.0038 mm",
+                    "pos": {
+                        "x": 147.62343,
+                        "y": 107.95629
+                    },
+                    "uuid": "bd4c980e-cd31-473d-854e-cf2708fd0904"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [GPIO2] on Top Layer, length 0.6000 mm",
+                    "pos": {
+                        "x": 147.62343,
+                        "y": 108.55627
+                    },
+                    "uuid": "bf485fd2-b84f-44ac-a101-a1e6c4fac8e2"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [GPIO2] on Top Layer, length 1.2690 mm",
+                    "pos": {
+                        "x": 146.7261,
+                        "y": 109.4536
+                    },
+                    "uuid": "d826f2ec-4712-4c26-b84f-981c1377a797"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [GPIO2] on Top Layer, length 2.2500 mm",
+                    "pos": {
+                        "x": 146.7261,
+                        "y": 111.7036
+                    },
+                    "uuid": "f58bce15-6bdc-440a-a426-62e5acf264d1"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [GPIO1] on Top Layer, length 0.3121 mm",
+                    "pos": {
+                        "x": 146.61396,
+                        "y": 107.25361
+                    },
+                    "uuid": "8b64f151-18ab-4ef4-9110-9126e74888de"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [GPIO1] on Top Layer, length 4.2871 mm",
+                    "pos": {
+                        "x": 146.4511,
+                        "y": 111.7036
+                    },
+                    "uuid": "967481db-8050-4125-a496-86d4b99cb688"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [GPIO1] on Top Layer, length 0.2303 mm",
+                    "pos": {
+                        "x": 146.4511,
+                        "y": 107.41648
+                    },
+                    "uuid": "e33a1543-62ff-4f39-91e0-fb4452310779"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [GPIO0] on Top Layer, length 0.2750 mm",
+                    "pos": {
+                        "x": 146.65107,
+                        "y": 106.75362
+                    },
+                    "uuid": "0298d031-74e7-4510-94a5-c05cda7f1f5a"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [GPIO0] on Top Layer, length 4.4750 mm",
+                    "pos": {
+                        "x": 146.1761,
+                        "y": 111.7036
+                    },
+                    "uuid": "350ac460-ebd0-476c-a73b-9755a0261781"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [GPIO0] on Top Layer, length 0.6717 mm",
+                    "pos": {
+                        "x": 146.1761,
+                        "y": 107.2286
+                    },
+                    "uuid": "60c1d405-fc27-4bba-9876-1c40ca330ea3"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [PVSS2] on Top Layer, length 0.1468 mm",
+                    "pos": {
+                        "x": 143.9261,
+                        "y": 108.1536
+                    },
+                    "uuid": "11c98dd2-9e3f-4e31-92f1-10c9692b2ba3"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [PVSS2] on Top Layer, length 0.3536 mm",
+                    "pos": {
+                        "x": 143.6761,
+                        "y": 108.4036
+                    },
+                    "uuid": "c771ff29-213f-4cd3-bfbf-6f743e1f108b"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [PVSS1] on Top Layer, length 0.3468 mm",
+                    "pos": {
+                        "x": 145.0761,
+                        "y": 103.1536
+                    },
+                    "uuid": "4119e422-df23-47c7-8992-ac99628bd3e2"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [PVSS1] on Top Layer, length 0.1768 mm",
+                    "pos": {
+                        "x": 144.9511,
+                        "y": 103.2786
+                    },
+                    "uuid": "58b9a39d-e562-4c54-a2cd-2891c9e7648a"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [VSET2] on Top Layer, length 0.6000 mm",
+                    "pos": {
+                        "x": 151.12611,
+                        "y": 108.55361
+                    },
+                    "uuid": "253936f8-4747-4cc1-b12c-78fe08fe2557"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [VSET2] on Top Layer, length 0.2845 mm",
+                    "pos": {
+                        "x": 151.4761,
+                        "y": 109.18807
+                    },
+                    "uuid": "33d604b5-9032-4faa-9c0a-8935ca7c4393"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [VSET2] on Top Layer, length 0.4950 mm",
+                    "pos": {
+                        "x": 151.12611,
+                        "y": 108.55361
+                    },
+                    "uuid": "bcc5f2b3-3b1a-41e1-b3b2-c90ea3141d34"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [VSET1] on Top Layer, length 1.8957 mm",
+                    "pos": {
+                        "x": 152.0761,
+                        "y": 109.2186
+                    },
+                    "uuid": "5968fe73-9605-49cc-8f75-a3fd91106bb0"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [VSET1] on Top Layer, length 0.1807 mm",
+                    "pos": {
+                        "x": 151.8261,
+                        "y": 107.25361
+                    },
+                    "uuid": "715ea44c-9c66-4938-a958-6695e7dedd9a"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [VSET1] on Top Layer, length 0.0980 mm",
+                    "pos": {
+                        "x": 152.00681,
+                        "y": 107.25361
+                    },
+                    "uuid": "e3f86c35-9c75-458d-864b-c3e568ed4ed0"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [SHPHLD] on Top Layer, length 0.6000 mm",
+                    "pos": {
+                        "x": 150.62611,
+                        "y": 108.55361
+                    },
+                    "uuid": "14a43123-de55-4223-9690-6cd608e1f48f"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [SHPHLD] on Top Layer, length 0.4950 mm",
+                    "pos": {
+                        "x": 150.62611,
+                        "y": 108.55361
+                    },
+                    "uuid": "4b17d7e3-ea5e-4938-9c33-5601b2092af5"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [SHPHLD] on Top Layer, length 2.8500 mm",
+                    "pos": {
+                        "x": 150.9761,
+                        "y": 111.7536
+                    },
+                    "uuid": "b69648f9-b53e-4da8-967f-5b9dfabb740a"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [NTC] on Top Layer, length 2.6043 mm",
+                    "pos": {
+                        "x": 154.0264,
+                        "y": 110.5539
+                    },
+                    "uuid": "2dfe067d-5bad-445a-9d9a-bc3d58b5c275"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [NTC] on Top Layer, length 0.3106 mm",
+                    "pos": {
+                        "x": 151.8261,
+                        "y": 106.75361
+                    },
+                    "uuid": "4a9e9fa3-86aa-4cc7-a74c-7dac9882f9df"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [NTC] on Top Layer, length 1.9106 mm",
+                    "pos": {
+                        "x": 152.4761,
+                        "y": 109.0036
+                    },
+                    "uuid": "7d380dd3-710c-4399-8628-0c2fba459836"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [NTC] on Top Layer, length 2.1925 mm",
+                    "pos": {
+                        "x": 152.4761,
+                        "y": 109.0036
+                    },
+                    "uuid": "8e11ba93-186e-4f8f-930a-2625d92f3ed9"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [NTC] on Top Layer, length 0.4800 mm",
+                    "pos": {
+                        "x": 152.13668,
+                        "y": 106.75361
+                    },
+                    "uuid": "fdfa4091-8619-4d7a-bdaa-4a1edc75684a"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [CC2] on Top Layer, length 0.6182 mm",
+                    "pos": {
+                        "x": 152.0761,
+                        "y": 103.6843
+                    },
+                    "uuid": "264bd03e-0792-4e4a-a972-ba2e2217a7e8"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [CC2] on Top Layer, length 3.0228 mm",
+                    "pos": {
+                        "x": 152.0761,
+                        "y": 103.06605
+                    },
+                    "uuid": "673690ac-4fd1-438b-8569-b0db3697739e"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [CC2] on Top Layer, length 0.0980 mm",
+                    "pos": {
+                        "x": 152.00681,
+                        "y": 103.75359
+                    },
+                    "uuid": "8a9a16cc-40ec-48c1-9b8d-a6bb0db9e8ef"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [CC2] on Top Layer, length 2.4126 mm",
+                    "pos": {
+                        "x": 154.21354,
+                        "y": 100.9286
+                    },
+                    "uuid": "b499e027-9e2a-46b1-8c8a-5f383eeee357"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [CC2] on Top Layer, length 0.1807 mm",
+                    "pos": {
+                        "x": 151.8261,
+                        "y": 103.75359
+                    },
+                    "uuid": "db3ed06c-c078-420b-aa3e-1325a08fbe3c"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [CC1] on Top Layer, length 0.1061 mm",
+                    "pos": {
+                        "x": 152.1417,
+                        "y": 104.25359
+                    },
+                    "uuid": "2cedf490-f2da-4dd0-b431-aab7cd411e76"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [CC1] on Top Layer, length 0.0053 mm",
+                    "pos": {
+                        "x": 152.2167,
+                        "y": 104.17859
+                    },
+                    "uuid": "3a56254d-c54e-4d41-8643-b656f05dcb5b"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [CC1] on Top Layer, length 0.3651 mm",
+                    "pos": {
+                        "x": 152.22195,
+                        "y": 104.17859
+                    },
+                    "uuid": "41b6df36-9cf3-4919-9a48-ab5a887ed824"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [CC1] on Top Layer, length 2.2986 mm",
+                    "pos": {
+                        "x": 154.32745,
+                        "y": 101.2036
+                    },
+                    "uuid": "5a8b789c-3a27-47df-a309-7514abc1a999"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [CC1] on Top Layer, length 0.3156 mm",
+                    "pos": {
+                        "x": 151.82611,
+                        "y": 104.25359
+                    },
+                    "uuid": "885537a9-a577-4355-91ac-4348b4240d64"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [CC1] on Top Layer, length 0.8695 mm",
+                    "pos": {
+                        "x": 152.4801,
+                        "y": 103.92044
+                    },
+                    "uuid": "cdf7d34d-b3f5-4beb-8ed4-871e939183c9"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [CC1] on Top Layer, length 2.6126 mm",
+                    "pos": {
+                        "x": 152.4801,
+                        "y": 103.05096
+                    },
+                    "uuid": "e2c650fa-ccc8-4a86-b1f0-71522d97fb25"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [GND] on Top Layer, length 0.0000 mm",
+                    "pos": {
+                        "x": 146.02609,
+                        "y": 103.1536
+                    },
+                    "uuid": "52bd4ebb-cd49-407b-9950-083599fd8b4e"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [GND] on Top Layer, length 0.0000 mm",
+                    "pos": {
+                        "x": 144.72609,
+                        "y": 108.1536
+                    },
+                    "uuid": "537c49c8-71fb-4275-87c7-d99371dbf575"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [GND] on Top Layer, length 0.1968 mm",
+                    "pos": {
+                        "x": 145.8293,
+                        "y": 103.1536
+                    },
+                    "uuid": "5ee5889d-b128-4d44-a9b9-866166bbee1e"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [GND] on Top Layer, length 0.2468 mm",
+                    "pos": {
+                        "x": 144.4793,
+                        "y": 108.1536
+                    },
+                    "uuid": "8066d640-772b-4eec-a525-7686a7742f2c"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 33 [GND] of U1",
+                    "pos": {
+                        "x": 148.3761,
+                        "y": 104.5036
+                    },
+                    "uuid": "9e3ebf26-299d-4aee-b3b4-9b617d577d84"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 33 [GND] of U1",
+                    "pos": {
+                        "x": 148.3761,
+                        "y": 105.5036
+                    },
+                    "uuid": "8f44af9a-b23c-4efa-9c68-a226018f5901"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 33 [GND] of U1",
+                    "pos": {
+                        "x": 148.3761,
+                        "y": 106.5036
+                    },
+                    "uuid": "c2ca13b0-092c-41b2-ae6e-32a84ff1b055"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 33 [GND] of U1",
+                    "pos": {
+                        "x": 149.3761,
+                        "y": 104.5036
+                    },
+                    "uuid": "4654cf16-7795-4a2a-a27f-b72b76712af5"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 33 [GND] of U1",
+                    "pos": {
+                        "x": 149.3761,
+                        "y": 105.5036
+                    },
+                    "uuid": "0fbf91f8-6aa8-4c1f-87a5-6076731ef6a2"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 33 [GND] of U1",
+                    "pos": {
+                        "x": 149.3761,
+                        "y": 106.5036
+                    },
+                    "uuid": "208e9627-f55b-4749-9082-43c46f1a53a5"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 33 [GND] of U1",
+                    "pos": {
+                        "x": 150.3761,
+                        "y": 104.5036
+                    },
+                    "uuid": "cc347e1e-7c81-4863-a6a3-af274e8e98cd"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 33 [GND] of U1",
+                    "pos": {
+                        "x": 150.3761,
+                        "y": 105.5036
+                    },
+                    "uuid": "885f2776-e4c8-41b0-8344-7ad2308384c2"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 33 [GND] of U1",
+                    "pos": {
+                        "x": 150.3761,
+                        "y": 106.5036
+                    },
+                    "uuid": "e2e71c99-128a-42b3-9121-0b7a3929b328"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)",
+            "items": [
+                {
+                    "description": "Via [VINLDO2] on Top Layer - Bottom Layer",
+                    "pos": {
+                        "x": 148.6261,
+                        "y": 101.5036
+                    },
+                    "uuid": "480c6d05-5206-4789-9287-f0aa6fb4e623"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)",
+            "items": [
+                {
+                    "description": "Via [VINLDO1] on Top Layer - Bottom Layer",
+                    "pos": {
+                        "x": 150.0011,
+                        "y": 102.0286
+                    },
+                    "uuid": "e2f0945d-e7e7-477d-aa2d-7d99b9167e00"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)",
+            "items": [
+                {
+                    "description": "Via [VOUT2] on Top Layer - Bottom Layer",
+                    "pos": {
+                        "x": 142.1261,
+                        "y": 107.7286
+                    },
+                    "uuid": "a131857a-d07b-41cd-887a-bd45963f9418"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)",
+            "items": [
+                {
+                    "description": "Via [VOUT2] on Top Layer - Bottom Layer",
+                    "pos": {
+                        "x": 147.4761,
+                        "y": 102.2036
+                    },
+                    "uuid": "ecb59fa1-36fa-4c9c-9e1b-8209a965188f"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)",
+            "items": [
+                {
+                    "description": "Via [VDDIO] on Top Layer - Bottom Layer",
+                    "pos": {
+                        "x": 149.12609,
+                        "y": 108.7036
+                    },
+                    "uuid": "b7febf61-2c96-4ac8-8d1b-3c4a15381093"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)",
+            "items": [
+                {
+                    "description": "Via [VDDIO] on Top Layer - Bottom Layer",
+                    "pos": {
+                        "x": 149.8761,
+                        "y": 110.4036
+                    },
+                    "uuid": "da644e58-375f-445f-85a1-b78a973bd7b3"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)",
+            "items": [
+                {
+                    "description": "Via [VSYS] on Top Layer - Bottom Layer",
+                    "pos": {
+                        "x": 154.0761,
+                        "y": 106.8036
+                    },
+                    "uuid": "1ce17676-ce74-4ad7-8daf-306715130774"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)",
+            "items": [
+                {
+                    "description": "Via [VSYS] on Top Layer - Bottom Layer",
+                    "pos": {
+                        "x": 154.0761,
+                        "y": 107.5036
+                    },
+                    "uuid": "3c80ff0c-717b-4680-8956-21491ce9f323"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)",
+            "items": [
+                {
+                    "description": "Via [VSYS] on Top Layer - Bottom Layer",
+                    "pos": {
+                        "x": 144.95109,
+                        "y": 105.25359
+                    },
+                    "uuid": "76a4c199-3c47-4de0-9542-04f37383706f"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)",
+            "items": [
+                {
+                    "description": "Via [VSYS] on Top Layer - Bottom Layer",
+                    "pos": {
+                        "x": 153.4761,
+                        "y": 106.0036
+                    },
+                    "uuid": "9c6796d5-5b1c-4a82-a1e0-a6eb24bb7980"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)",
+            "items": [
+                {
+                    "description": "Via [VSYS] on Top Layer - Bottom Layer",
+                    "pos": {
+                        "x": 145.6761,
+                        "y": 105.2536
+                    },
+                    "uuid": "d3c1ede7-d1f6-459a-8093-096e31663243"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on Top Layer - Bottom Layer",
+                    "pos": {
+                        "x": 144.72609,
+                        "y": 108.1536
+                    },
+                    "uuid": "07601036-fc02-4302-80e4-1f77a99a92c3"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on Top Layer - Bottom Layer",
+                    "pos": {
+                        "x": 143.2761,
+                        "y": 109.3536
+                    },
+                    "uuid": "0d066b3f-5ae5-4f6c-ac8f-c054b2f5c6e0"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on Top Layer - Bottom Layer",
+                    "pos": {
+                        "x": 147.4261,
+                        "y": 98.4286
+                    },
+                    "uuid": "10fcb22b-f8af-4884-9ba1-94686aad3395"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on Top Layer - Bottom Layer",
+                    "pos": {
+                        "x": 140.5761,
+                        "y": 98.4286
+                    },
+                    "uuid": "1c69567a-6f59-4000-a6fc-9b0f933e4890"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on Top Layer - Bottom Layer",
+                    "pos": {
+                        "x": 156.3761,
+                        "y": 111.5036
+                    },
+                    "uuid": "3cd5b0c5-595d-480d-9bac-b047e626d2ac"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on Top Layer - Bottom Layer",
+                    "pos": {
+                        "x": 140.5761,
+                        "y": 100.7536
+                    },
+                    "uuid": "4bc05275-0654-4bad-a44d-0df00bed8c80"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on Top Layer - Bottom Layer",
+                    "pos": {
+                        "x": 151.7761,
+                        "y": 110.44425
+                    },
+                    "uuid": "4c4f1cd3-d672-4a08-8c11-145674f794e4"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on Top Layer - Bottom Layer",
+                    "pos": {
+                        "x": 140.5761,
+                        "y": 105.0536
+                    },
+                    "uuid": "4e6a4d03-7c8f-48d3-9d97-8661f2f57cad"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on Top Layer - Bottom Layer",
+                    "pos": {
+                        "x": 146.02609,
+                        "y": 103.1536
+                    },
+                    "uuid": "503667e5-c36a-4b9a-bea6-2fc9bd52da61"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on Top Layer - Bottom Layer",
+                    "pos": {
+                        "x": 145.12609,
+                        "y": 111.5036
+                    },
+                    "uuid": "55673f62-cabd-4950-b206-ce214270d4ee"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on Top Layer - Bottom Layer",
+                    "pos": {
+                        "x": 154.0761,
+                        "y": 111.5036
+                    },
+                    "uuid": "5f103f3c-843b-4b55-908b-51856c611397"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on Top Layer - Bottom Layer",
+                    "pos": {
+                        "x": 143.1761,
+                        "y": 100.2036
+                    },
+                    "uuid": "61e4aec5-52cf-47b3-8e12-9d55c5c6f0fe"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on Top Layer - Bottom Layer",
+                    "pos": {
+                        "x": 149.7011,
+                        "y": 98.4286
+                    },
+                    "uuid": "64a366cd-abcd-43cc-bc3e-29d02a58b8cb"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on Top Layer - Bottom Layer",
+                    "pos": {
+                        "x": 144.4761,
+                        "y": 98.4286
+                    },
+                    "uuid": "64c01fa1-cc55-4152-9649-2742b14a52bc"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on Top Layer - Bottom Layer",
+                    "pos": {
+                        "x": 151.7761,
+                        "y": 111.5036
+                    },
+                    "uuid": "65a217ba-f69e-4de3-8da7-a7608ff27d56"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on Top Layer - Bottom Layer",
+                    "pos": {
+                        "x": 140.5761,
+                        "y": 102.9036
+                    },
+                    "uuid": "7aea597c-561c-4d01-9d0e-c418ab745ece"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on Top Layer - Bottom Layer",
+                    "pos": {
+                        "x": 156.3761,
+                        "y": 102.6036
+                    },
+                    "uuid": "7ec439d4-3399-4a67-b04b-6f4f83a95a78"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on Top Layer - Bottom Layer",
+                    "pos": {
+                        "x": 144.4761,
+                        "y": 100.2036
+                    },
+                    "uuid": "8e0d6e5a-f827-489b-933a-aca4850e1fdd"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on Top Layer - Bottom Layer",
+                    "pos": {
+                        "x": 145.12609,
+                        "y": 109.3536
+                    },
+                    "uuid": "967ac07b-8b17-4531-8a6c-86dac185325d"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on Top Layer - Bottom Layer",
+                    "pos": {
+                        "x": 140.5761,
+                        "y": 109.3536
+                    },
+                    "uuid": "a3e1bae7-77d6-439c-8000-d167dc611ceb"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on Top Layer - Bottom Layer",
+                    "pos": {
+                        "x": 152.8761,
+                        "y": 98.4286
+                    },
+                    "uuid": "ac42ab78-f519-40a4-8503-051c7260b26e"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on Top Layer - Bottom Layer",
+                    "pos": {
+                        "x": 156.3761,
+                        "y": 108.4036
+                    },
+                    "uuid": "b48f5b31-950b-40d0-9c36-486f80b45850"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on Top Layer - Bottom Layer",
+                    "pos": {
+                        "x": 140.5761,
+                        "y": 106.9036
+                    },
+                    "uuid": "c0b4da6d-9362-405d-8b9c-e6c195926838"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on Top Layer - Bottom Layer",
+                    "pos": {
+                        "x": 156.3761,
+                        "y": 106.1286
+                    },
+                    "uuid": "ca8f218c-139a-4d0d-8bf7-4693b8993332"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on Top Layer - Bottom Layer",
+                    "pos": {
+                        "x": 151.3011,
+                        "y": 98.4286
+                    },
+                    "uuid": "cf4b13d7-ef9c-474a-b9b1-a229928bdf91"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on Top Layer - Bottom Layer",
+                    "pos": {
+                        "x": 156.3761,
+                        "y": 104.8786
+                    },
+                    "uuid": "d2654b6c-846c-4390-b157-f2ea4126e7e8"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on Top Layer - Bottom Layer",
+                    "pos": {
+                        "x": 149.0511,
+                        "y": 98.4286
+                    },
+                    "uuid": "d707c927-0cd3-4d84-a143-73c8a1965bb3"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on Top Layer - Bottom Layer",
+                    "pos": {
+                        "x": 140.5761,
+                        "y": 111.5036
+                    },
+                    "uuid": "dd5adbc6-a943-4ace-8ef9-7d2d48c9db9d"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on Top Layer - Bottom Layer",
+                    "pos": {
+                        "x": 156.3761,
+                        "y": 98.4286
+                    },
+                    "uuid": "ea412390-d6ed-491f-8135-7131267203e2"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on Top Layer - Bottom Layer",
+                    "pos": {
+                        "x": 143.1761,
+                        "y": 98.4286
+                    },
+                    "uuid": "ee0b7f9e-fa0d-4073-82e6-cbda306f6c17"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on Top Layer - Bottom Layer",
+                    "pos": {
+                        "x": 143.2761,
+                        "y": 111.5036
+                    },
+                    "uuid": "fd2e1037-d301-437f-9dea-4b49ee26310b"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on Top Layer - Bottom Layer",
+                    "pos": {
+                        "x": 148.5011,
+                        "y": 110.44425
+                    },
+                    "uuid": "fff65149-a83c-4d4c-8cfb-cf91f7ed4a27"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1773 mm)",
+            "items": [
+                {
+                    "description": "Track [GPIO0] on Top Layer, length 0.6717 mm",
+                    "pos": {
+                        "x": 146.1761,
+                        "y": 107.2286
+                    },
+                    "uuid": "60c1d405-fc27-4bba-9876-1c40ca330ea3"
+                },
+                {
+                    "description": "Track [GPIO1] on Top Layer, length 4.2871 mm",
+                    "pos": {
+                        "x": 146.4511,
+                        "y": 111.7036
+                    },
+                    "uuid": "967481db-8050-4125-a496-86d4b99cb688"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1773 mm)",
+            "items": [
+                {
+                    "description": "Track [GPIO0] on Top Layer, length 0.6717 mm",
+                    "pos": {
+                        "x": 146.1761,
+                        "y": 107.2286
+                    },
+                    "uuid": "60c1d405-fc27-4bba-9876-1c40ca330ea3"
+                },
+                {
+                    "description": "Track [GPIO1] on Top Layer, length 0.2303 mm",
+                    "pos": {
+                        "x": 146.4511,
+                        "y": 107.41648
+                    },
+                    "uuid": "e33a1543-62ff-4f39-91e0-fb4452310779"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Items shorting two nets (nets GND and PVSS2)",
+            "items": [
+                {
+                    "description": "Track [GND] on Top Layer, length 0.0000 mm",
+                    "pos": {
+                        "x": 144.72609,
+                        "y": 108.1536
+                    },
+                    "uuid": "537c49c8-71fb-4275-87c7-d99371dbf575"
+                },
+                {
+                    "description": "Polygon [PVSS2] on Top Layer",
+                    "pos": {
+                        "x": 146.9261,
+                        "y": 106.1036
+                    },
+                    "uuid": "c2ccbe35-e8c3-48bd-8103-a6b181d85306"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Items shorting two nets (nets GND and PVSS1)",
+            "items": [
+                {
+                    "description": "Track [GND] on Top Layer, length 0.1968 mm",
+                    "pos": {
+                        "x": 145.8293,
+                        "y": 103.1536
+                    },
+                    "uuid": "5ee5889d-b128-4d44-a9b9-866166bbee1e"
+                },
+                {
+                    "description": "Pad 2 [PVSS2] of NT2 on Top Layer",
+                    "pos": {
+                        "x": 144.7761,
+                        "y": 108.1536
+                    },
+                    "uuid": "b531e0f4-5d47-4a72-8a54-a3eaafb85b86"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Items shorting two nets (nets GND and PVSS2)",
+            "items": [
+                {
+                    "description": "Via [GND] on Top Layer - Bottom Layer",
+                    "pos": {
+                        "x": 144.72609,
+                        "y": 108.1536
+                    },
+                    "uuid": "07601036-fc02-4302-80e4-1f77a99a92c3"
+                },
+                {
+                    "description": "Polygon [PVSS2] on Top Layer",
+                    "pos": {
+                        "x": 146.9261,
+                        "y": 106.1036
+                    },
+                    "uuid": "c2ccbe35-e8c3-48bd-8103-a6b181d85306"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1250 mm)",
+            "items": [
+                {
+                    "description": "Track [GPIO0] on Top Layer, length 4.4750 mm",
+                    "pos": {
+                        "x": 146.1761,
+                        "y": 111.7036
+                    },
+                    "uuid": "350ac460-ebd0-476c-a73b-9755a0261781"
+                },
+                {
+                    "description": "Track [GPIO1] on Top Layer, length 0.2303 mm",
+                    "pos": {
+                        "x": 146.4511,
+                        "y": 107.41648
+                    },
+                    "uuid": "e33a1543-62ff-4f39-91e0-fb4452310779"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1773 mm)",
+            "items": [
+                {
+                    "description": "Track [GPIO0] on Top Layer, length 0.6717 mm",
+                    "pos": {
+                        "x": 146.1761,
+                        "y": 107.2286
+                    },
+                    "uuid": "60c1d405-fc27-4bba-9876-1c40ca330ea3"
+                },
+                {
+                    "description": "Track [GPIO1] on Top Layer, length 0.3121 mm",
+                    "pos": {
+                        "x": 146.61396,
+                        "y": 107.25361
+                    },
+                    "uuid": "8b64f151-18ab-4ef4-9110-9126e74888de"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Items shorting two nets (nets PVSS2 and GND)",
+            "items": [
+                {
+                    "description": "Track [PVSS2] on Top Layer, length 0.1468 mm",
+                    "pos": {
+                        "x": 143.9261,
+                        "y": 108.1536
+                    },
+                    "uuid": "11c98dd2-9e3f-4e31-92f1-10c9692b2ba3"
+                },
+                {
+                    "description": "Pad 1 [GND] of NT2 on Top Layer",
+                    "pos": {
+                        "x": 143.7761,
+                        "y": 108.1536
+                    },
+                    "uuid": "1745e8e7-cb05-4e0c-be57-60ff31465fb9"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Items shorting two nets (nets GND and PVSS2)",
+            "items": [
+                {
+                    "description": "Pad 1 [GND] of NT2 on Top Layer",
+                    "pos": {
+                        "x": 143.7761,
+                        "y": 108.1536
+                    },
+                    "uuid": "1745e8e7-cb05-4e0c-be57-60ff31465fb9"
+                },
+                {
+                    "description": "Track [PVSS2] on Top Layer, length 0.3536 mm",
+                    "pos": {
+                        "x": 143.6761,
+                        "y": 108.4036
+                    },
+                    "uuid": "c771ff29-213f-4cd3-bfbf-6f743e1f108b"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1250 mm)",
+            "items": [
+                {
+                    "description": "Track [LED2] on Top Layer, length 0.4861 mm",
+                    "pos": {
+                        "x": 150.87076,
+                        "y": 102.0036
+                    },
+                    "uuid": "6086edec-09c9-49f0-ae33-c62c1afff857"
+                },
+                {
+                    "description": "Track [LED1] on Top Layer, length 3.1113 mm",
+                    "pos": {
+                        "x": 151.44148,
+                        "y": 102.3786
+                    },
+                    "uuid": "be9bd905-6ce7-4240-923c-e5ac36148f8c"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Items shorting two nets (nets GND and PVSS1)",
+            "items": [
+                {
+                    "description": "Pad 1 [GND] of NT2 on Top Layer",
+                    "pos": {
+                        "x": 143.7761,
+                        "y": 108.1536
+                    },
+                    "uuid": "1745e8e7-cb05-4e0c-be57-60ff31465fb9"
+                },
+                {
+                    "description": "Track [PVSS1] on Top Layer, length 0.3468 mm",
+                    "pos": {
+                        "x": 145.0761,
+                        "y": 103.1536
+                    },
+                    "uuid": "4119e422-df23-47c7-8992-ac99628bd3e2"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1626 mm)",
+            "items": [
+                {
+                    "description": "Track [LED2] on Top Layer, length 0.0033 mm",
+                    "pos": {
+                        "x": 150.25111,
+                        "y": 102.62653
+                    },
+                    "uuid": "a96d291a-9a12-4d70-8ec5-a1b54f72e221"
+                },
+                {
+                    "description": "Pad 26 [LED1] of U1 on Top Layer",
+                    "pos": {
+                        "x": 150.6261,
+                        "y": 103.0536
+                    },
+                    "uuid": "d96d34fd-7e1a-4481-bed0-bc9fbd188fed"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1250 mm)",
+            "items": [
+                {
+                    "description": "Track [LED1] on Top Layer, length 2.9846 mm",
+                    "pos": {
+                        "x": 153.64148,
+                        "y": 100.1786
+                    },
+                    "uuid": "a5bbef67-57d8-4091-ab08-4db3d28ad1e2"
+                },
+                {
+                    "description": "Track [LED2] on Top Layer, length 3.1192 mm",
+                    "pos": {
+                        "x": 153.50686,
+                        "y": 99.8536
+                    },
+                    "uuid": "d7ba792d-02b9-4bd1-b8a4-43ef308ee78c"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Items shorting two nets (nets GND and PVSS1)",
+            "items": [
+                {
+                    "description": "Pad 1 [GND] of NT2 on Top Layer",
+                    "pos": {
+                        "x": 143.7761,
+                        "y": 108.1536
+                    },
+                    "uuid": "1745e8e7-cb05-4e0c-be57-60ff31465fb9"
+                },
+                {
+                    "description": "Track [PVSS1] on Top Layer, length 0.1768 mm",
+                    "pos": {
+                        "x": 144.9511,
+                        "y": 103.2786
+                    },
+                    "uuid": "58b9a39d-e562-4c54-a2cd-2891c9e7648a"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Items shorting two nets (nets GND and PVSS2)",
+            "items": [
+                {
+                    "description": "Track [GND] on Top Layer, length 0.2468 mm",
+                    "pos": {
+                        "x": 144.4793,
+                        "y": 108.1536
+                    },
+                    "uuid": "8066d640-772b-4eec-a525-7686a7742f2c"
+                },
+                {
+                    "description": "Polygon [PVSS2] on Top Layer",
+                    "pos": {
+                        "x": 146.9261,
+                        "y": 106.1036
+                    },
+                    "uuid": "c2ccbe35-e8c3-48bd-8103-a6b181d85306"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1626 mm)",
+            "items": [
+                {
+                    "description": "Pad 26 [LED1] of U1 on Top Layer",
+                    "pos": {
+                        "x": 150.6261,
+                        "y": 103.0536
+                    },
+                    "uuid": "d96d34fd-7e1a-4481-bed0-bc9fbd188fed"
+                },
+                {
+                    "description": "Track [LED2] on Top Layer, length 0.1768 mm",
+                    "pos": {
+                        "x": 150.12611,
+                        "y": 102.75153
+                    },
+                    "uuid": "f6e08d0a-cd0b-4caa-af49-88d3cec34ffc"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1250 mm)",
+            "items": [
+                {
+                    "description": "Track [LED1] on Top Layer, length 2.9846 mm",
+                    "pos": {
+                        "x": 153.64148,
+                        "y": 100.1786
+                    },
+                    "uuid": "a5bbef67-57d8-4091-ab08-4db3d28ad1e2"
+                },
+                {
+                    "description": "Track [LED0] on Top Layer, length 3.2556 mm",
+                    "pos": {
+                        "x": 151.47405,
+                        "y": 102.80565
+                    },
+                    "uuid": "b4881b88-4f88-4423-aca2-1cd675240d85"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1536 mm)",
+            "items": [
+                {
+                    "description": "Track [LED2] on Top Layer, length 0.8763 mm",
+                    "pos": {
+                        "x": 150.25111,
+                        "y": 102.62326
+                    },
+                    "uuid": "0bd6ecec-89b5-46fe-8333-a3cdaa8fc03e"
+                },
+                {
+                    "description": "Track [LED1] on Top Layer, length 0.0033 mm",
+                    "pos": {
+                        "x": 150.75111,
+                        "y": 102.62653
+                    },
+                    "uuid": "12fc3e12-5820-48e6-a149-18bd297375a8"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1750 mm)",
+            "items": [
+                {
+                    "description": "Track [SDA] on Top Layer, length 1.2300 mm",
+                    "pos": {
+                        "x": 149.62608,
+                        "y": 109.18362
+                    },
+                    "uuid": "8fc41587-698c-4dd1-a601-77222d0ea3ac"
+                },
+                {
+                    "description": "Via [VDDIO] on Top Layer - Bottom Layer",
+                    "pos": {
+                        "x": 149.12609,
+                        "y": 108.7036
+                    },
+                    "uuid": "b7febf61-2c96-4ac8-8d1b-3c4a15381093"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1559 mm)",
+            "items": [
+                {
+                    "description": "Track [LED2] on Top Layer, length 0.8763 mm",
+                    "pos": {
+                        "x": 150.25111,
+                        "y": 102.62326
+                    },
+                    "uuid": "0bd6ecec-89b5-46fe-8333-a3cdaa8fc03e"
+                },
+                {
+                    "description": "Track [LED1] on Top Layer, length 0.3021 mm",
+                    "pos": {
+                        "x": 150.62611,
+                        "y": 103.05359
+                    },
+                    "uuid": "51023725-62fa-410e-bc65-a93e0ad8ef5a"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Via [VINLDO2] on Top Layer - Bottom Layer",
+                    "pos": {
+                        "x": 148.6261,
+                        "y": 101.5036
+                    },
+                    "uuid": "480c6d05-5206-4789-9287-f0aa6fb4e623"
+                },
+                {
+                    "description": "Pad 2 [VOUTLDO2] of C11 on Top Layer",
+                    "pos": {
+                        "x": 148.7761,
+                        "y": 100.6786
+                    },
+                    "uuid": "7d686093-a9dd-41b5-88d2-59351203abde"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1536 mm)",
+            "items": [
+                {
+                    "description": "Track [LED2] on Top Layer, length 0.8763 mm",
+                    "pos": {
+                        "x": 150.25111,
+                        "y": 102.62326
+                    },
+                    "uuid": "0bd6ecec-89b5-46fe-8333-a3cdaa8fc03e"
+                },
+                {
+                    "description": "Track [LED1] on Top Layer, length 0.3460 mm",
+                    "pos": {
+                        "x": 150.75111,
+                        "y": 102.62326
+                    },
+                    "uuid": "832dc65b-a77d-477a-919a-661c0edd136b"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1536 mm)",
+            "items": [
+                {
+                    "description": "Track [LED2] on Top Layer, length 0.8763 mm",
+                    "pos": {
+                        "x": 150.25111,
+                        "y": 102.62326
+                    },
+                    "uuid": "0bd6ecec-89b5-46fe-8333-a3cdaa8fc03e"
+                },
+                {
+                    "description": "Track [LED1] on Top Layer, length 0.4457 mm",
+                    "pos": {
+                        "x": 150.99576,
+                        "y": 102.3786
+                    },
+                    "uuid": "9eb1f26f-acfb-4b85-b144-21836a3cf765"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1250 mm)",
+            "items": [
+                {
+                    "description": "Track [LED2] on Top Layer, length 3.0406 mm",
+                    "pos": {
+                        "x": 151.35686,
+                        "y": 102.0036
+                    },
+                    "uuid": "33a0024a-de38-4401-84b0-3d116e4b5a31"
+                },
+                {
+                    "description": "Track [LED1] on Top Layer, length 2.9846 mm",
+                    "pos": {
+                        "x": 153.64148,
+                        "y": 100.1786
+                    },
+                    "uuid": "a5bbef67-57d8-4091-ab08-4db3d28ad1e2"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1970 mm)",
+            "items": [
+                {
+                    "description": "Track [GPIO4] on Top Layer, length 1.9092 mm",
+                    "pos": {
+                        "x": 147.2761,
+                        "y": 109.9036
+                    },
+                    "uuid": "54cf9e01-2e53-4870-a5eb-1ce307c5b980"
+                },
+                {
+                    "description": "Via [VDDIO] on Top Layer - Bottom Layer",
+                    "pos": {
+                        "x": 149.12609,
+                        "y": 108.7036
+                    },
+                    "uuid": "b7febf61-2c96-4ac8-8d1b-3c4a15381093"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1450 mm)",
+            "items": [
+                {
+                    "description": "Pad 2 [GND] of C13 on Top Layer",
+                    "pos": {
+                        "x": 148.7761,
+                        "y": 109.7736
+                    },
+                    "uuid": "6d042667-70b2-4be6-b888-4253d2f0ce3f"
+                },
+                {
+                    "description": "Track [SDA] on Top Layer, length 2.1328 mm",
+                    "pos": {
+                        "x": 149.1761,
+                        "y": 111.7536
+                    },
+                    "uuid": "b79726d1-3e17-451d-ac2a-f912fb4ba7f1"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1250 mm)",
+            "items": [
+                {
+                    "description": "Track [LED2] on Top Layer, length 3.0406 mm",
+                    "pos": {
+                        "x": 151.35686,
+                        "y": 102.0036
+                    },
+                    "uuid": "33a0024a-de38-4401-84b0-3d116e4b5a31"
+                },
+                {
+                    "description": "Track [LED1] on Top Layer, length 3.1113 mm",
+                    "pos": {
+                        "x": 151.44148,
+                        "y": 102.3786
+                    },
+                    "uuid": "be9bd905-6ce7-4240-923c-e5ac36148f8c"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1559 mm)",
+            "items": [
+                {
+                    "description": "Track [LED2] on Top Layer, length 0.8763 mm",
+                    "pos": {
+                        "x": 150.25111,
+                        "y": 102.62326
+                    },
+                    "uuid": "0bd6ecec-89b5-46fe-8333-a3cdaa8fc03e"
+                },
+                {
+                    "description": "Track [LED1] on Top Layer, length 0.1768 mm",
+                    "pos": {
+                        "x": 150.62611,
+                        "y": 102.75153
+                    },
+                    "uuid": "c5dbe7cb-58bd-4a8e-9d1a-9ec8a1ddcad3"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1551 mm)",
+            "items": [
+                {
+                    "description": "Pad 2 [GND] of C13 on Top Layer",
+                    "pos": {
+                        "x": 148.7761,
+                        "y": 109.7736
+                    },
+                    "uuid": "6d042667-70b2-4be6-b888-4253d2f0ce3f"
+                },
+                {
+                    "description": "Track [SDA] on Top Layer, length 0.4596 mm",
+                    "pos": {
+                        "x": 149.1761,
+                        "y": 109.62075
+                    },
+                    "uuid": "cfc7d224-aff1-4eea-a000-a8f1676d2da2"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1250 mm)",
+            "items": [
+                {
+                    "description": "Track [GPIO4] on Top Layer, length 1.8000 mm",
+                    "pos": {
+                        "x": 147.2761,
+                        "y": 111.7036
+                    },
+                    "uuid": "2a6db691-05a3-4691-8be7-d00525549611"
+                },
+                {
+                    "description": "Track [GPIO3] on Top Layer, length 2.0250 mm",
+                    "pos": {
+                        "x": 147.0011,
+                        "y": 111.7036
+                    },
+                    "uuid": "4ba24f36-95be-450b-9b08-ab32af8dfa4d"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1250 mm)",
+            "items": [
+                {
+                    "description": "Track [LED0] on Top Layer, length 2.8500 mm",
+                    "pos": {
+                        "x": 153.7761,
+                        "y": 100.5036
+                    },
+                    "uuid": "4a8d8e60-abdd-413f-9e47-4f4b2e7887d6"
+                },
+                {
+                    "description": "Track [LED1] on Top Layer, length 2.9846 mm",
+                    "pos": {
+                        "x": 153.64148,
+                        "y": 100.1786
+                    },
+                    "uuid": "a5bbef67-57d8-4091-ab08-4db3d28ad1e2"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1250 mm)",
+            "items": [
+                {
+                    "description": "Track [GPIO3] on Top Layer, length 2.0250 mm",
+                    "pos": {
+                        "x": 147.0011,
+                        "y": 111.7036
+                    },
+                    "uuid": "4ba24f36-95be-450b-9b08-ab32af8dfa4d"
+                },
+                {
+                    "description": "Track [GPIO4] on Top Layer, length 1.9092 mm",
+                    "pos": {
+                        "x": 147.2761,
+                        "y": 109.9036
+                    },
+                    "uuid": "54cf9e01-2e53-4870-a5eb-1ce307c5b980"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1970 mm)",
+            "items": [
+                {
+                    "description": "Via [VDDIO] on Top Layer - Bottom Layer",
+                    "pos": {
+                        "x": 149.12609,
+                        "y": 108.7036
+                    },
+                    "uuid": "b7febf61-2c96-4ac8-8d1b-3c4a15381093"
+                },
+                {
+                    "description": "Track [GPIO4] on Top Layer, length 0.6000 mm",
+                    "pos": {
+                        "x": 148.62609,
+                        "y": 108.55361
+                    },
+                    "uuid": "c0c00665-3f9d-466c-8868-debdb150777a"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Items shorting two nets (nets GND and PVSS1)",
+            "items": [
+                {
+                    "description": "Via [GND] on Top Layer - Bottom Layer",
+                    "pos": {
+                        "x": 146.02609,
+                        "y": 103.1536
+                    },
+                    "uuid": "503667e5-c36a-4b9a-bea6-2fc9bd52da61"
+                },
+                {
+                    "description": "Pad 2 [PVSS2] of NT2 on Top Layer",
+                    "pos": {
+                        "x": 144.7761,
+                        "y": 108.1536
+                    },
+                    "uuid": "b531e0f4-5d47-4a72-8a54-a3eaafb85b86"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1750 mm)",
+            "items": [
+                {
+                    "description": "Track [NTC] on Top Layer, length 1.9106 mm",
+                    "pos": {
+                        "x": 152.4761,
+                        "y": 109.0036
+                    },
+                    "uuid": "7d380dd3-710c-4399-8628-0c2fba459836"
+                },
+                {
+                    "description": "Pad 17 [VSET1] of U1 on Top Layer",
+                    "pos": {
+                        "x": 151.8261,
+                        "y": 107.2536
+                    },
+                    "uuid": "f99b2985-41ef-4c47-8dee-a9cbe4ce6b3e"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1601 mm)",
+            "items": [
+                {
+                    "description": "Track [CC1] on Top Layer, length 0.3651 mm",
+                    "pos": {
+                        "x": 152.22195,
+                        "y": 104.17859
+                    },
+                    "uuid": "41b6df36-9cf3-4919-9a48-ab5a887ed824"
+                },
+                {
+                    "description": "Pad 24 [CC2] of U1 on Top Layer",
+                    "pos": {
+                        "x": 151.8261,
+                        "y": 103.7536
+                    },
+                    "uuid": "89e4cbcc-08e7-4bfa-a271-9fdad8fd62b6"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1250 mm)",
+            "items": [
+                {
+                    "description": "Track [CC1] on Top Layer, length 2.2986 mm",
+                    "pos": {
+                        "x": 154.32745,
+                        "y": 101.2036
+                    },
+                    "uuid": "5a8b789c-3a27-47df-a309-7514abc1a999"
+                },
+                {
+                    "description": "Track [CC2] on Top Layer, length 2.4126 mm",
+                    "pos": {
+                        "x": 154.21354,
+                        "y": 100.9286
+                    },
+                    "uuid": "b499e027-9e2a-46b1-8c8a-5f383eeee357"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1832 mm)",
+            "items": [
+                {
+                    "description": "Pad 1 [VSET1] of R3 on Top Layer",
+                    "pos": {
+                        "x": 152.0761,
+                        "y": 109.2336
+                    },
+                    "uuid": "11e94a1d-e9f6-4236-a328-05ed5905d7d0"
+                },
+                {
+                    "description": "Track [NTC] on Top Layer, length 2.1925 mm",
+                    "pos": {
+                        "x": 152.4761,
+                        "y": 109.0036
+                    },
+                    "uuid": "8e11ba93-186e-4f8f-930a-2625d92f3ed9"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1250 mm)",
+            "items": [
+                {
+                    "description": "Track [GPIO3] on Top Layer, length 2.0250 mm",
+                    "pos": {
+                        "x": 147.0011,
+                        "y": 111.7036
+                    },
+                    "uuid": "4ba24f36-95be-450b-9b08-ab32af8dfa4d"
+                },
+                {
+                    "description": "Track [GPIO2] on Top Layer, length 2.2500 mm",
+                    "pos": {
+                        "x": 146.7261,
+                        "y": 111.7036
+                    },
+                    "uuid": "f58bce15-6bdc-440a-a426-62e5acf264d1"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1528 mm)",
+            "items": [
+                {
+                    "description": "Pad 17 [VSET1] of U1 on Top Layer",
+                    "pos": {
+                        "x": 151.8261,
+                        "y": 107.2536
+                    },
+                    "uuid": "f99b2985-41ef-4c47-8dee-a9cbe4ce6b3e"
+                },
+                {
+                    "description": "Track [NTC] on Top Layer, length 0.4800 mm",
+                    "pos": {
+                        "x": 152.13668,
+                        "y": 106.75361
+                    },
+                    "uuid": "fdfa4091-8619-4d7a-bdaa-4a1edc75684a"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1250 mm)",
+            "items": [
+                {
+                    "description": "Track [GPIO3] on Top Layer, length 1.5910 mm",
+                    "pos": {
+                        "x": 147.0011,
+                        "y": 109.6786
+                    },
+                    "uuid": "e7d1ac82-2c6a-4004-81d0-74de102796f4"
+                },
+                {
+                    "description": "Track [GPIO2] on Top Layer, length 2.2500 mm",
+                    "pos": {
+                        "x": 146.7261,
+                        "y": 111.7036
+                    },
+                    "uuid": "f58bce15-6bdc-440a-a426-62e5acf264d1"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1152 mm)",
+            "items": [
+                {
+                    "description": "Track [SCL] on Top Layer, length 0.4596 mm",
+                    "pos": {
+                        "x": 150.2511,
+                        "y": 109.2936
+                    },
+                    "uuid": "9846a20f-21d0-48d9-992b-a10b9ac2cb30"
+                },
+                {
+                    "description": "Pad 2 [VDDIO] of R1 on Top Layer",
+                    "pos": {
+                        "x": 150.1761,
+                        "y": 109.7736
+                    },
+                    "uuid": "a3ef9945-c089-4148-9c62-01d23ac939df"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1250 mm)",
+            "items": [
+                {
+                    "description": "Track [CC2] on Top Layer, length 3.0228 mm",
+                    "pos": {
+                        "x": 152.0761,
+                        "y": 103.06605
+                    },
+                    "uuid": "673690ac-4fd1-438b-8569-b0db3697739e"
+                },
+                {
+                    "description": "Track [CC1] on Top Layer, length 0.8695 mm",
+                    "pos": {
+                        "x": 152.4801,
+                        "y": 103.92044
+                    },
+                    "uuid": "cdf7d34d-b3f5-4beb-8ed4-871e939183c9"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1328 mm)",
+            "items": [
+                {
+                    "description": "Track [SW2] on Top Layer, length 1.1314 mm",
+                    "pos": {
+                        "x": 145.5261,
+                        "y": 106.5536
+                    },
+                    "uuid": "39a02854-88ed-4cec-b3c0-29bfa207d613"
+                },
+                {
+                    "description": "Polygon [PVSS2] on Top Layer",
+                    "pos": {
+                        "x": 146.9261,
+                        "y": 106.1036
+                    },
+                    "uuid": "c2ccbe35-e8c3-48bd-8103-a6b181d85306"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1250 mm)",
+            "items": [
+                {
+                    "description": "Track [CC2] on Top Layer, length 2.4126 mm",
+                    "pos": {
+                        "x": 154.21354,
+                        "y": 100.9286
+                    },
+                    "uuid": "b499e027-9e2a-46b1-8c8a-5f383eeee357"
+                },
+                {
+                    "description": "Track [CC1] on Top Layer, length 2.6126 mm",
+                    "pos": {
+                        "x": 152.4801,
+                        "y": 103.05096
+                    },
+                    "uuid": "e2c650fa-ccc8-4a86-b1f0-71522d97fb25"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1450 mm)",
+            "items": [
+                {
+                    "description": "Track [SCL] on Top Layer, length 2.1350 mm",
+                    "pos": {
+                        "x": 150.5761,
+                        "y": 111.7536
+                    },
+                    "uuid": "9e67e52e-e15c-43c2-996a-d787ee63c9a4"
+                },
+                {
+                    "description": "Pad 2 [VDDIO] of R1 on Top Layer",
+                    "pos": {
+                        "x": 150.1761,
+                        "y": 109.7736
+                    },
+                    "uuid": "a3ef9945-c089-4148-9c62-01d23ac939df"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1250 mm)",
+            "items": [
+                {
+                    "description": "Track [CC1] on Top Layer, length 2.2986 mm",
+                    "pos": {
+                        "x": 154.32745,
+                        "y": 101.2036
+                    },
+                    "uuid": "5a8b789c-3a27-47df-a309-7514abc1a999"
+                },
+                {
+                    "description": "Track [CC2] on Top Layer, length 3.0228 mm",
+                    "pos": {
+                        "x": 152.0761,
+                        "y": 103.06605
+                    },
+                    "uuid": "673690ac-4fd1-438b-8569-b0db3697739e"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1250 mm)",
+            "items": [
+                {
+                    "description": "Track [GPIO1] on Top Layer, length 4.2871 mm",
+                    "pos": {
+                        "x": 146.4511,
+                        "y": 111.7036
+                    },
+                    "uuid": "967481db-8050-4125-a496-86d4b99cb688"
+                },
+                {
+                    "description": "Track [GPIO2] on Top Layer, length 1.2690 mm",
+                    "pos": {
+                        "x": 146.7261,
+                        "y": 109.4536
+                    },
+                    "uuid": "d826f2ec-4712-4c26-b84f-981c1377a797"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1250 mm)",
+            "items": [
+                {
+                    "description": "Track [GPIO1] on Top Layer, length 4.2871 mm",
+                    "pos": {
+                        "x": 146.4511,
+                        "y": 111.7036
+                    },
+                    "uuid": "967481db-8050-4125-a496-86d4b99cb688"
+                },
+                {
+                    "description": "Track [GPIO2] on Top Layer, length 2.2500 mm",
+                    "pos": {
+                        "x": 146.7261,
+                        "y": 111.7036
+                    },
+                    "uuid": "f58bce15-6bdc-440a-a426-62e5acf264d1"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1000 mm)",
+            "items": [
+                {
+                    "description": "Pad 1 [PVSS2] of C3 on Top Layer",
+                    "pos": {
+                        "x": 144.9511,
+                        "y": 107.2286
+                    },
+                    "uuid": "7b8f807f-64ef-497a-91c7-f88c20f78256"
+                },
+                {
+                    "description": "Track [SW2] on Top Layer, length 2.0400 mm",
+                    "pos": {
+                        "x": 143.4861,
+                        "y": 106.5536
+                    },
+                    "uuid": "ec4daba7-daa0-4876-8022-8076930c3b5a"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1241 mm)",
+            "items": [
+                {
+                    "description": "Track [LED2] on Top Layer, length 0.8763 mm",
+                    "pos": {
+                        "x": 150.25111,
+                        "y": 102.62326
+                    },
+                    "uuid": "0bd6ecec-89b5-46fe-8333-a3cdaa8fc03e"
+                },
+                {
+                    "description": "Pad 26 [LED1] of U1 on Top Layer",
+                    "pos": {
+                        "x": 150.6261,
+                        "y": 103.0536
+                    },
+                    "uuid": "d96d34fd-7e1a-4481-bed0-bc9fbd188fed"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Track [SW1] on Top Layer, length 1.1314 mm",
+                    "pos": {
+                        "x": 145.5261,
+                        "y": 103.9536
+                    },
+                    "uuid": "5ab05632-b33e-431d-8770-5683141010dc"
+                },
+                {
+                    "description": "Polygon [PVSS1] on Top Layer",
+                    "pos": {
+                        "x": 144.5511,
+                        "y": 101.4536
+                    },
+                    "uuid": "d323bfba-c16b-4fe3-8574-b4c51f407006"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1915 mm)",
+            "items": [
+                {
+                    "description": "Pad 1 [VOUT1] of L1 on Top Layer",
+                    "pos": {
+                        "x": 143.0761,
+                        "y": 102.8286
+                    },
+                    "uuid": "6293c45d-b7fb-44c0-a6c8-c689550137c9"
+                },
+                {
+                    "description": "Track [SW1] on Top Layer, length 1.9900 mm",
+                    "pos": {
+                        "x": 143.5361,
+                        "y": 103.9536
+                    },
+                    "uuid": "62d2bae3-61ff-4f14-bee1-127f14b73b17"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Items shorting two nets (nets GND and PVSS1)",
+            "items": [
+                {
+                    "description": "Track [GND] on Top Layer, length 0.0000 mm",
+                    "pos": {
+                        "x": 146.02609,
+                        "y": 103.1536
+                    },
+                    "uuid": "52bd4ebb-cd49-407b-9950-083599fd8b4e"
+                },
+                {
+                    "description": "Pad 2 [PVSS2] of NT2 on Top Layer",
+                    "pos": {
+                        "x": 144.7761,
+                        "y": 108.1536
+                    },
+                    "uuid": "b531e0f4-5d47-4a72-8a54-a3eaafb85b86"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1750 mm)",
+            "items": [
+                {
+                    "description": "Track [LED2] on Top Layer, length 3.0406 mm",
+                    "pos": {
+                        "x": 151.35686,
+                        "y": 102.0036
+                    },
+                    "uuid": "33a0024a-de38-4401-84b0-3d116e4b5a31"
+                },
+                {
+                    "description": "Track [LED1] on Top Layer, length 0.4457 mm",
+                    "pos": {
+                        "x": 150.99576,
+                        "y": 102.3786
+                    },
+                    "uuid": "9eb1f26f-acfb-4b85-b144-21836a3cf765"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1915 mm)",
+            "items": [
+                {
+                    "description": "Pad 1 [VOUT1] of L1 on Top Layer",
+                    "pos": {
+                        "x": 143.0761,
+                        "y": 102.8286
+                    },
+                    "uuid": "6293c45d-b7fb-44c0-a6c8-c689550137c9"
+                },
+                {
+                    "description": "Track [SW1] on Top Layer, length 0.5798 mm",
+                    "pos": {
+                        "x": 143.1261,
+                        "y": 104.3636
+                    },
+                    "uuid": "7ae4d7d6-076b-4f36-9b3a-9dabdf64394e"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Items shorting two nets (nets PVSS2 and GND)",
+            "items": [
+                {
+                    "description": "Pad 1 [PVSS2] of C8 on Top Layer",
+                    "pos": {
+                        "x": 143.6761,
+                        "y": 108.4036
+                    },
+                    "uuid": "86568e9e-ecdc-488a-90ec-04a84245b76a"
+                },
+                {
+                    "description": "Pad 1 [GND] of NT2 on Top Layer",
+                    "pos": {
+                        "x": 143.7761,
+                        "y": 108.1536
+                    },
+                    "uuid": "1745e8e7-cb05-4e0c-be57-60ff31465fb9"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Pad 2 [PVSS2] of NT2 on Top Layer",
+                    "pos": {
+                        "x": 144.7761,
+                        "y": 108.1536
+                    },
+                    "uuid": "b531e0f4-5d47-4a72-8a54-a3eaafb85b86"
+                },
+                {
+                    "description": "Via [GND] on Top Layer - Bottom Layer",
+                    "pos": {
+                        "x": 144.72609,
+                        "y": 108.1536
+                    },
+                    "uuid": "07601036-fc02-4302-80e4-1f77a99a92c3"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Items shorting two nets (nets GND and PVSS1)",
+            "items": [
+                {
+                    "description": "Pad 1 [GND] of NT2 on Top Layer",
+                    "pos": {
+                        "x": 143.7761,
+                        "y": 108.1536
+                    },
+                    "uuid": "1745e8e7-cb05-4e0c-be57-60ff31465fb9"
+                },
+                {
+                    "description": "Pad 1 [PVSS1] of C2 on Top Layer",
+                    "pos": {
+                        "x": 144.9511,
+                        "y": 103.2786
+                    },
+                    "uuid": "00d068cb-a1f0-4d7b-91b3-44f489fa5bf7"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Pad 2 [PVSS2] of NT2 on Top Layer",
+                    "pos": {
+                        "x": 144.7761,
+                        "y": 108.1536
+                    },
+                    "uuid": "b531e0f4-5d47-4a72-8a54-a3eaafb85b86"
+                },
+                {
+                    "description": "Via [GND] on Top Layer - Bottom Layer",
+                    "pos": {
+                        "x": 146.02609,
+                        "y": 103.1536
+                    },
+                    "uuid": "503667e5-c36a-4b9a-bea6-2fc9bd52da61"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Items shorting two nets (nets VOUT1 and SW1)",
+            "items": [
+                {
+                    "description": "Pad 1 [VOUT1] of L1 on Top Layer",
+                    "pos": {
+                        "x": 143.0761,
+                        "y": 102.8286
+                    },
+                    "uuid": "6293c45d-b7fb-44c0-a6c8-c689550137c9"
+                },
+                {
+                    "description": "Pad 2 [SW1] of L1 on Top Layer",
+                    "pos": {
+                        "x": 143.0761,
+                        "y": 104.1286
+                    },
+                    "uuid": "7a341c4c-55d0-42ae-a279-172a1324ff3e"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Items shorting two nets (nets GND and PVSS2)",
+            "items": [
+                {
+                    "description": "Pad 1 [GND] of NT2 on Top Layer",
+                    "pos": {
+                        "x": 143.7761,
+                        "y": 108.1536
+                    },
+                    "uuid": "1745e8e7-cb05-4e0c-be57-60ff31465fb9"
+                },
+                {
+                    "description": "Polygon [PVSS2] on Top Layer",
+                    "pos": {
+                        "x": 146.9261,
+                        "y": 106.1036
+                    },
+                    "uuid": "c2ccbe35-e8c3-48bd-8103-a6b181d85306"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1000 mm)",
+            "items": [
+                {
+                    "description": "Pad 2 [SW1] of L1 on Top Layer",
+                    "pos": {
+                        "x": 143.0761,
+                        "y": 104.1286
+                    },
+                    "uuid": "7a341c4c-55d0-42ae-a279-172a1324ff3e"
+                },
+                {
+                    "description": "Polygon [VOUT1] on Top Layer",
+                    "pos": {
+                        "x": 144.4043,
+                        "y": 101.2004
+                    },
+                    "uuid": "caef6912-6ec9-45b5-bca5-4491aee3348b"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1750 mm)",
+            "items": [
+                {
+                    "description": "Pad 1 [GND] of C6 on Top Layer",
+                    "pos": {
+                        "x": 155.4261,
+                        "y": 108.4036
+                    },
+                    "uuid": "206f734a-efb3-4979-9d83-5ca8f41da576"
+                },
+                {
+                    "description": "Polygon [VSYS] on Top Layer",
+                    "pos": {
+                        "x": 154.5011,
+                        "y": 105.6036
+                    },
+                    "uuid": "70bf7a85-4eda-4aa9-ab31-54ad7c494f80"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1750 mm)",
+            "items": [
+                {
+                    "description": "Polygon [VBUSIN] on Top Layer",
+                    "pos": {
+                        "x": 154.5011,
+                        "y": 105.4036
+                    },
+                    "uuid": "05849ef7-b4cf-479c-8229-fdc287fdba06"
+                },
+                {
+                    "description": "Pad 2 [VBUSOUT] of C5 on Top Layer",
+                    "pos": {
+                        "x": 154.0761,
+                        "y": 102.6036
+                    },
+                    "uuid": "2dda85a2-e679-4d5f-bf87-68c0f6f6ad47"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1750 mm)",
+            "items": [
+                {
+                    "description": "Pad 2 [VBAT] of C6 on Top Layer",
+                    "pos": {
+                        "x": 154.0761,
+                        "y": 108.4036
+                    },
+                    "uuid": "1bc8092f-92e3-4eea-b669-7ac3d69ee6e1"
+                },
+                {
+                    "description": "Polygon [VSYS] on Top Layer",
+                    "pos": {
+                        "x": 154.5011,
+                        "y": 105.6036
+                    },
+                    "uuid": "70bf7a85-4eda-4aa9-ab31-54ad7c494f80"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1320 mm)",
+            "items": [
+                {
+                    "description": "Pad 7 [GPIO0] of U1 on Top Layer",
+                    "pos": {
+                        "x": 146.9261,
+                        "y": 106.7536
+                    },
+                    "uuid": "32cb50c0-9797-4bbc-adfb-264d29b1879e"
+                },
+                {
+                    "description": "Polygon [PVSS2] on Top Layer",
+                    "pos": {
+                        "x": 146.9261,
+                        "y": 106.1036
+                    },
+                    "uuid": "c2ccbe35-e8c3-48bd-8103-a6b181d85306"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Polygon [VBUSIN] on Top Layer",
+                    "pos": {
+                        "x": 154.5011,
+                        "y": 105.4036
+                    },
+                    "uuid": "05849ef7-b4cf-479c-8229-fdc287fdba06"
+                },
+                {
+                    "description": "Pad 1 [GND] of C1 on Top Layer",
+                    "pos": {
+                        "x": 155.4261,
+                        "y": 104.8786
+                    },
+                    "uuid": "e2a7dd1f-576d-45ae-a5a6-13cb0f3e76b9"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1750 mm)",
+            "items": [
+                {
+                    "description": "Pad 1 [GND] of C6 on Top Layer",
+                    "pos": {
+                        "x": 155.4261,
+                        "y": 108.4036
+                    },
+                    "uuid": "206f734a-efb3-4979-9d83-5ca8f41da576"
+                },
+                {
+                    "description": "Polygon [VBAT] on Top Layer",
+                    "pos": {
+                        "x": 151.7761,
+                        "y": 106.4036
+                    },
+                    "uuid": "bfc1ba97-fb98-4def-91db-328e9b8a0e8a"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1500 mm)",
+            "items": [
+                {
+                    "description": "Pad 1 [GND] of C4 on Top Layer",
+                    "pos": {
+                        "x": 155.4261,
+                        "y": 106.1286
+                    },
+                    "uuid": "6265322e-9fc5-4688-8432-1c83efdbcc4b"
+                },
+                {
+                    "description": "Polygon [VSYS] on Top Layer",
+                    "pos": {
+                        "x": 154.5011,
+                        "y": 105.6036
+                    },
+                    "uuid": "70bf7a85-4eda-4aa9-ab31-54ad7c494f80"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1750 mm)",
+            "items": [
+                {
+                    "description": "Polygon [VBUSIN] on Top Layer",
+                    "pos": {
+                        "x": 154.5011,
+                        "y": 105.4036
+                    },
+                    "uuid": "05849ef7-b4cf-479c-8229-fdc287fdba06"
+                },
+                {
+                    "description": "Pad 1 [GND] of C5 on Top Layer",
+                    "pos": {
+                        "x": 155.4261,
+                        "y": 102.6036
+                    },
+                    "uuid": "6a0384bb-37c0-4e87-8607-5ddc2aa75a36"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1750 mm)",
+            "items": [
+                {
+                    "description": "Pad 2 [VOUT1] of C7 on Top Layer",
+                    "pos": {
+                        "x": 146.3011,
+                        "y": 101.8536
+                    },
+                    "uuid": "9afa716a-aff6-4b75-bfc7-116396ecceda"
+                },
+                {
+                    "description": "Polygon [PVSS1] on Top Layer",
+                    "pos": {
+                        "x": 144.5511,
+                        "y": 101.4536
+                    },
+                    "uuid": "d323bfba-c16b-4fe3-8574-b4c51f407006"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Items shorting two nets (nets GND and PVSS1)",
+            "items": [
+                {
+                    "description": "Pad 1 [GND] of NT2 on Top Layer",
+                    "pos": {
+                        "x": 143.7761,
+                        "y": 108.1536
+                    },
+                    "uuid": "1745e8e7-cb05-4e0c-be57-60ff31465fb9"
+                },
+                {
+                    "description": "Polygon [PVSS1] on Top Layer",
+                    "pos": {
+                        "x": 144.5511,
+                        "y": 101.4536
+                    },
+                    "uuid": "d323bfba-c16b-4fe3-8574-b4c51f407006"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.2000 mm; actual 0.1320 mm)",
+            "items": [
+                {
+                    "description": "Polygon [PVSS1] on Top Layer",
+                    "pos": {
+                        "x": 144.5511,
+                        "y": 101.4536
+                    },
+                    "uuid": "d323bfba-c16b-4fe3-8574-b4c51f407006"
+                },
+                {
+                    "description": "Pad 1 [VOUT1] of U1 on Top Layer",
+                    "pos": {
+                        "x": 146.9261,
+                        "y": 103.7536
+                    },
+                    "uuid": "fc488aa7-30fd-459e-b9e5-f98098c46f79"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6350 mm)",
+            "items": [
+                {
+                    "description": "Reference field of C11",
+                    "pos": {
+                        "x": 144.698533,
+                        "y": 100.2766
+                    },
+                    "uuid": "0b8a7d71-74b4-40c3-93b5-1f4896fd2233"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6350 mm)",
+            "items": [
+                {
+                    "description": "Reference field of C4",
+                    "pos": {
+                        "x": 154.903095,
+                        "y": 107.226043
+                    },
+                    "uuid": "c03f691c-e944-4ccc-b1b8-56978f71797b"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6350 mm)",
+            "items": [
+                {
+                    "description": "Reference field of C13",
+                    "pos": {
+                        "x": 147.948533,
+                        "y": 109.676595
+                    },
+                    "uuid": "36e2f166-a07c-4680-ad49-26315f37a521"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6350 mm)",
+            "items": [
+                {
+                    "description": "Reference field of C3",
+                    "pos": {
+                        "x": 144.998533,
+                        "y": 109.1766
+                    },
+                    "uuid": "12a302fc-1b74-477a-aa0a-aa510645e314"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6350 mm)",
+            "items": [
+                {
+                    "description": "Reference field of R2",
+                    "pos": {
+                        "x": 149.378533,
+                        "y": 111.4766
+                    },
+                    "uuid": "99aa86c6-e4a7-4f9b-ae15-b42b42d75df4"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6350 mm)",
+            "items": [
+                {
+                    "description": "Reference field of C2",
+                    "pos": {
+                        "x": 142.298533,
+                        "y": 101.5766
+                    },
+                    "uuid": "90a2628e-f775-4270-baaa-b231b5a5d4c2"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6350 mm)",
+            "items": [
+                {
+                    "description": "Reference field of L2",
+                    "pos": {
+                        "x": 142.703095,
+                        "y": 109.626043
+                    },
+                    "uuid": "10d36b80-7dec-45af-bbea-11a1ed692948"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6350 mm)",
+            "items": [
+                {
+                    "description": "Reference field of C7",
+                    "pos": {
+                        "x": 143.0031,
+                        "y": 101.226043
+                    },
+                    "uuid": "7c28ae4b-dbae-4e52-bee9-9b305d615ee4"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6350 mm)",
+            "items": [
+                {
+                    "description": "Reference field of C5",
+                    "pos": {
+                        "x": 154.903095,
+                        "y": 101.526043
+                    },
+                    "uuid": "8b4d2e6d-6adb-45ba-a41c-6104f5bec2b7"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6350 mm)",
+            "items": [
+                {
+                    "description": "Reference field of U1",
+                    "pos": {
+                        "x": 152.603095,
+                        "y": 102.126043
+                    },
+                    "uuid": "339bdc71-4c9c-4083-91fc-aa49611ace23"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6350 mm)",
+            "items": [
+                {
+                    "description": "Reference field of C9",
+                    "pos": {
+                        "x": 146.498533,
+                        "y": 100.2766
+                    },
+                    "uuid": "5b62e95d-b3de-4001-b27b-b4afc616336b"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6350 mm)",
+            "items": [
+                {
+                    "description": "Reference field of C10",
+                    "pos": {
+                        "x": 145.598533,
+                        "y": 100.2766
+                    },
+                    "uuid": "0631748e-18e8-46ee-9605-a43fb74300b2"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6350 mm)",
+            "items": [
+                {
+                    "description": "Reference field of C12",
+                    "pos": {
+                        "x": 143.798533,
+                        "y": 100.2766
+                    },
+                    "uuid": "91703e2e-41a9-439f-a40f-5c32e41f5483"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6350 mm)",
+            "items": [
+                {
+                    "description": "Reference field of R3",
+                    "pos": {
+                        "x": 152.123533,
+                        "y": 111.4766
+                    },
+                    "uuid": "2a06fcdc-44e9-47ad-95c6-80857d5023d1"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6350 mm)",
+            "items": [
+                {
+                    "description": "Reference field of R4",
+                    "pos": {
+                        "x": 151.203533,
+                        "y": 111.4766
+                    },
+                    "uuid": "ce717479-e97f-4832-94b9-ef35d46fc567"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6350 mm)",
+            "items": [
+                {
+                    "description": "Reference field of C1",
+                    "pos": {
+                        "x": 154.903095,
+                        "y": 103.826043
+                    },
+                    "uuid": "7dca94a5-c3dd-4f38-95b2-675d10404d99"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6350 mm)",
+            "items": [
+                {
+                    "description": "Reference field of R1",
+                    "pos": {
+                        "x": 150.298533,
+                        "y": 111.4766
+                    },
+                    "uuid": "e644b97d-87b3-40ff-9109-8bb39559124a"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6350 mm)",
+            "items": [
+                {
+                    "description": "Reference field of C6",
+                    "pos": {
+                        "x": 154.903095,
+                        "y": 109.526043
+                    },
+                    "uuid": "fd724f14-33f5-41d7-8b3f-2d18320f59e3"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6350 mm)",
+            "items": [
+                {
+                    "description": "Reference field of L1",
+                    "pos": {
+                        "x": 141.298533,
+                        "y": 103.376595
+                    },
+                    "uuid": "33b43ba3-376d-4b13-9e23-e8a79803b51b"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6350 mm)",
+            "items": [
+                {
+                    "description": "Reference field of C8",
+                    "pos": {
+                        "x": 143.103095,
+                        "y": 110.626043
+                    },
+                    "uuid": "cd9610e3-c1ab-4146-993f-bdcee53fefab"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Footprint 'C_0603_1608Metric_L' does not match copy in library 'passives'",
+            "items": [
+                {
+                    "description": "Footprint C11",
+                    "pos": {
+                        "x": 148.7761,
+                        "y": 100.0036
+                    },
+                    "uuid": "cfd6b1b2-aaf0-4d06-9c4e-591cb009fdef"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_0603_1608Metric_L' does not match copy in library 'passives'",
+            "items": [
+                {
+                    "description": "Footprint C4",
+                    "pos": {
+                        "x": 154.7511,
+                        "y": 106.1286
+                    },
+                    "uuid": "fe8f86b2-aaec-49b3-af7b-25c4753730c8"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_0201_0603Metric_L' does not match copy in library 'passives'",
+            "items": [
+                {
+                    "description": "Footprint C13",
+                    "pos": {
+                        "x": 148.7761,
+                        "y": 109.5036
+                    },
+                    "uuid": "70d7f295-bc6e-4764-aabe-3aca814881d1"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_0603_1608Metric_L' does not match copy in library 'passives'",
+            "items": [
+                {
+                    "description": "Footprint C3",
+                    "pos": {
+                        "x": 144.9511,
+                        "y": 106.5536
+                    },
+                    "uuid": "3572fc8b-7724-476d-b386-f4b2e66dae8c"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_0201_0603Metric_L' does not match copy in library 'passives'",
+            "items": [
+                {
+                    "description": "Footprint R2",
+                    "pos": {
+                        "x": 149.5761,
+                        "y": 109.5036
+                    },
+                    "uuid": "e9ebb22e-2d1e-473b-8036-1bac768fee53"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_0603_1608Metric_L' does not match copy in library 'passives'",
+            "items": [
+                {
+                    "description": "Footprint C2",
+                    "pos": {
+                        "x": 144.9511,
+                        "y": 103.9536
+                    },
+                    "uuid": "26d9fa4c-bc61-4a3f-a2fa-3193981b0f0a"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_0603_1608Metric_L' does not match copy in library 'passives'",
+            "items": [
+                {
+                    "description": "Footprint C5",
+                    "pos": {
+                        "x": 154.7511,
+                        "y": 102.6036
+                    },
+                    "uuid": "88805cf9-d656-4a00-8021-3c1601835d4c"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_0603_1608Metric_L' does not match copy in library 'passives'",
+            "items": [
+                {
+                    "description": "Footprint C9",
+                    "pos": {
+                        "x": 151.1761,
+                        "y": 100.0036
+                    },
+                    "uuid": "b09d3203-45de-4e20-a0ca-ede746127301"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_0603_1608Metric_L' does not match copy in library 'passives'",
+            "items": [
+                {
+                    "description": "Footprint C10",
+                    "pos": {
+                        "x": 149.9761,
+                        "y": 100.0036
+                    },
+                    "uuid": "dcc1e9e4-5385-48b7-955e-5488eb4e6c22"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_0603_1608Metric_L' does not match copy in library 'passives'",
+            "items": [
+                {
+                    "description": "Footprint C12",
+                    "pos": {
+                        "x": 147.5761,
+                        "y": 100.0036
+                    },
+                    "uuid": "80bcf952-badf-4c11-82c2-996607df816a"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_0201_0603Metric_L' does not match copy in library 'passives'",
+            "items": [
+                {
+                    "description": "Footprint R3",
+                    "pos": {
+                        "x": 152.0761,
+                        "y": 109.5036
+                    },
+                    "uuid": "8a15a2f4-119d-40fe-8288-9cd018f9a914"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_0201_0603Metric_L' does not match copy in library 'passives'",
+            "items": [
+                {
+                    "description": "Footprint R4",
+                    "pos": {
+                        "x": 151.4761,
+                        "y": 109.5036
+                    },
+                    "uuid": "d223916c-b147-48c3-992f-8d5e8fdf1360"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_0603_1608Metric_L' does not match copy in library 'passives'",
+            "items": [
+                {
+                    "description": "Footprint C1",
+                    "pos": {
+                        "x": 154.7511,
+                        "y": 104.8786
+                    },
+                    "uuid": "b321fca0-8cae-40c0-b381-1d5141d16c10"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_0201_0603Metric_L' does not match copy in library 'passives'",
+            "items": [
+                {
+                    "description": "Footprint R1",
+                    "pos": {
+                        "x": 150.1761,
+                        "y": 109.5036
+                    },
+                    "uuid": "3013028d-05fe-4529-b30b-35e9cbccc601"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_0603_1608Metric_L' does not match copy in library 'passives'",
+            "items": [
+                {
+                    "description": "Footprint C6",
+                    "pos": {
+                        "x": 154.7511,
+                        "y": 108.4036
+                    },
+                    "uuid": "7100364f-5150-4dc9-a335-f24ef37c52bb"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'L_0806_2016Metric_L' does not match copy in library 'passives'",
+            "items": [
+                {
+                    "description": "Footprint L1",
+                    "pos": {
+                        "x": 143.0761,
+                        "y": 103.4786
+                    },
+                    "uuid": "2136315a-f0a2-4880-8e70-0e0a1ba92263"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'C_0603_1608Metric_L' does not match copy in library 'passives'",
+            "items": [
+                {
+                    "description": "Footprint C8",
+                    "pos": {
+                        "x": 143.0011,
+                        "y": 108.4036
+                    },
+                    "uuid": "9d0dcd27-a591-4ad4-8332-17cbc08d2c24"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Drilled hole too close to other hole (board setup constraints min 0.2495 mm; actual 0.0304 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on Top Layer - Bottom Layer",
+                    "pos": {
+                        "x": 150.57609,
+                        "y": 106.7036
+                    },
+                    "uuid": "1c57b08b-5eed-4b63-9f87-98b18d17452a"
+                },
+                {
+                    "description": "PTH pad 33 [GND] of U1",
+                    "pos": {
+                        "x": 150.3761,
+                        "y": 106.5036
+                    },
+                    "uuid": "e2e71c99-128a-42b3-9121-0b7a3929b328"
+                }
+            ],
+            "severity": "warning",
+            "type": "hole_to_hole"
+        },
+        {
+            "description": "Drilled holes co-located",
+            "items": [
+                {
+                    "description": "PTH pad 33 [GND] of U1",
+                    "pos": {
+                        "x": 149.3761,
+                        "y": 105.5036
+                    },
+                    "uuid": "0fbf91f8-6aa8-4c1f-87a5-6076731ef6a2"
+                },
+                {
+                    "description": "Via [GND] on Top Layer - Bottom Layer",
+                    "pos": {
+                        "x": 149.3761,
+                        "y": 105.5036
+                    },
+                    "uuid": "240422ba-68e8-44e4-b3ae-ac8f382e93e4"
+                }
+            ],
+            "severity": "warning",
+            "type": "holes_co_located"
+        },
+        {
+            "description": "Drilled hole too close to other hole (board setup constraints min 0.2495 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on Top Layer - Bottom Layer",
+                    "pos": {
+                        "x": 150.57609,
+                        "y": 105.5036
+                    },
+                    "uuid": "29bad422-c460-4972-ac82-4f0192768531"
+                },
+                {
+                    "description": "PTH pad 33 [GND] of U1",
+                    "pos": {
+                        "x": 150.3761,
+                        "y": 105.5036
+                    },
+                    "uuid": "885f2776-e4c8-41b0-8344-7ad2308384c2"
+                }
+            ],
+            "severity": "warning",
+            "type": "hole_to_hole"
+        },
+        {
+            "description": "Drilled hole too close to other hole (board setup constraints min 0.2495 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 33 [GND] of U1",
+                    "pos": {
+                        "x": 149.3761,
+                        "y": 106.5036
+                    },
+                    "uuid": "208e9627-f55b-4749-9082-43c46f1a53a5"
+                },
+                {
+                    "description": "Via [GND] on Top Layer - Bottom Layer",
+                    "pos": {
+                        "x": 149.3761,
+                        "y": 106.7036
+                    },
+                    "uuid": "437157d4-dfe8-4f62-aec4-793333233668"
+                }
+            ],
+            "severity": "warning",
+            "type": "hole_to_hole"
+        },
+        {
+            "description": "Drilled hole too close to other hole (board setup constraints min 0.2495 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on Top Layer - Bottom Layer",
+                    "pos": {
+                        "x": 148.1761,
+                        "y": 105.5036
+                    },
+                    "uuid": "4b8ae53a-8a94-4c26-a9ae-8a116898b403"
+                },
+                {
+                    "description": "PTH pad 33 [GND] of U1",
+                    "pos": {
+                        "x": 148.3761,
+                        "y": 105.5036
+                    },
+                    "uuid": "8f44af9a-b23c-4efa-9c68-a226018f5901"
+                }
+            ],
+            "severity": "warning",
+            "type": "hole_to_hole"
+        },
+        {
+            "description": "Drilled hole too close to other hole (board setup constraints min 0.2495 mm; actual 0.0304 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 33 [GND] of U1",
+                    "pos": {
+                        "x": 150.3761,
+                        "y": 104.5036
+                    },
+                    "uuid": "cc347e1e-7c81-4863-a6a3-af274e8e98cd"
+                },
+                {
+                    "description": "Via [GND] on Top Layer - Bottom Layer",
+                    "pos": {
+                        "x": 150.57609,
+                        "y": 104.3036
+                    },
+                    "uuid": "f3059744-76b2-4f2b-a4f8-ba192c0a5f8f"
+                }
+            ],
+            "severity": "warning",
+            "type": "hole_to_hole"
+        },
+        {
+            "description": "Drilled hole too close to other hole (board setup constraints min 0.2495 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 33 [GND] of U1",
+                    "pos": {
+                        "x": 149.3761,
+                        "y": 104.5036
+                    },
+                    "uuid": "4654cf16-7795-4a2a-a27f-b72b76712af5"
+                },
+                {
+                    "description": "Via [GND] on Top Layer - Bottom Layer",
+                    "pos": {
+                        "x": 149.3761,
+                        "y": 104.3036
+                    },
+                    "uuid": "f35a4fc8-77f2-4e20-b8b7-8342cbf683c4"
+                }
+            ],
+            "severity": "warning",
+            "type": "hole_to_hole"
+        },
+        {
+            "description": "Drilled hole too close to other hole (board setup constraints min 0.2495 mm; actual 0.0304 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 33 [GND] of U1",
+                    "pos": {
+                        "x": 148.3761,
+                        "y": 104.5036
+                    },
+                    "uuid": "9e3ebf26-299d-4aee-b3b4-9b617d577d84"
+                },
+                {
+                    "description": "Via [GND] on Top Layer - Bottom Layer",
+                    "pos": {
+                        "x": 148.1761,
+                        "y": 104.3036
+                    },
+                    "uuid": "f779a919-bc93-4261-a1d8-28794f2952be"
+                }
+            ],
+            "severity": "warning",
+            "type": "hole_to_hole"
+        },
+        {
+            "description": "Drilled hole too close to other hole (board setup constraints min 0.2495 mm; actual 0.0304 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 33 [GND] of U1",
+                    "pos": {
+                        "x": 148.3761,
+                        "y": 106.5036
+                    },
+                    "uuid": "c2ca13b0-092c-41b2-ae6e-32a84ff1b055"
+                },
+                {
+                    "description": "Via [GND] on Top Layer - Bottom Layer",
+                    "pos": {
+                        "x": 148.1761,
+                        "y": 106.7036
+                    },
+                    "uuid": "fbfab5a7-cad7-4016-807c-5a7c479ab47d"
+                }
+            ],
+            "severity": "warning",
+            "type": "hole_to_hole"
+        },
+        {
+            "description": "Drilled hole too close to other hole (board setup constraints min 0.2495 mm; actual 0.0304 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 33 [GND] of U1",
+                    "pos": {
+                        "x": 148.3761,
+                        "y": 104.5036
+                    },
+                    "uuid": "9e3ebf26-299d-4aee-b3b4-9b617d577d84"
+                },
+                {
+                    "description": "Via [GND] on Top Layer - Bottom Layer",
+                    "pos": {
+                        "x": 148.1761,
+                        "y": 104.3036
+                    },
+                    "uuid": "f779a919-bc93-4261-a1d8-28794f2952be"
+                }
+            ],
+            "severity": "warning",
+            "type": "hole_to_hole"
+        },
+        {
+            "description": "Drilled hole too close to other hole (board setup constraints min 0.2495 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on Top Layer - Bottom Layer",
+                    "pos": {
+                        "x": 148.1761,
+                        "y": 105.5036
+                    },
+                    "uuid": "4b8ae53a-8a94-4c26-a9ae-8a116898b403"
+                },
+                {
+                    "description": "PTH pad 33 [GND] of U1",
+                    "pos": {
+                        "x": 148.3761,
+                        "y": 105.5036
+                    },
+                    "uuid": "8f44af9a-b23c-4efa-9c68-a226018f5901"
+                }
+            ],
+            "severity": "warning",
+            "type": "hole_to_hole"
+        },
+        {
+            "description": "Drilled hole too close to other hole (board setup constraints min 0.2495 mm; actual 0.0304 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 33 [GND] of U1",
+                    "pos": {
+                        "x": 148.3761,
+                        "y": 106.5036
+                    },
+                    "uuid": "c2ca13b0-092c-41b2-ae6e-32a84ff1b055"
+                },
+                {
+                    "description": "Via [GND] on Top Layer - Bottom Layer",
+                    "pos": {
+                        "x": 148.1761,
+                        "y": 106.7036
+                    },
+                    "uuid": "fbfab5a7-cad7-4016-807c-5a7c479ab47d"
+                }
+            ],
+            "severity": "warning",
+            "type": "hole_to_hole"
+        },
+        {
+            "description": "Drilled hole too close to other hole (board setup constraints min 0.2495 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 33 [GND] of U1",
+                    "pos": {
+                        "x": 149.3761,
+                        "y": 104.5036
+                    },
+                    "uuid": "4654cf16-7795-4a2a-a27f-b72b76712af5"
+                },
+                {
+                    "description": "Via [GND] on Top Layer - Bottom Layer",
+                    "pos": {
+                        "x": 149.3761,
+                        "y": 104.3036
+                    },
+                    "uuid": "f35a4fc8-77f2-4e20-b8b7-8342cbf683c4"
+                }
+            ],
+            "severity": "warning",
+            "type": "hole_to_hole"
+        },
+        {
+            "description": "Drilled holes co-located",
+            "items": [
+                {
+                    "description": "PTH pad 33 [GND] of U1",
+                    "pos": {
+                        "x": 149.3761,
+                        "y": 105.5036
+                    },
+                    "uuid": "0fbf91f8-6aa8-4c1f-87a5-6076731ef6a2"
+                },
+                {
+                    "description": "Via [GND] on Top Layer - Bottom Layer",
+                    "pos": {
+                        "x": 149.3761,
+                        "y": 105.5036
+                    },
+                    "uuid": "240422ba-68e8-44e4-b3ae-ac8f382e93e4"
+                }
+            ],
+            "severity": "warning",
+            "type": "holes_co_located"
+        },
+        {
+            "description": "Drilled hole too close to other hole (board setup constraints min 0.2495 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 33 [GND] of U1",
+                    "pos": {
+                        "x": 149.3761,
+                        "y": 106.5036
+                    },
+                    "uuid": "208e9627-f55b-4749-9082-43c46f1a53a5"
+                },
+                {
+                    "description": "Via [GND] on Top Layer - Bottom Layer",
+                    "pos": {
+                        "x": 149.3761,
+                        "y": 106.7036
+                    },
+                    "uuid": "437157d4-dfe8-4f62-aec4-793333233668"
+                }
+            ],
+            "severity": "warning",
+            "type": "hole_to_hole"
+        },
+        {
+            "description": "Drilled hole too close to other hole (board setup constraints min 0.2495 mm; actual 0.0304 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 33 [GND] of U1",
+                    "pos": {
+                        "x": 150.3761,
+                        "y": 104.5036
+                    },
+                    "uuid": "cc347e1e-7c81-4863-a6a3-af274e8e98cd"
+                },
+                {
+                    "description": "Via [GND] on Top Layer - Bottom Layer",
+                    "pos": {
+                        "x": 150.57609,
+                        "y": 104.3036
+                    },
+                    "uuid": "f3059744-76b2-4f2b-a4f8-ba192c0a5f8f"
+                }
+            ],
+            "severity": "warning",
+            "type": "hole_to_hole"
+        },
+        {
+            "description": "Drilled hole too close to other hole (board setup constraints min 0.2495 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on Top Layer - Bottom Layer",
+                    "pos": {
+                        "x": 150.57609,
+                        "y": 105.5036
+                    },
+                    "uuid": "29bad422-c460-4972-ac82-4f0192768531"
+                },
+                {
+                    "description": "PTH pad 33 [GND] of U1",
+                    "pos": {
+                        "x": 150.3761,
+                        "y": 105.5036
+                    },
+                    "uuid": "885f2776-e4c8-41b0-8344-7ad2308384c2"
+                }
+            ],
+            "severity": "warning",
+            "type": "hole_to_hole"
+        },
+        {
+            "description": "Drilled hole too close to other hole (board setup constraints min 0.2495 mm; actual 0.0304 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on Top Layer - Bottom Layer",
+                    "pos": {
+                        "x": 150.57609,
+                        "y": 106.7036
+                    },
+                    "uuid": "1c57b08b-5eed-4b63-9f87-98b18d17452a"
+                },
+                {
+                    "description": "PTH pad 33 [GND] of U1",
+                    "pos": {
+                        "x": 150.3761,
+                        "y": 106.5036
+                    },
+                    "uuid": "e2e71c99-128a-42b3-9121-0b7a3929b328"
+                }
+            ],
+            "severity": "warning",
+            "type": "hole_to_hole"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "Track [VINLDO2] on Bottom Layer, length 2.6897 mm",
+                    "pos": {
+                        "x": 148.24083,
+                        "y": 101.11834
+                    },
+                    "uuid": "8d933f8c-9078-4a26-9c48-745692632877"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "Track [VINLDO1] on Bottom Layer, length 3.1000 mm",
+                    "pos": {
+                        "x": 150.5011,
+                        "y": 101.5286
+                    },
+                    "uuid": "2f986379-9a9f-4965-8aa4-85a8703d05c2"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "Track [VOUTLDO2] on Top Layer, length 1.7750 mm",
+                    "pos": {
+                        "x": 146.6761,
+                        "y": 100.2036
+                    },
+                    "uuid": "f43058b8-013a-42a7-bf88-f0194ccc5f3d"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "Track [VOUTLDO1] on Top Layer, length 1.7750 mm",
+                    "pos": {
+                        "x": 152.0761,
+                        "y": 100.2036
+                    },
+                    "uuid": "ec462bb5-ee01-484c-a599-bb7ee68c369e"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "Track [VDDIO] on Top Layer, length 1.2824 mm",
+                    "pos": {
+                        "x": 149.8761,
+                        "y": 111.68603
+                    },
+                    "uuid": "95506ea0-f37f-496b-809c-8692e3c1e9e6"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "Track [VBUSOUT] on Top Layer, length 1.7407 mm",
+                    "pos": {
+                        "x": 154.81041,
+                        "y": 101.66928
+                    },
+                    "uuid": "1d3eb344-632c-4475-86f2-83aee35fb78a"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "Track [SDA] on Top Layer, length 2.1328 mm",
+                    "pos": {
+                        "x": 149.1761,
+                        "y": 111.7536
+                    },
+                    "uuid": "b79726d1-3e17-451d-ac2a-f912fb4ba7f1"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "Track [SCL] on Top Layer, length 2.1350 mm",
+                    "pos": {
+                        "x": 150.5761,
+                        "y": 111.7536
+                    },
+                    "uuid": "9e67e52e-e15c-43c2-996a-d787ee63c9a4"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "Track [LED2] on Top Layer, length 3.1192 mm",
+                    "pos": {
+                        "x": 153.50686,
+                        "y": 99.8536
+                    },
+                    "uuid": "d7ba792d-02b9-4bd1-b8a4-43ef308ee78c"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "Track [LED1] on Top Layer, length 2.9846 mm",
+                    "pos": {
+                        "x": 153.64148,
+                        "y": 100.1786
+                    },
+                    "uuid": "a5bbef67-57d8-4091-ab08-4db3d28ad1e2"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "Track [LED0] on Top Layer, length 2.8500 mm",
+                    "pos": {
+                        "x": 153.7761,
+                        "y": 100.5036
+                    },
+                    "uuid": "4a8d8e60-abdd-413f-9e47-4f4b2e7887d6"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "Track [GPIO4] on Top Layer, length 1.8000 mm",
+                    "pos": {
+                        "x": 147.2761,
+                        "y": 111.7036
+                    },
+                    "uuid": "2a6db691-05a3-4691-8be7-d00525549611"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "Track [GPIO3] on Top Layer, length 2.0250 mm",
+                    "pos": {
+                        "x": 147.0011,
+                        "y": 111.7036
+                    },
+                    "uuid": "4ba24f36-95be-450b-9b08-ab32af8dfa4d"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "Track [GPIO2] on Top Layer, length 2.2500 mm",
+                    "pos": {
+                        "x": 146.7261,
+                        "y": 111.7036
+                    },
+                    "uuid": "f58bce15-6bdc-440a-a426-62e5acf264d1"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "Track [GPIO1] on Top Layer, length 4.2871 mm",
+                    "pos": {
+                        "x": 146.4511,
+                        "y": 111.7036
+                    },
+                    "uuid": "967481db-8050-4125-a496-86d4b99cb688"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "Track [GPIO0] on Top Layer, length 4.4750 mm",
+                    "pos": {
+                        "x": 146.1761,
+                        "y": 111.7036
+                    },
+                    "uuid": "350ac460-ebd0-476c-a73b-9755a0261781"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "Track [SHPHLD] on Top Layer, length 2.8500 mm",
+                    "pos": {
+                        "x": 150.9761,
+                        "y": 111.7536
+                    },
+                    "uuid": "b69648f9-b53e-4da8-967f-5b9dfabb740a"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "Track [NTC] on Top Layer, length 2.6043 mm",
+                    "pos": {
+                        "x": 154.0264,
+                        "y": 110.5539
+                    },
+                    "uuid": "2dfe067d-5bad-445a-9d9a-bc3d58b5c275"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "Track [CC2] on Top Layer, length 2.4126 mm",
+                    "pos": {
+                        "x": 154.21354,
+                        "y": 100.9286
+                    },
+                    "uuid": "b499e027-9e2a-46b1-8c8a-5f383eeee357"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "Track [CC1] on Top Layer, length 2.2986 mm",
+                    "pos": {
+                        "x": 154.32745,
+                        "y": 101.2036
+                    },
+                    "uuid": "5a8b789c-3a27-47df-a309-7514abc1a999"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        }
+    ]
+}
